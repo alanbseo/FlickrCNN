@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1b3653e0-9452-4d77-a903-044e2f504c7d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/FlickrCNN.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AOI.pgw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AOI.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inception_tutorial_v0.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NATCAP_DownloadPhotos.R" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Photos_50/photoid_15425602669.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Photos_50/photoid_15590557213.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Photos_50/photoid_170070951.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Photos_50/photoid_17024783742.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Photos_50/photoid_18175831445.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Photos_50/photoid_19568808955.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Photos_50/photoid_1968159942.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Photos_50/photoid_19832241028.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Photos_50/photoid_20011399025.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Photos_50/photoid_20020138215.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Photos_50/photoid_2306857836.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Photos_50/photoid_23077966934.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Photos_50/photoid_23663993529.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Photos_50/photoid_25653368504.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Photos_50/photoid_2675911879.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Photos_50/photoid_2819562824.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Photos_50/photoid_2933657180.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Photos_50/photoid_29655867305.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Photos_50/photoid_33658941250.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Photos_50/photoid_36498092914.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Photos_50/photoid_3672504899.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Photos_50/photoid_36785780416.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Photos_50/photoid_371459065.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Photos_50/photoid_37524679690.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Photos_50/photoid_38200579335.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Photos_50/photoid_39224116694.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Photos_50/photoid_39912712864.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Photos_50/photoid_41136977550.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Photos_50/photoid_4207915158.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Photos_50/photoid_43936951261.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Photos_50/photoid_449092721.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Photos_50/photoid_5106034180.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Photos_50/photoid_5633931192.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Photos_50/photoid_5899517079.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Photos_50/photoid_5910249367.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Photos_50/photoid_5928837309.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Photos_50/photoid_6188315368.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Photos_50/photoid_7756288436.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Photos_50/photoid_7821633572.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Photos_50/photoid_7849164138.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Photos_50/photoid_7897273406.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Photos_50/photoid_7975615153.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Photos_50/photoid_7987004409.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Photos_50/photoid_8622678704.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Photos_50/photoid_9001826246.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result/Heatmap_InceptionResnetV2/AttentionMap_American_black_bear_photoid_449092721.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result/Heatmap_InceptionResnetV2/AttentionMap_Siberian_husky_photoid_20011399025.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result/Heatmap_InceptionResnetV2/AttentionMap_alp_photoid_2675911879.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result/Heatmap_InceptionResnetV2/AttentionMap_alp_photoid_29655867305.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result/Heatmap_InceptionResnetV2/AttentionMap_alp_photoid_36498092914.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result/Heatmap_InceptionResnetV2/AttentionMap_alp_photoid_39224116694.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result/Heatmap_InceptionResnetV2/AttentionMap_alp_photoid_5633931192.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result/Heatmap_InceptionResnetV2/AttentionMap_alp_photoid_9001826246.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result/Heatmap_InceptionResnetV2/AttentionMap_beer_bottle_photoid_5910249367.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result/Heatmap_InceptionResnetV2/AttentionMap_bison_photoid_7987004409.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result/Heatmap_InceptionResnetV2/AttentionMap_brown_bear_photoid_5928837309.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result/Heatmap_InceptionResnetV2/AttentionMap_chain_saw_photoid_20020138215.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result/Heatmap_InceptionResnetV2/AttentionMap_cliff_dwelling_photoid_43936951261.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result/Heatmap_InceptionResnetV2/AttentionMap_cliff_photoid_18175831445.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result/Heatmap_InceptionResnetV2/AttentionMap_cliff_photoid_5106034180.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result/Heatmap_InceptionResnetV2/AttentionMap_cliff_photoid_5899517079.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result/Heatmap_InceptionResnetV2/AttentionMap_cucumber_photoid_36785780416.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result/Heatmap_InceptionResnetV2/AttentionMap_dam_photoid_23663993529.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result/Heatmap_InceptionResnetV2/AttentionMap_hay_photoid_7849164138.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result/Heatmap_InceptionResnetV2/AttentionMap_hen-of-the-woods_photoid_7897273406.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result/Heatmap_InceptionResnetV2/AttentionMap_home_theater_photoid_371459065.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result/Heatmap_InceptionResnetV2/AttentionMap_lakeside_photoid_2819562824.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result/Heatmap_InceptionResnetV2/AttentionMap_lakeside_photoid_39912712864.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result/Heatmap_InceptionResnetV2/AttentionMap_mailbox_photoid_4207915158.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result/Heatmap_InceptionResnetV2/AttentionMap_paper_towel_photoid_6188315368.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result/Heatmap_InceptionResnetV2/AttentionMap_shovel_photoid_19832241028.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result/Heatmap_InceptionResnetV2/AttentionMap_ski_photoid_8622678704.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result/Heatmap_InceptionResnetV2/AttentionMap_stone_wall_photoid_1968159942.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result/Heatmap_InceptionResnetV2/AttentionMap_stone_wall_photoid_41136977550.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result/Heatmap_InceptionResnetV2/AttentionMap_stone_wall_photoid_7821633572.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result/Heatmap_InceptionResnetV2/AttentionMap_stone_wall_photoid_7975615153.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result/Heatmap_InceptionResnetV2/AttentionMap_tench_photoid_19568808955.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result/Heatmap_InceptionResnetV2/AttentionMap_thatch_photoid_38200579335.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result/Heatmap_InceptionResnetV2/AttentionMap_toilet_seat_photoid_37524679690.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result/Heatmap_InceptionResnetV2/AttentionMap_valley_photoid_15425602669.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result/Heatmap_InceptionResnetV2/AttentionMap_valley_photoid_15590557213.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result/Heatmap_InceptionResnetV2/AttentionMap_valley_photoid_170070951.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result/Heatmap_InceptionResnetV2/AttentionMap_valley_photoid_17024783742.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result/Heatmap_InceptionResnetV2/AttentionMap_valley_photoid_25653368504.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result/Heatmap_InceptionResnetV2/AttentionMap_valley_photoid_2933657180.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result/Heatmap_InceptionResnetV2/AttentionMap_valley_photoid_33658941250.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result/Heatmap_InceptionResnetV2/AttentionMap_valley_photoid_3672504899.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result/Heatmap_InceptionResnetV2/AttentionMap_valley_photoid_7756288436.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result/Heatmap_InceptionResnetV2/AttentionMap_volcano_photoid_2306857836.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result/Heatmap_InceptionResnetV2/AttentionMap_volcano_photoid_23077966934.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_15425602669.jpg.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_15590557213.jpg.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_170070951.jpg.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_17024783742.jpg.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_18175831445.jpg.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_19568808955.jpg.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_1968159942.jpg.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_19832241028.jpg.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_20011399025.jpg.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_20020138215.jpg.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_2306857836.jpg.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_23077966934.jpg.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_23663993529.jpg.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_25653368504.jpg.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_2675911879.jpg.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_2819562824.jpg.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_2933657180.jpg.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_29655867305.jpg.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_33658941250.jpg.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_36498092914.jpg.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_3672504899.jpg.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_36785780416.jpg.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_371459065.jpg.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_37524679690.jpg.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_38200579335.jpg.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_39224116694.jpg.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_39912712864.jpg.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_41136977550.jpg.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_4207915158.jpg.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_43936951261.jpg.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_449092721.jpg.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_5106034180.jpg.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_5633931192.jpg.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_5899517079.jpg.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_5910249367.jpg.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_5928837309.jpg.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_6188315368.jpg.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_7756288436.jpg.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_7821633572.jpg.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_7849164138.jpg.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_7897273406.jpg.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_7975615153.jpg.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_7987004409.jpg.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_8622678704.jpg.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_9001826246.jpg.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seattle_AOI.qgz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SettleData_BatchTagging_v1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heatmap_superimposed_bridge.jpg" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1920" />
+    <option name="height" value="1177" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="FlickrCNN" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FlickrCNN" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FlickrCNN" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FlickrCNN" type="462c0819:PsiDirectoryNode" />
+              <item name="Result" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1b3653e0-9452-4d77-a903-044e2f504c7d" name="Default Changelist" comment="" />
+      <created>1548874753550</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1548874753550</updated>
+      <workItem from="1548874755965" duration="170000" />
+      <workItem from="1548875016799" duration="761000" />
+    </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1548876139497</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1548876139497</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="931000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1920" height="1177" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25239617" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="R Graphics" order="4" />
+      <window_info anchor="right" id="R Packages" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+  </component>
+</project>
