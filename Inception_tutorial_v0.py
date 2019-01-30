@@ -124,14 +124,6 @@ print('Predicted:', predicted_tags )
 
 
 
-d = ImageDraw.Draw(original)
-d.text((10,10), predicted_tags.__str__(), col=(0, 0, 0), fill=(255,255,0))
-# d.text((10,10), ''.join(original.size.__str__()), col=(0, 0, 0), fill=(255,255,0))
-
-d.draw()
-plt.imshow(original)
-plt.show()
-
 
 
 #
@@ -256,7 +248,7 @@ heatmap = cv2.applyColorMap(heatmap, cv2.COLORMAP_JET)
 
 # 0.4 here is a heatmap intensity factor
 superimposed_img = heatmap * 0.4 + img
-
+decode_predictions(preds, top=10)[0]
 
 
 
