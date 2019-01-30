@@ -255,11 +255,13 @@ decode_predictions(preds, top=10)[0]
 # Save the image to disk
 cv2.imwrite('heatmap_superimposed.jpg', superimposed_img)
 
-### Feature extraction
 
 
 
 
+
+####
+### @todo feature extraction, fine tuning, network structure modification..
 
 
 # Fine-tune InceptionV3 on a new set of classes
@@ -346,5 +348,6 @@ model.compile(optimizer=SGD(lr=0.0001, momentum=0.9), loss='categorical_crossent
 # alongside the top Dense layers
 # model.fit_generator(...)
 
+### Feature extraction
 
 
