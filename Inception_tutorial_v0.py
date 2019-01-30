@@ -1,10 +1,10 @@
 import keras
 import numpy as np
 import os
-# import cv2
+import cv2
 
 
-from keras.applications import inception_v3, inception_resnet_v2, nasnet, xception
+from keras.applications import inception_v3, inception_resnet_v2 # , nasnet, xception
 
 
 import ssl
@@ -134,10 +134,6 @@ plt.show()
 
 
 
-
-
-#
-#
 #
 # # get the predicted probabilities for each class
 # predictions = nasnet_model.predict(processed_image)
@@ -171,6 +167,7 @@ plt.show()
 
 
 
+##### Heatmap (source: http://fchollet/deep-learning-with-python-notebooks/blob/master/5.4-visualizing-what-convnets-learn.ipynb#Visualizing-heatmaps-of-class-activation)
 
 from keras.preprocessing import image
 from keras.applications import vgg16
@@ -244,7 +241,6 @@ plt.show()
 
 
 
-import cv2
 
 # We use cv2 to load the original image
 img = cv2.imread(filename)
@@ -312,11 +308,12 @@ for layer in model.layers:
 
 # compile the model (should be done *after* setting layers to non-trainable)
 model.compile(optimizer='rmsprop', loss='categorical_crossentropy')
-model.compile(loss='sparse_categorical_crossentropy',
-              optimizer=Adam(lr=0.0001),
-              metrics=['acc'])
+# model.compile(loss='sparse_categorical_crossentropy',
+#               optimizer=Adam(lr=0.0001),
+#               metrics=['acc'])
 
 
+### @todo feed new data here
 x_train = np.random.normal(loc=127, scale=127, size=(50, 224,224,3))
 y_train = np.array([0,1]*25)
 x_train = inception_v3.preprocess_input(x_train)
