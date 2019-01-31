@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b3653e0-9452-4d77-a903-044e2f504c7d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Rscripts/NATCAP_DownloadPhotos Kopie.R" beforeDir="false" afterPath="$PROJECT_DIR$/Rscripts/NATCAP_DownloadPhotos Kopie.R" afterDir="false" />
-    </list>
+    <list default="true" id="1b3653e0-9452-4d77-a903-044e2f504c7d" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +35,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+    <option name="x" value="1" />
+    <option name="y" value="24" />
     <option name="width" value="1680" />
     <option name="height" value="1027" />
   </component>
@@ -95,7 +94,7 @@
       <updated>1548874753550</updated>
       <workItem from="1548874755965" duration="170000" />
       <workItem from="1548875016799" duration="7259000" />
-      <workItem from="1548942827947" duration="3111000" />
+      <workItem from="1548942827947" duration="3642000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1548876139497</created>
@@ -139,17 +138,23 @@
       <option name="project" value="LOCAL" />
       <updated>1548953635869</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added the Instagram photo downloading - need to resolve the duplicated file names issue (unique photo id necessary)">
+      <created>1548955762909</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1548955762909</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10540000" />
+    <option name="totallyTimeSpent" value="11071000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
-    <editor active="true" />
+    <frame x="1" y="24" width="1680" height="1027" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15262516" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15262516" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -160,7 +165,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.32941177" />
+      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.32941177" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" />
@@ -182,7 +187,8 @@
     <MESSAGE value="Commenting on the tutorial file. Yet unfinished..!" />
     <MESSAGE value="Revising the tutorial file" />
     <MESSAGE value="Added the instagram photos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added the instagram photos" />
+    <MESSAGE value="Added the Instagram photo downloading - need to resolve the duplicated file names issue (unique photo id necessary)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added the Instagram photo downloading - need to resolve the duplicated file names issue (unique photo id necessary)" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Inception_tutorial_v0.py">
