@@ -3,7 +3,6 @@ import numpy as np
 import os
 import cv2
 
-
 from keras.applications import inception_v3, inception_resnet_v2 # , nasnet, xception
 
 
@@ -102,8 +101,6 @@ print('numpy array size',numpy_image.shape)
 image_batch = np.expand_dims(numpy_image, axis=0)
 print('image batch size', image_batch.shape)
 plt.imshow(np.uint8(image_batch[0]))
-
-
 
 
 
@@ -254,7 +251,6 @@ decode_predictions(preds, top=10)[0]
 
 # Save the image to disk
 cv2.imwrite('heatmap_superimposed.jpg', superimposed_img)
-
 
 
 

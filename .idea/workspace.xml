@@ -2,53 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b3653e0-9452-4d77-a903-044e2f504c7d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Photos_168/photoid_1077543642.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Photos_168/photoid_1431444102.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Photos_168/photoid_15076576.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Photos_168/photoid_15295485.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Photos_168/photoid_1585076796.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Photos_168/photoid_17242323.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Photos_168/photoid_177049525.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Photos_168/photoid_190792643.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Photos_168/photoid_19117145.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Photos_168/photoid_192016770.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Photos_168/photoid_209977477.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Photos_168/photoid_210708170.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Photos_168/photoid_2285751075.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Photos_168/photoid_24293552.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Photos_168/photoid_243267679.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Photos_168/photoid_247429222.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Photos_168/photoid_25243358.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Photos_168/photoid_25774374.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Photos_168/photoid_3460074907.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Photos_168/photoid_4113241777.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Photos_168/photoid_443809638.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Photos_168/photoid_7893254460.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Photos_168/photoid_8250150.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Photos_168/photoid_8470852187.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Photos_168/photoid_905224234.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Rscripts/NATCAP_DownloadPhotos Kopie.R" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Rscripts/NATCAP_DownloadPhotos.R" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Inception_tutorial_v0.py" beforeDir="false" afterPath="$PROJECT_DIR$/Inception_tutorial_v0.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/Heatmap_InceptionResnetV2/AttentionMap_American_black_bear_photoid_449092721.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/Heatmap_InceptionResnetV2/AttentionMap_Siberian_husky_photoid_20011399025.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/Heatmap_InceptionResnetV2/AttentionMap_alp_photoid_2675911879.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/Heatmap_InceptionResnetV2/AttentionMap_alp_photoid_29655867305.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/Heatmap_InceptionResnetV2/AttentionMap_alp_photoid_36498092914.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/Heatmap_InceptionResnetV2/AttentionMap_alp_photoid_39224116694.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/Heatmap_InceptionResnetV2/AttentionMap_alp_photoid_5633931192.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/Heatmap_InceptionResnetV2/AttentionMap_alp_photoid_9001826246.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/Heatmap_InceptionResnetV2/AttentionMap_beer_bottle_photoid_5910249367.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/Heatmap_InceptionResnetV2/AttentionMap_bison_photoid_7987004409.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/Heatmap_InceptionResnetV2/AttentionMap_brown_bear_photoid_5928837309.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/Heatmap_InceptionResnetV2/AttentionMap_chain_saw_photoid_20020138215.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/Heatmap_InceptionResnetV2/AttentionMap_cliff_dwelling_photoid_43936951261.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/Heatmap_InceptionResnetV2/AttentionMap_cliff_photoid_18175831445.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/Heatmap_InceptionResnetV2/AttentionMap_cliff_photoid_5106034180.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/Heatmap_InceptionResnetV2/AttentionMap_cliff_photoid_5899517079.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/Heatmap_InceptionResnetV2/AttentionMap_cucumber_photoid_36785780416.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/Heatmap_InceptionResnetV2/AttentionMap_dam_photoid_23663993529.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/Heatmap_InceptionResnetV2/AttentionMap_hay_photoid_7849164138.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/Heatmap_InceptionResnetV2/AttentionMap_hen-of-the-woods_photoid_7897273406.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/Heatmap_InceptionResnetV2/AttentionMap_home_theater_photoid_371459065.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/Heatmap_InceptionResnetV2/AttentionMap_lakeside_photoid_2819562824.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/Heatmap_InceptionResnetV2/AttentionMap_lakeside_photoid_39912712864.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/Heatmap_InceptionResnetV2/AttentionMap_mailbox_photoid_4207915158.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/Heatmap_InceptionResnetV2/AttentionMap_paper_towel_photoid_6188315368.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/Heatmap_InceptionResnetV2/AttentionMap_shovel_photoid_19832241028.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/Heatmap_InceptionResnetV2/AttentionMap_ski_photoid_8622678704.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/Heatmap_InceptionResnetV2/AttentionMap_stone_wall_photoid_1968159942.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/Heatmap_InceptionResnetV2/AttentionMap_stone_wall_photoid_41136977550.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/Heatmap_InceptionResnetV2/AttentionMap_stone_wall_photoid_7821633572.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/Heatmap_InceptionResnetV2/AttentionMap_stone_wall_photoid_7975615153.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/Heatmap_InceptionResnetV2/AttentionMap_tench_photoid_19568808955.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/Heatmap_InceptionResnetV2/AttentionMap_thatch_photoid_38200579335.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/Heatmap_InceptionResnetV2/AttentionMap_toilet_seat_photoid_37524679690.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/Heatmap_InceptionResnetV2/AttentionMap_valley_photoid_15425602669.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/Heatmap_InceptionResnetV2/AttentionMap_valley_photoid_15590557213.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/Heatmap_InceptionResnetV2/AttentionMap_valley_photoid_170070951.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/Heatmap_InceptionResnetV2/AttentionMap_valley_photoid_17024783742.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/Heatmap_InceptionResnetV2/AttentionMap_valley_photoid_25653368504.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/Heatmap_InceptionResnetV2/AttentionMap_valley_photoid_2933657180.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/Heatmap_InceptionResnetV2/AttentionMap_valley_photoid_33658941250.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/Heatmap_InceptionResnetV2/AttentionMap_valley_photoid_3672504899.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/Heatmap_InceptionResnetV2/AttentionMap_valley_photoid_7756288436.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/Heatmap_InceptionResnetV2/AttentionMap_volcano_photoid_2306857836.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/Heatmap_InceptionResnetV2/AttentionMap_volcano_photoid_23077966934.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NATCAP_DownloadPhotos.R" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,12 +40,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Inception_tutorial_v0.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="548">
-              <caret line="252" lean-forward="true" selection-start-line="252" selection-end-line="252" />
+            <state relative-caret-position="232">
+              <caret line="40" column="31" selection-start-line="24" selection-end-line="40" selection-end-column="31" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
@@ -84,8 +67,8 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1920" />
-    <option name="height" value="1177" />
+    <option name="width" value="1680" />
+    <option name="height" value="1027" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -115,6 +98,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -139,7 +123,8 @@
       <option name="presentableId" value="Default" />
       <updated>1548874753550</updated>
       <workItem from="1548874755965" duration="170000" />
-      <workItem from="1548875016799" duration="2658000" />
+      <workItem from="1548875016799" duration="7259000" />
+      <workItem from="1548942827947" duration="1589000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1548876139497</created>
@@ -162,17 +147,30 @@
       <option name="project" value="LOCAL" />
       <updated>1548877155942</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Revising the tutorial file">
+      <created>1548878228356</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1548878228356</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Revising the tutorial file">
+      <created>1548878296160</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1548878296160</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2828000" />
+    <option name="totallyTimeSpent" value="9018000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="1177" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25239617" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15262516" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -183,11 +181,11 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.329927" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="12" visible="true" weight="0.3299539" />
+      <window_info anchor="bottom" id="Python Console" order="12" visible="true" weight="0.31336898" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -203,13 +201,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Commenting on the tutorial file. Yet unfinished..!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commenting on the tutorial file. Yet unfinished..!" />
+    <MESSAGE value="Revising the tutorial file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Revising the tutorial file" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Inception_tutorial_v0.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="548">
-          <caret line="252" lean-forward="true" selection-start-line="252" selection-end-line="252" />
+        <state relative-caret-position="232">
+          <caret line="40" column="31" selection-start-line="24" selection-end-line="40" selection-end-column="31" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>
