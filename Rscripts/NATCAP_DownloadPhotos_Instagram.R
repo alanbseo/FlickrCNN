@@ -35,6 +35,8 @@ colnames(photos.dt)[c(1,3)] = c("HostID", "URL")
 photos.dt$HostID = as.character(photos.dt$HostID)
 photos.dt$URL = as.character(photos.dt$URL)
 
+table(photos.dt$Activity)
+
 # photos_50.dt$URL
 
 imgdir <- paste0(path.wd, "/", photos.dir)
