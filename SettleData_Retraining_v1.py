@@ -92,7 +92,6 @@ dataname = "Photos_50"
 
 
 # Fine-tune InceptionV3 on a new set of classes
-
 # ref: https://gist.github.com/liudanking
 
 
@@ -112,25 +111,31 @@ validation_data_dir = "Photos_168_retraining/validation"
 nb_train_samples = 81
 nb_validation_samples = 36
 
-batch_size = 50 # 16
+batch_size = 50 # or 16?
 epochs = 30
 
 num_classes = 3
 
+
+
+# Load the base pre-trained model
 # do not include the top fully-connected layer
 model = inception_v3.InceptionV3(include_top=False, weights='imagenet', input_shape=(img_width, img_height, 3))
 # Freeze the layers which you don't want to train. Here I am freezing the all layers.
 
+
+# New dataset is small and similar to original dataset:
+# There is a problem of over-fitting, if we try to train the entire network. Since the data is similar to the original data, we expect higher-level features in the ConvNet to be relevant to this dataset as well. Hence, the best idea might be to train a linear classifier on the CNN codes.
+# So lets freeze all the layers and train only the classifier
+
+# first: train only the top layers (which were randomly initialized)
+# i.e. freeze all InceptionV3 layers
 for layer in model.layers[:]:
     layer.trainable = False
 # Adding custom Layer
-# We only add
 x = model.output
-x = Flatten()(x)
-# Adding even more custom layers
-# x = Dense(1024, activation="relu")(x)
-# x = Dropout(0.5)(x)
-# x = Dense(1024, activation="relu")(x)
+# add a global spatial average pooling layer
+x = GlobalAveragePooling2D()(x)
 
 # let's add a fully-connected layer
 x = Dense(1024, activation='relu')(x)
@@ -139,12 +144,20 @@ predictions = Dense(num_classes, activation='softmax')(x)
 
 
 # creating the final model
+# this is the model we will train
 model_final = Model(inputs = model.input, outputs = predictions)
 
 
+#Now we will be training only the classifiers (FC layers)
 
-# compile the model
+# compile the model (should be done *after* setting layers to non-trainable)
+
 model_final.compile(loss = "categorical_crossentropy", optimizer = optimizers.SGD(lr=0.0001, momentum=0.9), metrics=["accuracy"])
+
+# model_final.compile(optimizer='rmsprop', loss='categorical_crossentropy')
+# model.compile(loss='sparse_categorical_crossentropy',
+#               optimizer=Adam(lr=0.0001),
+#               metrics=['acc'])
 
 
 
@@ -181,8 +194,11 @@ checkpoint = ModelCheckpoint("inception_v3_retrain.h5", monitor='val_acc', verbo
 early = EarlyStopping(monitor='val_acc', min_delta=0, patience=10, verbose=1, mode='auto')
 
 
-# Train the model
-model_final.fit_generator(
+
+
+
+# Re-train the model
+history = model_final.fit_generator(
     train_generator,
     steps_per_epoch = nb_train_samples,
     epochs = epochs,
@@ -190,74 +206,44 @@ model_final.fit_generator(
     validation_steps = nb_validation_samples,
     callbacks = [checkpoint, early])
 
+# at this point, the top layers are well trained.
 
 
+
+# Save the model
+model_final.save('Seattle_Instagram.h5')
+
+
+
+acc = history.history['acc']
+val_acc = history.history['val_acc']
+loss = history.history['loss']
+val_loss = history.history['val_loss']
+
+epochs = range(len(acc))
+
+plt.plot(epochs, acc, 'b', label='Training acc')
+plt.plot(epochs, val_acc, 'r', label='Validation acc')
+plt.title('Training and validation accuracy')
+plt.legend()
+
+plt.figure()
+
+plt.plot(epochs, loss, 'b', label='Training loss')
+plt.plot(epochs, val_loss, 'r', label='Validation loss')
+plt.title('Training and validation loss')
+plt.legend()
+
+plt.show()
 
 
 
 
 ####
-### @todo feature extraction, fine tuning, network structure modification..
+### @todo feature extraction
 
 
 
-from keras.preprocessing import image
-from keras.models import Model
-from keras.layers import Dense, GlobalAveragePooling2D
-from keras import backend as K
-from keras.optimizers import Adam
-
-
-batch_size = 50
-num_classes = 3
-n_epoch = 10
-
-
-# create the base pre-trained model
-base_model = inception_v3.InceptionV3(weights='imagenet', include_top=False)
-# add a global spatial average pooling layer
-x = base_model.output
-x = GlobalAveragePooling2D()(x)
-# let's add a fully-connected layer
-x = Dense(1024, activation='relu')(x)
-# and a logistic layer -- let's say we have n classes
-predictions = Dense(num_classes, activation='softmax')(x)
-
-# this is the model we will train
-model = Model(inputs=base_model.input, outputs=predictions)
-
-# New dataset is small and similar to original dataset:
-# There is a problem of over-fitting, if we try to train the entire network. Since the data is similar to the original data, we expect higher-level features in the ConvNet to be relevant to this dataset as well. Hence, the best idea might be to train a linear classifier on the CNN codes.
-# So lets freeze all the layers and train only the classifier
-# first: train only the top layers (which were randomly initialized)
-# i.e. freeze all convolutional InceptionV3 layers
-for layer in model.layers:
-    layer.trainable = False
-#Now we will be training only the classifiers (FC layers)
-
-# compile the model (should be done *after* setting layers to non-trainable)
-model.compile(optimizer='rmsprop', loss='categorical_crossentropy')
-# model.compile(loss='sparse_categorical_crossentropy',
-#               optimizer=Adam(lr=0.0001),
-#               metrics=['acc'])
-
-
-### @todo feed new data here
-x_train = np.random.normal(loc=127, scale=127, size=(50, 224,224,3))
-y_train = np.array([0,1]*25)
-x_train = inception_v3.preprocess_input(x_train)
-
-print(model.evaluate(x_train, y_train, batch_size=batch_size, verbose=0))
-
-# train the model on the new data for a few epochs
-model.fit(x_train, y_train,
-          epochs=n_epoch,
-          batch_size=batch_size,
-          shuffle=False,
-          validation_data=(x_train, y_train))
-
-
-# at this point, the top layers are well trained.
 #
 # We can start fine-tuning convolutional layers from inception V3. We will freeze the bottom N layers
 # and train the remaining top layers.

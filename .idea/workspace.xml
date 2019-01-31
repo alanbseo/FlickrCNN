@@ -1,177 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b3653e0-9452-4d77-a903-044e2f504c7d" name="Default Changelist" comment="Insta photos (168)">
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/minor samples/NA/photoid_000072_46443508_NA_1531712763.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/minor samples/NA/photoid_000073_2030042229_NA_1527985456.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/minor samples/NA/photoid_000074_3649557500_NA_1527481175.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/minor samples/NA/photoid_000075_3649557500_NA_1527481175.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/minor samples/NA/photoid_000076_3649557500_NA_1527481175.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/minor samples/NA/photoid_000077_3649557500_NA_1527481175.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/minor samples/NA/photoid_000078_4920598721_NA_1526271523.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/minor samples/NA/photoid_000079_4920598721_NA_1526271523.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/minor samples/NA/photoid_000080_493403636_NA_1498938978.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/minor samples/NA/photoid_000081_41221471_NA_1496900648.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/minor samples/NA/photoid_000082_41221471_NA_1496900648.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/minor samples/NA/photoid_000083_264139081_NA_1471218926.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/minor samples/NA/photoid_000084_264139081_NA_1471218926.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/minor samples/NA/photoid_000085_404420744_NA_1460955058.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/minor samples/NA/photoid_000086_404420744_NA_1460955058.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/minor samples/NA/photoid_000087_45832801_NA_1540266055.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/minor samples/NA/photoid_000088_177598394_NA_1533484185.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/minor samples/NA/photoid_000089_4241177067_NA_1528580587.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/minor samples/NA/photoid_000091_5200136_NA_1515289701.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/minor samples/NA/photoid_000092_216447792_NA_1513468795.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/minor samples/NA/photoid_000093_258471803_NA_1498953252.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/minor samples/NA/photoid_000094_1739648205_NA_1497110397.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/minor samples/NA/photoid_000095_4773108221_NA_1544648448.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/minor samples/NA/photoid_000096_9529832551_NA_1544488174.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/minor samples/NA/photoid_000132_5508090426_NA_1531908309.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/minor samples/NA/photoid_000133_5508090426_NA_1531908309.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/minor samples/NA/photoid_000134_5508090426_NA_1531908309.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/minor samples/NA/photoid_000135_5508090426_NA_1531908309.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/minor samples/NA/photoid_000136_5508090426_NA_1531908309.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/minor samples/NA/photoid_000140_354175797_NA_1531254321.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/minor samples/NA/photoid_000141_354175797_NA_1531254321.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/minor samples/mtnbiking/photoid_000071_1113950118_mtn biking_1504623299.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/minor samples/mtnbiking/photoid_000150_1310760880_mtn biking_1530073363.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/minor samples/mtnbiking/photoid_000151_1310760880_mtn biking_1530073363.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/minor samples/mtnbiking/photoid_000152_1310760880_mtn biking_1530073363.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/minor samples/photoid_000008_1585076796_camping CG_1540169494.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/minor samples/photoid_000037_3460074907_working_1473820770.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/minor samples/photoid_000099_710733106_trailrunning_1498943714.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/minor samples/photoid_000100_710733106_trailrunning_1498943714.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/minor samples/photoid_000101_710733106_trailrunning_1498943714.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/minor samples/photoid_000142_202841487_camping CG_1531165683.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/minor samples/photoid_000143_202841487_camping CG_1531165683.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/minor samples/photoid_000155_1511652091_fishing_1528076813.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/minor samples/swimming/photoid_000098_2940689442_swimming_1463791763.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/minor samples/swimming/photoid_000122_25979274_swimming_1532989705.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/minor samples/swimming/photoid_000123_25979274_swimming_1532989705.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/minor samples/swimming/photoid_000124_25979274_swimming_1532989705.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/minor samples/swimming/photoid_000139_1968937195_swimming_1531470947.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/minor samples/swimming/photoid_000154_298202324_swimming_1528998872.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/train/backpacking/photoid_000001_192016770_backpacking_1504564660.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/train/backpacking/photoid_000002_192016770_backpacking_1504564660.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/train/backpacking/photoid_000003_192016770_backpacking_1504564660.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/train/backpacking/photoid_000004_24293552_backpacking_1544289256.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/train/backpacking/photoid_000005_24293552_backpacking_1544289256.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/train/backpacking/photoid_000006_1431444102_backpacking_1542585137.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/train/backpacking/photoid_000007_247429222_backpacking_1541252671.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/train/backpacking/photoid_000112_1963736990_backpacking_1534086768.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/train/backpacking/photoid_000113_1963736990_backpacking_1534086768.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/train/backpacking/photoid_000114_1963736990_backpacking_1534086768.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/train/backpacking/photoid_000115_1963736990_backpacking_1534086768.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/train/backpacking/photoid_000116_1963736990_backpacking_1534086768.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/train/backpacking/photoid_000117_1963736990_backpacking_1534086768.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/train/backpacking/photoid_000144_202841487_backpacking_1531165445.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/train/backpacking/photoid_000145_44360727_backpacking_1531006674.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/train/hiking/photoid_000025_1077543642_hiking_1489364477.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/train/hiking/photoid_000026_1077543642_hiking_1489364477.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/train/hiking/photoid_000027_1077543642_hiking_1489364477.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/train/hiking/photoid_000028_1077543642_hiking_1489362272.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/train/hiking/photoid_000029_1077543642_hiking_1489362272.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/train/hiking/photoid_000030_1077543642_hiking_1489362272.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/train/hiking/photoid_000031_177049525_hiking_1460847823.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/train/hiking/photoid_000032_177049525_hiking_1460847823.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/train/hiking/photoid_000033_177049525_hiking_1460847549.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/train/hiking/photoid_000034_177049525_hiking_1460847549.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/train/hiking/photoid_000035_177049525_hiking_1460847549.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/train/hiking/photoid_000036_177049525_hiking_1460847549.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/train/hiking/photoid_000038_210708170_hiking_1534226056.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/train/hiking/photoid_000039_15295485_hiking_1543784253.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/train/hiking/photoid_000040_15295485_hiking_1543784253.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/train/hiking/photoid_000041_243267679_hiking_1543192097.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/train/hiking/photoid_000042_243267679_hiking_1543192097.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/train/hiking/photoid_000043_905224234_hiking_1541784909.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/train/hiking/photoid_000044_25774374_hiking_1538835379.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/train/hiking/photoid_000045_30507238_hiking_1538524040.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/train/hiking/photoid_000046_2285751075_hiking_1537758341.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/train/hiking/photoid_000047_2285751075_hiking_1537758341.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/train/hiking/photoid_000048_15076576_hiking_1535983268.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/train/hiking/photoid_000049_15076576_hiking_1535983268.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/train/hiking/photoid_000050_15076576_hiking_1535983268.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/train/hiking/photoid_000109_3564536678_hiking_1534604115.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/train/hiking/photoid_000110_610532472_hiking_1534360075.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/train/hiking/photoid_000111_1963736990_hiking_1534126206.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/train/hiking/photoid_000119_7896756636_hiking_1533664330.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/train/hiking/photoid_000129_223570370_hiking_1532369943.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/train/hiking/photoid_000137_24856430_hiking_1531771971.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/train/hiking/photoid_000138_24856430_hiking_1531771971.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/train/hiking/photoid_000153_1684410941_hiking_1529528667.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/train/hiking/photoid_000156_4373836427_hiking_1528066187.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/train/hiking/photoid_000157_4373836427_hiking_1528066187.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/train/hiking/photoid_000158_4373836427_hiking_1528066187.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/train/hiking/photoid_000159_4373836427_hiking_1528066187.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/train/hiking/photoid_000161_173966013_hiking_1527792215.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/train/hotsprings/photoid_000051_3401659826_hotsprings_1544651655.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/train/hotsprings/photoid_000052_7893254460_hotsprings_1541734420.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/train/hotsprings/photoid_000053_7893254460_hotsprings_1541734420.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/train/hotsprings/photoid_000054_1267366409_hotsprings_1541117060.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/train/hotsprings/photoid_000055_19117145_hotsprings_1538364013.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/train/hotsprings/photoid_000056_256756334_hotsprings_1538226719.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/train/hotsprings/photoid_000057_256756334_hotsprings_1538226719.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/train/hotsprings/photoid_000058_26885879_hotsprings_1537503549.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/train/hotsprings/photoid_000059_17003445_hotsprings_1537483990.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/train/hotsprings/photoid_000060_17003445_hotsprings_1537483990.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/train/hotsprings/photoid_000061_27623130_hotsprings_1537471696.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/train/hotsprings/photoid_000062_17198508_hotsprings_1537241435.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/train/hotsprings/photoid_000063_1311667164_hotsprings_1536766584.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/train/hotsprings/photoid_000064_2258188372_hotsprings_1536691526.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/train/hotsprings/photoid_000065_104826366_hotsprings_1536303547.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/train/hotsprings/photoid_000066_7328487851_hotsprings_1536205198.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/train/hotsprings/photoid_000067_439294263_hotsprings_1536029978.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/train/hotsprings/photoid_000068_439294263_hotsprings_1536014386.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/train/hotsprings/photoid_000069_439294263_hotsprings_1536014386.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/train/hotsprings/photoid_000070_439294263_hotsprings_1536014386.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/train/hotsprings/photoid_000102_437308288_Hotsprings_1534655276.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/train/hotsprings/photoid_000103_437308288_Hotsprings_1534655151.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/train/hotsprings/photoid_000104_1311667164_Hotsprings_1534608732.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/train/hotsprings/photoid_000105_1311667164_Hotsprings_1534608732.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/train/hotsprings/photoid_000106_1311667164_Hotsprings_1534608732.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/train/hotsprings/photoid_000107_3564536678_hotsprings_1534605958.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/train/hotsprings/photoid_000108_3564536678_hotsprings_1534605958.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/train/hotsprings/photoid_000120_7896756636_hotsprings_1533561653.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/validation/backpacking/photoid_000146_44360727_backpacking_1531006674.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/validation/backpacking/photoid_000147_202841487_backpacking_1531164767.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/validation/backpacking/photoid_000148_202841487_backpacking_1531164767.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/validation/backpacking/photoid_000166_2954506481_backpacking_1527681157.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/validation/backpacking/photoid_000167_2954506481_backpacking_1527681157.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/validation/backpacking/photoid_000168_2954506481_backpacking_1527680818.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/validation/hiking/photoid_000009_17242323_hiking_1466375807.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/validation/hiking/photoid_000010_17242323_hiking_1466375807.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/validation/hiking/photoid_000011_17242323_hiking_1466375807.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/validation/hiking/photoid_000012_17242323_hiking_1466375807.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/validation/hiking/photoid_000013_8250150_hiking_1465097654.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/validation/hiking/photoid_000014_443809638_hiking_1542003670.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/validation/hiking/photoid_000015_443809638_hiking_1542003670.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/validation/hiking/photoid_000016_8470852187_hiking_1542583704.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/validation/hiking/photoid_000017_25243358_hiking_1538026230.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/validation/hiking/photoid_000018_4113241777_hiking_1535260384.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/validation/hiking/photoid_000019_4113241777_hiking_1535260384.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/validation/hiking/photoid_000020_4113241777_hiking_1535260384.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/validation/hiking/photoid_000021_4113241777_hiking_1535260384.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/validation/hiking/photoid_000022_4113241777_hiking_1535260384.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/validation/hiking/photoid_000023_190792643_hiking_1527864042.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/validation/hiking/photoid_000024_209977477_hiking_1524439422.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/validation/hotsprings/photoid_000118_1404552379_hotsprings_1533965071.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/validation/hotsprings/photoid_000121_317894208_hotsprings_1533282347.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/validation/hotsprings/photoid_000125_208051635_hotsprings_1532924043.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/validation/hotsprings/photoid_000126_208051635_hotsprings_1532924043.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/validation/hotsprings/photoid_000127_303164118_hotsprings_1532915397.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/validation/hotsprings/photoid_000128_303164118_hotsprings_1532915397.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/validation/hotsprings/photoid_000130_5508090426_hotsprings_1532032862.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/validation/hotsprings/photoid_000131_5508090426_hotsprings_1532032862.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/validation/hotsprings/photoid_000149_16739640_hotsprings_1530498486.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/validation/hotsprings/photoid_000160_1994599903_hotsprings_1527807649.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/validation/hotsprings/photoid_000162_173966013_hotsprings_1527724465.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/validation/hotsprings/photoid_000163_173966013_hotsprings_1527724465.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/validation/hotsprings/photoid_000164_173966013_hotsprings_1527724465.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Photos_168_retraining/validation/hotsprings/photoid_000165_173966013_hotsprings_1527724465.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SettleData_Retraining_v1.py" afterDir="false" />
+    <list default="true" id="1b3653e0-9452-4d77-a903-044e2f504c7d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inception_tutorial_v0.py" beforeDir="false" afterPath="$PROJECT_DIR$/Inception_tutorial_v0.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rscripts/NATCAP_DownloadPhotos_Instagram.R" beforeDir="false" afterPath="$PROJECT_DIR$/Rscripts/NATCAP_DownloadPhotos_Instagram.R" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SettleData_Retraining_v1.py" beforeDir="false" afterPath="$PROJECT_DIR$/SettleData_Retraining_v1.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -207,8 +39,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SettleData_Retraining_v1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="115" column="11" selection-start-line="115" selection-start-column="11" selection-end-line="115" selection-end-column="11" />
+            <state relative-caret-position="23">
+              <caret line="200" column="7" selection-start-line="200" selection-start-column="7" selection-end-line="200" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -292,7 +124,7 @@
       <workItem from="1548874755965" duration="170000" />
       <workItem from="1548875016799" duration="7259000" />
       <workItem from="1548942827947" duration="5944000" />
-      <workItem from="1548966827435" duration="1536000" />
+      <workItem from="1548966827435" duration="2221000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1548876139497</created>
@@ -357,17 +189,24 @@
       <option name="project" value="LOCAL" />
       <updated>1548960819401</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Retraining routine done">
+      <created>1548968453966</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1548968453966</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14909000" />
+    <option name="totallyTimeSpent" value="15594000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="23" width="1680" height="1027" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15445666" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15445666" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -382,7 +221,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="12" visible="true" weight="0.4566845" />
+      <window_info anchor="bottom" id="Python Console" order="12" visible="true" weight="0.26737967" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -403,7 +242,8 @@
     <MESSAGE value="Added the Instagram photo downloading - need to resolve the duplicated file names issue (unique photo id necessary)" />
     <MESSAGE value="Unique photo id (Index + host id + timestamp) done." />
     <MESSAGE value="Insta photos (168)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Insta photos (168)" />
+    <MESSAGE value="Retraining routine done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Retraining routine done" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/keras/engine/training.py">
@@ -434,8 +274,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SettleData_Retraining_v1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="115" column="11" selection-start-line="115" selection-start-column="11" selection-end-line="115" selection-end-column="11" />
+        <state relative-caret-position="23">
+          <caret line="200" column="7" selection-start-line="200" selection-start-column="7" selection-end-line="200" selection-end-column="7" />
         </state>
       </provider>
     </entry>
