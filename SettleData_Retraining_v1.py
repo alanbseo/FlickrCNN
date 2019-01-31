@@ -89,7 +89,7 @@ validation_data_dir = "Photos_168_retraining/validation"
 nb_train_samples = 81
 nb_validation_samples = 36
 
-batch_size = 50 # or 16?
+batch_size = 16 # proportional to the training sample size..
 epochs = 30
 
 num_classes = 3

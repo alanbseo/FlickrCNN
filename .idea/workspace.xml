@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1b3653e0-9452-4d77-a903-044e2f504c7d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SettleData_Retraining_v1.py" beforeDir="false" afterPath="$PROJECT_DIR$/SettleData_Retraining_v1.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,7 +16,7 @@
         <entry file="file://$PROJECT_DIR$/Inception_tutorial_v0.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2452">
-              <caret line="249" column="32" lean-forward="true" selection-start-line="249" selection-start-column="32" selection-end-line="249" selection-end-column="32" />
+              <caret line="249" column="32" selection-start-line="249" selection-start-column="32" selection-end-line="249" selection-end-column="32" />
               <folding>
                 <element signature="e#447#459#0" expanded="true" />
               </folding>
@@ -39,8 +38,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SettleData_Retraining_v1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="200" column="7" selection-start-line="200" selection-start-column="7" selection-end-line="200" selection-end-column="7" />
+            <state relative-caret-position="196">
+              <caret line="92" selection-start-line="92" selection-end-line="92" />
             </state>
           </provider>
         </entry>
@@ -124,7 +123,7 @@
       <workItem from="1548874755965" duration="170000" />
       <workItem from="1548875016799" duration="7259000" />
       <workItem from="1548942827947" duration="5944000" />
-      <workItem from="1548966827435" duration="2221000" />
+      <workItem from="1548966827435" duration="3537000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1548876139497</created>
@@ -196,17 +195,31 @@
       <option name="project" value="LOCAL" />
       <updated>1548968453966</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Retraining routine improved for visualisation.">
+      <created>1548969184434</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1548969184434</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Google colab script">
+      <created>1548969992497</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1548969992497</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15594000" />
+    <option name="totallyTimeSpent" value="16910000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="23" width="1680" height="1027" extended-state="6" />
+    <frame x="2" y="23" width="1680" height="1027" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15445666" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15445666" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -221,7 +234,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info anchor="bottom" id="Python Console" order="12" visible="true" weight="0.26737967" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="12" visible="true" weight="0.26737967" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -243,7 +256,9 @@
     <MESSAGE value="Unique photo id (Index + host id + timestamp) done." />
     <MESSAGE value="Insta photos (168)" />
     <MESSAGE value="Retraining routine done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Retraining routine done" />
+    <MESSAGE value="Retraining routine improved for visualisation." />
+    <MESSAGE value="Google colab script" />
+    <option name="LAST_COMMIT_MESSAGE" value="Google colab script" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/keras/engine/training.py">
@@ -256,7 +271,7 @@
     <entry file="file://$PROJECT_DIR$/Inception_tutorial_v0.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2452">
-          <caret line="249" column="32" lean-forward="true" selection-start-line="249" selection-start-column="32" selection-end-line="249" selection-end-column="32" />
+          <caret line="249" column="32" selection-start-line="249" selection-start-column="32" selection-end-line="249" selection-end-column="32" />
           <folding>
             <element signature="e#447#459#0" expanded="true" />
           </folding>
@@ -274,8 +289,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SettleData_Retraining_v1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="200" column="7" selection-start-line="200" selection-start-column="7" selection-end-line="200" selection-end-column="7" />
+        <state relative-caret-position="196">
+          <caret line="92" selection-start-line="92" selection-end-line="92" />
         </state>
       </provider>
     </entry>
