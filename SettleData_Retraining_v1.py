@@ -63,31 +63,9 @@ import numpy as np
 
 
 
-
 default_path = '/Users/seo-b/Dropbox/KIT/Peatland/FlickrCNN'
 os.chdir(default_path)
 photo_path = default_path + '/Photos_168_retraining'
-
-### Read filenames
-filenames = os.listdir(photo_path)
-
-filenames1 = fnmatch.filter(filenames, "*.jpg")
-filenames2 = fnmatch.filter(filenames, "*.JPG")
-
-filenames = filenames1 + filenames2
-
-
-##### Predict
-
-from keras import backend as K
-
-#Load the Inception_V4_resnetv2 model
-inceptionResnet_v2_model = inception_resnet_v2.InceptionResNetV2( weights='imagenet')
-#Load the VGG model
-vgg_model = vgg16.VGG16(weights='imagenet')
-
-modelname = "InceptionResnetV2"
-dataname = "Photos_50"
 
 
 
@@ -189,6 +167,8 @@ validation_generator = test_datagen.flow_from_directory(
     validation_data_dir,
     target_size = (img_height, img_width),
     class_mode = "categorical")
+
+
 # Save the model according to the conditions
 checkpoint = ModelCheckpoint("inception_v3_retrain.h5", monitor='val_acc', verbose=1, save_best_only=True, save_weights_only=False, mode='auto', period=1)
 early = EarlyStopping(monitor='val_acc', min_delta=0, patience=10, verbose=1, mode='auto')
@@ -291,6 +271,27 @@ model.compile(optimizer=SGD(lr=0.0001, momentum=0.9), loss='categorical_crossent
 
 
 
+
+### Read filenames
+filenames = os.listdir(photo_path)
+
+filenames1 = fnmatch.filter(filenames, "*.jpg")
+filenames2 = fnmatch.filter(filenames, "*.JPG")
+
+filenames = filenames1 + filenames2
+
+
+##### Predict
+
+from keras import backend as K
+
+#Load the Inception_V4_resnetv2 model
+inceptionResnet_v2_model = inception_resnet_v2.InceptionResNetV2( weights='imagenet')
+#Load the VGG model
+vgg_model = vgg16.VGG16(weights='imagenet')
+
+modelname = "InceptionResnetV2"
+dataname = "Photos_50"
 
 
 
