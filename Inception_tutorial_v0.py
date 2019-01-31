@@ -1,3 +1,27 @@
+
+###
+### You might consider running this script within a virtual environment
+###  like this, for example, from the command line:
+
+## first, setup a virtualenv from shell...
+# virtualenv -p python3 venv_activities
+# source venv_activities/bin/activate
+
+## with the right packages...
+# pip install tensorflow
+# pip install keras
+# pip install opencv-python
+# pip install requests
+# pip install matplotlib
+
+## then launch python(3)...
+# python
+
+
+
+
+
+
 import keras
 import numpy as np
 import os
