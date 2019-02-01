@@ -66,7 +66,7 @@ import numpy as np
 
 
 
-default_path = '/Users/seo-b/Dropbox/KIT/Peatland/FlickrCNN'
+default_path = '/Users/seo-b/Dropbox/KIT/FlickrEU/FlickrCNN'
 os.chdir(default_path)
 photo_path = default_path + '/Photos_168_retraining'
 
@@ -102,14 +102,15 @@ num_classes = 4
 # do not include the top fully-connected layer
 model = inception_resnet_v2.InceptionResNetV2(include_top=False, weights='imagenet',input_tensor=None, input_shape=(img_width, img_height, 3))
 # Freeze the layers which you don't want to train. Here I am freezing the all layers.
-
+# i.e. freeze all InceptionV3 layers
+for layer in model.layers[:]:
+    layer.trainable = False
 
 # New dataset is small and similar to original dataset:
 # There is a problem of over-fitting, if we try to train the entire network. Since the data is similar to the original data, we expect higher-level features in the ConvNet to be relevant to this dataset as well. Hence, the best idea might be to train a linear classifier on the CNN codes.
 # So lets freeze all the layers and train only the classifier
 
-# first: train only the top layers (which were randomly initialized)
-
+# first: train only the top layers
 
 # for layer in net_final.layers[:FREEZE_LAYERS]:
 #     layer.trainable = False
@@ -136,9 +137,7 @@ predictions = Dense(num_classes, activation='softmax', name='softmax')(x)
 # this is the model we will train
 model_final = Model(inputs = model.input, outputs = predictions)
 
-# i.e. freeze all InceptionV3 layers
-for layer in model_final.layers[:]:
-    layer.trainable = False
+
 #Now we will be training only the classifiers (FC layers)
 
 # compile the model (should be done *after* setting layers to non-trainable)
