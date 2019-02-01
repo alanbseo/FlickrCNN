@@ -17,11 +17,11 @@ pause = 1 # wait to avoid network problems..
 # mbsmiddlefork_flickrimages_rand50totagactivities
 
 # Randomly sampled 50 photos
-photos.dt = read_xlsx("Data/ActivityTags_EHL.xlsx", sheet = 2)
+photos.dt = read_xlsx("Data/ActivityTags_EHL_v2.xlsx", sheet = 2)
 photos.dt$time = as.POSIXct(photos.dt$timestamp, origin="1970-01-01", tz = "US/Pacific") # timezone? 
 
 
-photos.withtag.idx = !is.na(photos.dt$Activity)
+photos.withtag.idx = !is.na(photos.dt$Activity) & photos.dt$Activity != "NA"
 n_photos_tagged = nrow(photos.dt[photos.withtag.idx,])
 photos.dir = paste0("Photos_", n_photos_tagged)
 
@@ -31,8 +31,7 @@ photos.dir = paste0("Photos_", n_photos_tagged)
 # photos.dir = "Photos_All"
 
 
-colnames(photos.dt)[c(1,3)] = c("HostID", "URL")
-photos.dt$HostID = as.character(photos.dt$HostID)
+colnames(photos.dt)[c(2)] = c( "URL")
 photos.dt$URL = as.character(photos.dt$URL)
 
 table(photos.dt$Activity)
@@ -53,9 +52,9 @@ registerDoMC(n.thread)
 # quite a few images with imperfect file ending 
 download.res = foreach (p.idx =  (which(photos.withtag.idx)), .inorder = F, .errorhandling = "stop", .verbose = F) %dopar% { 
     
-    host.id <- photos.dt$HostID[p.idx]
+    # host.id <- photos.dt$HostID[p.idx]
     photo.url <- photos.dt$URL[p.idx]
-    photo.id = paste0(formatC(p.idx, width = 6, flag = "0"), "_", host.id,   "_",   photos.dt$Activity[p.idx], "_", photos.dt$timestamp[p.idx])
+    photo.id = paste0(formatC(p.idx, width = 6, flag = "0"), "_",   photos.dt$Activity[p.idx], "_", photos.dt$timestamp[p.idx])
     
     
     temp <- paste(imgdir, "/photoid_", photo.id, ".jpg", sep="")

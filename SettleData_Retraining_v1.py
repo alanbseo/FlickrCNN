@@ -1,5 +1,8 @@
 
-###
+#### Fine-tune InceptionV3 on a new set of classes
+# ref: https://gist.github.com/liudanking
+#       https://www.learnopencv.com/keras-tutorial-fine-tuning-using-pre-trained-models/
+
 ### You might consider running this script within a virtual environment
 ###  like this, for example, from the command line:
 
@@ -69,36 +72,35 @@ photo_path = default_path + '/Photos_168_retraining'
 
 
 
-# Fine-tune InceptionV3 on a new set of classes
-# ref: https://gist.github.com/liudanking
 
-
-from keras.applications import inception_v3, inception_resnet_v2 # , nasnet, xception
+from keras.applications import inception_resnet_v2
 
 
 from keras import applications
 from keras.preprocessing.image import ImageDataGenerator
 from keras import optimizers
+from keras.optimizers import Adam
+
 from keras.models import Sequential, Model
 from keras.layers import Dropout, Flatten, Dense, GlobalAveragePooling2D
 from keras import backend as k
 from keras.callbacks import ModelCheckpoint, LearningRateScheduler, TensorBoard, EarlyStopping
 img_width, img_height = 331, 331
-train_data_dir = "Photos_168_retraining/train"
-validation_data_dir = "Photos_168_retraining/validation"
-nb_train_samples = 81
-nb_validation_samples = 36
+train_data_dir = "Photos_338_retraining/train"
+validation_data_dir = "Photos_338_retraining/validation"
+nb_train_samples = 210
+nb_validation_samples = 99
 
 batch_size = 16 # proportional to the training sample size..
-epochs = 30
+epochs = 5
 
-num_classes = 3
+num_classes = 4
 
 
 
 # Load the base pre-trained model
 # do not include the top fully-connected layer
-model = inception_v3.InceptionV3(include_top=False, weights='imagenet', input_shape=(img_width, img_height, 3))
+model = inception_resnet_v2.InceptionResNetV2(include_top=False, weights='imagenet',input_tensor=None, input_shape=(img_width, img_height, 3))
 # Freeze the layers which you don't want to train. Here I am freezing the all layers.
 
 
@@ -107,35 +109,50 @@ model = inception_v3.InceptionV3(include_top=False, weights='imagenet', input_sh
 # So lets freeze all the layers and train only the classifier
 
 # first: train only the top layers (which were randomly initialized)
-# i.e. freeze all InceptionV3 layers
-for layer in model.layers[:]:
-    layer.trainable = False
+
+
+# for layer in net_final.layers[:FREEZE_LAYERS]:
+#     layer.trainable = False
+# for layer in net_final.layers[FREEZE_LAYERS:]:
+#     layer.trainable = True
+
+# build our classifier model based on pre-trained InceptionResNetV2:
+# 1. we don't include the top (fully connected) layers of InceptionResNetV2
+# 2. we add a DropOut layer followed by a Dense (fully connected)
+#    layer which generates softmax class score for each class
+
+
+
 # Adding custom Layer
 x = model.output
-# add a global spatial average pooling layer
-x = GlobalAveragePooling2D()(x)
+x = Flatten()(x)
+x = Dropout(0.5)(x)
 
-# let's add a fully-connected layer
-x = Dense(1024, activation='relu')(x)
-# and a logistic layer -- let's say we have n classes
-predictions = Dense(num_classes, activation='softmax')(x)
+predictions = Dense(num_classes, activation='softmax', name='softmax')(x)
+
 
 
 # creating the final model
 # this is the model we will train
 model_final = Model(inputs = model.input, outputs = predictions)
 
-
+# i.e. freeze all InceptionV3 layers
+for layer in model_final.layers[:]:
+    layer.trainable = False
 #Now we will be training only the classifiers (FC layers)
 
 # compile the model (should be done *after* setting layers to non-trainable)
 
-model_final.compile(loss = "categorical_crossentropy", optimizer = optimizers.SGD(lr=0.0001, momentum=0.9), metrics=["accuracy"])
+# model_final.compile(loss = "categorical_crossentropy", optimizer = optimizers.SGD(lr=0.0001, momentum=0.9), metrics=["accuracy"])
 
 # model_final.compile(optimizer='rmsprop', loss='categorical_crossentropy')
 # model.compile(loss='sparse_categorical_crossentropy',
 #               optimizer=Adam(lr=0.0001),
 #               metrics=['acc'])
+
+# Compile the final model using an Adam optimizer, with a low learning rate (since we are 'fine-tuning')
+model_final.compile(optimizer=Adam(lr=1e-5), loss='categorical_crossentropy', metrics=['accuracy'])
+print(model_final.summary())
 
 
 
@@ -170,7 +187,7 @@ validation_generator = test_datagen.flow_from_directory(
 
 
 # Save the model according to the conditions
-checkpoint = ModelCheckpoint("inception_v3_retrain.h5", monitor='val_acc', verbose=1, save_best_only=True, save_weights_only=False, mode='auto', period=1)
+checkpoint = ModelCheckpoint("InceptionResnetV2_retrain.h5", monitor='val_acc', verbose=1, save_best_only=True, save_weights_only=False, mode='auto', period=1)
 early = EarlyStopping(monitor='val_acc', min_delta=0, patience=10, verbose=1, mode='auto')
 
 
@@ -191,7 +208,7 @@ history = model_final.fit_generator(
 
 
 # Save the model
-model_final.save('Seattle_Instagram.h5')
+model_final.save('InceptionResnetV2_retrain.h5')
 
 
 
@@ -217,6 +234,50 @@ plt.legend()
 plt.show()
 
 
+
+# Create a generator for prediction
+validation_generator = validation_datagen.flow_from_directory(
+    validation_dir,
+    target_size=(image_size, image_size),
+    batch_size=val_batchsize,
+    class_mode='categorical',
+    shuffle=False)
+
+# Get the filenames from the generator
+fnames = validation_generator.filenames
+
+# Get the ground truth from generator
+ground_truth = validation_generator.classes
+
+# Get the label to class mapping from the generator
+label2index = validation_generator.class_indices
+
+# Getting the mapping from class index to class label
+idx2label = dict((v,k) for k,v in label2index.items())
+
+# Get the predictions from the model using the generator
+predictions = model.predict_generator(validation_generator, steps=validation_generator.samples/validation_generator.batch_size,verbose=1)
+predicted_classes = np.argmax(predictions,axis=1)
+
+errors = np.where(predicted_classes != ground_truth)[0]
+print("No of errors = {}/{}".format(len(errors),validation_generator.samples))
+
+# Show the errors
+for i in range(len(errors)):
+    pred_class = np.argmax(predictions[errors[i]])
+    pred_label = idx2label[pred_class]
+
+    title = 'Original label:{}, Prediction :{}, confidence : {:.3f}'.format(
+        fnames[errors[i]].split('/')[0],
+        pred_label,
+        predictions[errors[i]][pred_class])
+
+    original = load_img('{}/{}'.format(validation_dir,fnames[errors[i]]))
+    plt.figure(figsize=[7,7])
+    plt.axis('off')
+    plt.title(title)
+    plt.imshow(original)
+    plt.show()
 
 
 ####
