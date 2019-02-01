@@ -1,7 +1,9 @@
 
 #### Fine-tune InceptionV3 on a new set of classes
-# ref: https://gist.github.com/liudanking
-#       https://www.learnopencv.com/keras-tutorial-fine-tuning-using-pre-trained-models/
+# Ref:
+# https://gist.github.com/liudanking
+# https://www.learnopencv.com/keras-tutorial-fine-tuning-using-pre-trained-models/
+# https://github.com/jkjung-avt/keras-cats-dogs-tutorial/blob/master/train_inceptionresnetv2.py
 
 ### You might consider running this script within a virtual environment
 ###  like this, for example, from the command line:
@@ -174,6 +176,7 @@ test_datagen = ImageDataGenerator(
     width_shift_range = 0.3,
     height_shift_range=0.3,
     rotation_range=30)
+
 train_generator = train_datagen.flow_from_directory(
     train_data_dir,
     target_size = (img_height, img_width),
@@ -183,6 +186,17 @@ validation_generator = test_datagen.flow_from_directory(
     validation_data_dir,
     target_size = (img_height, img_width),
     class_mode = "categorical")
+
+
+
+# show class indices
+print('****************')
+for cls, idx in train_generator.class_indices.items():
+    print('Class #{} = {}'.format(idx, cls))
+print('****************')
+
+
+
 
 
 # Save the model according to the conditions
