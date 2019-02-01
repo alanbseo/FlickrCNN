@@ -10,6 +10,7 @@
 
 
 # Ref:
+# https://github.com/fchollet/deep-learning-with-python-notebooks
 # https://gist.github.com/liudanking
 # https://www.learnopencv.com/keras-tutorial-fine-tuning-using-pre-trained-models/
 # https://github.com/jkjung-avt/keras-cats-dogs-tutorial/blob/master/train_inceptionresnetv2.py
@@ -104,8 +105,8 @@ validation_data_dir = "Photos_338_retraining/validation"
 nb_train_samples = 210
 nb_validation_samples = 99
 
-batch_size = 16 # proportional to the training sample size..
-epochs = 5
+batch_size = 32 # proportional to the training sample size..
+epochs = 50
 
 num_classes = 4
 
@@ -148,7 +149,7 @@ x = Dense(1024, activation='relu')(x)
 
 # 2. we add a DropOut layer followed by a Dense (fully connected)
 #    layer which generates softmax class score for each class
-x = Dropout(0.5)(x)
+x = Dropout(0.5)(x) # 50% dropout
 predictions = Dense(num_classes, activation='softmax', name='softmax')(x)
 
 
@@ -218,7 +219,7 @@ print('****************')
 
 
 # Save the model according to the conditions
-checkpoint = ModelCheckpoint("InceptionResnetV2_retrain.h5", monitor='val_acc', verbose=1, save_best_only=True, save_weights_only=False, mode='auto', period=1)
+checkpoint = ModelCheckpoint("InceptionResnetV2_retrain.h5", monitor='val_acc', verbose=1, save_best_only=True, save_weights_only=False, mode='auto', period=5)
 early = EarlyStopping(monitor='val_acc', min_delta=0, patience=10, verbose=1, mode='auto')
 
 
@@ -239,7 +240,7 @@ history = model_final.fit_generator(
 
 
 # Save the model
-model_final.save('InceptionResnetV2_retrain.h5')
+model_final.save('InceptionResnetV2_retrain_instagram_final.h5')
 
 
 
@@ -290,7 +291,9 @@ idx2label = dict((v,k) for k,v in label2index.items())
 predictions = model.predict_generator(validation_generator, steps=validation_generator.samples/validation_generator.batch_size,verbose=1)
 predicted_classes = np.argmax(predictions,axis=1)
 
-errors = np.where(predicted_classes != ground_truth)[0]
+#errors = np.where(predicted_classes != ground_truth)[0]
+errors = np.where(np.not_equal(predicted_classes, ground_truth[0]))
+
 print("No of errors = {}/{}".format(len(errors),validation_generator.samples))
 
 # Show the errors
