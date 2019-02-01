@@ -1,5 +1,14 @@
 
 #### Fine-tune InceptionV3 on a new set of classes
+
+# The task of fine-tuning a network is to tweak the parameters of an already trained network so that it adapts to the new task at hand. As explained here, the initial layers learn very general features and as we go higher up the network, the layers tend to learn patterns more specific to the task it is being trained on. Thus, for fine-tuning, we want to keep the initial layers intact ( or freeze them ) and retrain the later layers for our task.
+# Thus, fine-tuning avoids both the limitations discussed above.
+#
+# The amount of data required for training is not much because of two reasons. First, we are not training the entire network. Second, the part that is being trained is not trained from scratch.
+# Since the parameters that need to be updated is less, the amount of time needed will also be less.
+#
+
+
 # Ref:
 # https://gist.github.com/liudanking
 # https://www.learnopencv.com/keras-tutorial-fine-tuning-using-pre-trained-models/
@@ -100,8 +109,15 @@ num_classes = 4
 
 
 
+
+##### build our classifier model based on pre-trained InceptionResNetV2:
+
+
 # Load the base pre-trained model
+
 # do not include the top fully-connected layer
+# 1. we don't include the top (fully connected) layers of InceptionResNetV2
+
 model = inception_resnet_v2.InceptionResNetV2(include_top=False, weights='imagenet',input_tensor=None, input_shape=(img_width, img_height, 3))
 # Freeze the layers which you don't want to train. Here I am freezing the all layers.
 # i.e. freeze all InceptionV3 layers
@@ -119,18 +135,18 @@ for layer in model.layers[:]:
 # for layer in net_final.layers[FREEZE_LAYERS:]:
 #     layer.trainable = True
 
-# build our classifier model based on pre-trained InceptionResNetV2:
-# 1. we don't include the top (fully connected) layers of InceptionResNetV2
-# 2. we add a DropOut layer followed by a Dense (fully connected)
-#    layer which generates softmax class score for each class
 
+x = model.output
 
+# Now that we have set the trainable parameters of our base network, we would like to add a classifier on top of the convolutional base. We will simply add a fully connected layer followed by a softmax layer with num_classes outputs.
 
 # Adding custom Layer
-x = model.output
 x = Flatten()(x)
-x = Dropout(0.5)(x)
+x = Dense(1024, activation='relu')(x)
 
+# 2. we add a DropOut layer followed by a Dense (fully connected)
+#    layer which generates softmax class score for each class
+x = Dropout(0.5)(x)
 predictions = Dense(num_classes, activation='softmax', name='softmax')(x)
 
 
