@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b3653e0-9452-4d77-a903-044e2f504c7d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Seattle_retraining_instagram_inceptionresnetv2_ver5.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seattle_retraining_instagram_inceptionv3_ver1.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SettleData_Retraining_v1.py" beforeDir="false" afterPath="$PROJECT_DIR$/SettleData_Retraining_v1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seattle_Retraining_instagram_v3_googlecolab.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seattle_Retraining_instagram_v4_googlecolab.ipynb" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,41 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Inception_tutorial_v0.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3570">
-              <caret line="249" column="32" selection-start-line="249" selection-start-column="32" selection-end-line="249" selection-end-column="32" />
-              <folding>
-                <element signature="e#447#459#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SettleData_BatchTagging_v1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-              <folding>
-                <element signature="e#0#12#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SettleData_Retraining_v1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="108" column="11" selection-start-line="108" selection-start-column="11" selection-end-line="108" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -62,6 +31,8 @@
       <list>
         <option value="$PROJECT_DIR$/Inception_tutorial_v0.py" />
         <option value="$PROJECT_DIR$/SettleData_Retraining_v1.py" />
+        <option value="$USER_HOME$/Google Drive/Colab Notebooks/GoogleColab_setup.ipynb" />
+        <option value="$USER_HOME$/Google Drive/Colab Notebooks/Seattle_retraining_instagram_v5.ipynb" />
       </list>
     </option>
   </component>
@@ -126,7 +97,7 @@
       <workItem from="1549028668006" duration="2885000" />
       <workItem from="1549051242295" duration="69000" />
       <workItem from="1549051337856" duration="113000" />
-      <workItem from="1549061918741" duration="365000" />
+      <workItem from="1549061918741" duration="1700000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1548876139497</created>
@@ -254,15 +225,28 @@
       <option name="project" value="LOCAL" />
       <updated>1549028780361</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="batch_size = 32">
+      <created>1549062314972</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1549062314972</updated>
+    </task>
+    <task id="LOCAL-00020" summary="batch_size = 32">
+      <created>1549062328441</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1549062328441</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24591000" />
+    <option name="totallyTimeSpent" value="25926000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16544567" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -308,7 +292,8 @@
     <MESSAGE value="Trainable layer setup was wrong. Fixed." />
     <MESSAGE value="Show class labels." />
     <MESSAGE value="A dense layer added." />
-    <option name="LAST_COMMIT_MESSAGE" value="A dense layer added." />
+    <MESSAGE value="batch_size = 32" />
+    <option name="LAST_COMMIT_MESSAGE" value="batch_size = 32" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/keras/engine/training.py">
@@ -342,6 +327,55 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="311">
           <caret line="108" column="11" selection-start-line="108" selection-start-column="11" selection-end-line="108" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Google Drive/Colab Notebooks/Copy of Seattle_retraining_instagram_v5.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Google Drive/Colab Notebooks/Seattle_retraining_instagram.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Google Drive/Colab Notebooks/Copy of Seattle_retraining_instagram.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Google Drive/Colab Notebooks/GoogleColab_setup.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Google Drive/Colab Notebooks/Seattle_Retraining_instagram_v3_googlecolab.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Seattle_Retraining_instagram_v3_googlecolab.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Google Drive/Colab Notebooks/Seattle_retraining_instagram_v5.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="3" />
         </state>
       </provider>
     </entry>
