@@ -96,6 +96,8 @@ from keras.models import Sequential, Model
 from keras.layers import Dropout, Flatten, Dense, GlobalAveragePooling2D
 from keras import backend as k
 from keras.callbacks import ModelCheckpoint, LearningRateScheduler, TensorBoard, EarlyStopping
+
+
 img_width, img_height = 331, 331
 train_data_dir = "Photos_338_retraining/train"
 validation_data_dir = "Photos_338_retraining/validation"
