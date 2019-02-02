@@ -103,13 +103,13 @@ from keras.callbacks import ModelCheckpoint, LearningRateScheduler, TensorBoard,
 img_width, img_height = 331, 331
 train_data_dir = "Photos_338_retraining/train"
 validation_data_dir = "Photos_338_retraining/validation"
-nb_train_samples = 210
-nb_validation_samples = 99
+nb_train_samples = 156
+nb_validation_samples = 64
 
 batch_size = 32 # proportional to the training sample size..
 epochs = 50
 
-num_classes = 4
+num_classes = 5
 num_cpu_cores = 8
 
 ##### build our classifier model based on pre-trained InceptionResNetV2:
@@ -233,8 +233,8 @@ history = model_final.fit_generator(
     train_generator,
     steps_per_epoch = nb_train_samples,
     epochs = epochs,
-    validation_data = validation_generator,
-    validation_steps = nb_validation_samples,
+#    validation_data = validation_generator,
+#    validation_steps = nb_validation_samples,
     callbacks = [checkpoint, early])
 
 # at this point, the top layers are well trained.
