@@ -64,7 +64,7 @@ else:
     ssl._create_default_https_context = _create_unverified_https_context
 
 
-from keras.applications import inception_resnet_v2
+from keras.applications import inception_resnet_v2, inception_v3
 from keras.preprocessing.image import load_img
 from keras.preprocessing.image import img_to_array
 from keras.applications.imagenet_utils import decode_predictions
@@ -88,7 +88,7 @@ photo_path = default_path + '/Photos_168_retraining'
 
 from keras.applications import inception_resnet_v2
 
-
+import tensorflow as tf
 from keras import applications
 from keras.preprocessing.image import ImageDataGenerator
 from keras import optimizers
@@ -110,7 +110,7 @@ batch_size = 32 # proportional to the training sample size..
 epochs = 50
 
 num_classes = 4
-
+num_cpu_cores = 8
 
 ##### build our classifier model based on pre-trained InceptionResNetV2:
 
@@ -119,7 +119,8 @@ num_classes = 4
 # do not include the top fully-connected layer
 # 1. we don't include the top (fully connected) layers of InceptionResNetV2
 
-
+config = tf.ConfigProto(device_count={"CPU": num_cpu_cores})
+keras.backend.tensorflow_backend.set_session(tf.Session(config=config))
 
 
 # Load the base pre-trained model
