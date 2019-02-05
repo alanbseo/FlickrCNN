@@ -79,7 +79,7 @@ import numpy as np
 
 
 
-default_path = '/Users/seo-b/Dropbox/KIT/FlickrEU/FlickrCNN'
+default_path = '/home/alan/Dropbox/KIT/FlickrEU/FlickrCNN'
 os.chdir(default_path)
 photo_path = default_path + '/Photos_168_retraining'
 
@@ -110,7 +110,11 @@ batch_size = 32 # proportional to the training sample size..
 epochs = 50
 
 num_classes = 5
+
+# For multi-core CPU running
 num_cpu_cores = 8
+config = tf.ConfigProto(device_count={"CPU": num_cpu_cores})
+keras.backend.tensorflow_backend.set_session(tf.Session(config=config))
 
 ##### build our classifier model based on pre-trained InceptionResNetV2:
 
@@ -119,8 +123,6 @@ num_cpu_cores = 8
 # do not include the top fully-connected layer
 # 1. we don't include the top (fully connected) layers of InceptionResNetV2
 
-config = tf.ConfigProto(device_count={"CPU": num_cpu_cores})
-keras.backend.tensorflow_backend.set_session(tf.Session(config=config))
 
 
 # Load the base pre-trained model
@@ -221,7 +223,7 @@ print('****************')
 
 
 # Save the model according to the conditions
-checkpoint = ModelCheckpoint("InceptionV3_retrain.h5", monitor='val_acc', verbose=1, save_best_only=True, save_weights_only=False, mode='auto', period=5)
+checkpoint = ModelCheckpoint("InceptionV3_retrain.h5", monitor='val_acc', verbose=1, save_best_only=True, save_weights_only=False, mode='auto', period=1)
 early = EarlyStopping(monitor='val_acc', min_delta=0, patience=10, verbose=1, mode='auto')
 
 
