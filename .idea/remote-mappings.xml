@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteMappingsManager">
+    <list>
+      <list>
+        <remote-mappings server-id="python@docker://nvcr.io/nvidia/tensorflow:18.12-py3/python">
+          <settings>
+            <list>
+              <mapping local-root="$USER_HOME$/Dropbox" remote-root="/home/alan/Dropbox" />
+            </list>
+          </settings>
+        </remote-mappings>
+      </list>
+    </list>
+  </component>
+</project>

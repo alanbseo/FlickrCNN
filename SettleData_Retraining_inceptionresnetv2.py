@@ -79,7 +79,7 @@ import numpy as np
 
 
 
-default_path = '/Users/seo-b/Dropbox/KIT/FlickrEU/FlickrCNN'
+default_path = '/home/alan/Dropbox/KIT/FlickrEU/FlickrCNN'
 os.chdir(default_path)
 photo_path = default_path + '/Photos_168_retraining'
 
@@ -93,6 +93,7 @@ from keras import applications
 from keras.preprocessing.image import ImageDataGenerator
 from keras import optimizers
 from keras.optimizers import Adam
+from keras import metrics
 
 from keras.models import Sequential, Model
 from keras.layers import Dropout, Flatten, Dense, GlobalAveragePooling2D
@@ -109,7 +110,7 @@ nb_validation_samples = 99
 batch_size = 32 # proportional to the training sample size..
 epochs = 50
 
-num_classes = 4
+num_classes = 5
 
 
 
@@ -168,17 +169,22 @@ model_final = Model(inputs = model.input, outputs = predictions)
 
 # compile the model (should be done *after* setting layers to non-trainable)
 
-model_final.compile(loss = "categorical_crossentropy", optimizer = optimizers.SGD(lr=0.0001, momentum=0.9), metrics=["accuracy"])
+#model_final.compile(loss = "categorical_crossentropy", optimizer = optimizers.SGD(lr=0.0001, momentum=0.9), metrics=["accuracy"])
 
 # model_final.compile(optimizer='rmsprop', loss='categorical_crossentropy')
-# model.compile(loss='sparse_categorical_crossentropy',
-#               optimizer=Adam(lr=0.0001),
-#               metrics=['acc'])
+model.compile(loss='categorical_crossentropy',
+               optimizer=Adam(lr=0.00001),
+               metrics=['accuracy'])
+
+## load previously trained weights
+model_final.load_weights('TrainedWeights/InceptionResnetV2_retrain.h5')
+
+
 
 # Compile the final model using an Adam optimizer, with a low learning rate (since we are 'fine-tuning')
-# model_final.compile(optimizer=Adam(lr=1e-5), loss='categorical_crossentropy', metrics=['accuracy'])
-print(model_final.summary())
+model_final.compile(optimizer=Adam(lr=1e-5), loss='categorical_crossentropy', metrics=['acc'])
 
+print(model_final.summary())
 
 
 
@@ -221,10 +227,8 @@ print('****************')
 
 
 
-
-
 # Save the model according to the conditions
-checkpoint = ModelCheckpoint("InceptionResnetV2_retrain.h5", monitor='val_acc', verbose=1, save_best_only=True, save_weights_only=False, mode='auto', period=5)
+checkpoint = ModelCheckpoint("TrainedWeights/InceptionResnetV2_retrain.h5", monitor='val_acc', verbose=1, save_best_only=True, save_weights_only=False, mode='auto', period=1)
 early = EarlyStopping(monitor='val_acc', min_delta=0, patience=10, verbose=1, mode='auto')
 
 
@@ -245,7 +249,7 @@ history = model_final.fit_generator(
 
 
 # Save the model
-model_final.save('InceptionResnetV2_retrain_instagram_final.h5')
+model_final.save('TrainedWeights/InceptionResnetV2_retrain_instagram_final.h5')
 
 
 

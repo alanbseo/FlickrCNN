@@ -96,7 +96,7 @@ from keras.optimizers import Adam
 
 from keras.models import Sequential, Model
 from keras.layers import Dropout, Flatten, Dense, GlobalAveragePooling2D
-from keras import backend as k
+from keras import backend as K
 from keras.callbacks import ModelCheckpoint, LearningRateScheduler, TensorBoard, EarlyStopping
 
 
@@ -106,22 +106,20 @@ validation_data_dir = "Photos_338_retraining/validation"
 nb_train_samples = 156
 nb_validation_samples = 64
 
-batch_size = 32 # proportional to the training sample size..
+batch_size = 16 # proportional to the training sample size..
 epochs = 50
 
 num_classes = 5
 
 # For multi-core CPU running
-num_cpu_cores = 8
+num_cpu_cores = 16
 config = tf.ConfigProto(device_count={"CPU": num_cpu_cores})
 keras.backend.tensorflow_backend.set_session(tf.Session(config=config))
 
 ##### build our classifier model based on pre-trained InceptionResNetV2:
 
 # Load the base pre-trained model
-
-# do not include the top fully-connected layer
-# 1. we don't include the top (fully connected) layers of InceptionResNetV2
+# we don't include the top (fully connected) layers of InceptionResNetV2
 
 
 
@@ -159,9 +157,8 @@ model_final = Model(inputs = model.input, outputs = predictions)
 
 # compile the model (should be done *after* setting layers to non-trainable)
 # Compile the final model using an Adam optimizer, with a low learning rate (since we are 'fine-tuning')
-model_final.compile(optimizer=Adam(lr=1e-5), loss='categorical_crossentropy', metrics=['accuracy'])
-
-# model_final.compile(loss = "categorical_crossentropy", optimizer = optimizers.SGD(lr=0.0001, momentum=0.9), metrics=["accuracy"])
+# model_final.compile(optimizer=Adam(lr=1e-5), loss='categorical_crossentropy', metrics=['accuracy'])
+model_final.compile(loss = "categorical_crossentropy", optimizer = optimizers.SGD(lr=0.0001, momentum=0.9),  metrics=["accuracy"])
 # model_final.compile(optimizer='rmsprop', loss='categorical_crossentropy')
 # model_final.compile(loss='sparse_categorical_crossentropy',
 #               optimizer=Adam(lr=0.0001),
@@ -175,9 +172,8 @@ print(model_final.summary())
 #Data (is there enough signal to learn)
 #Network Architecture (what we are discussing here) or Finetuning
 #Training (Fit) - Learning Rate / Epochs
-#If the network is stuck at 50% accuracy, there’s no reason to do any dropout. Dropout is a regularization process to avoid overfitting. But your problem is underfitting.
-
-# It’s really hard to comment when we can’t see your code / Jupyter Notebook. If you can put it in git or gist.github.com 10 and share here, one of us can try to replicate or suggest you specific steps.
+#If the network is stuck at 50% accuracy, there’s no reason to do any dropout.
+# Dropout is a regularization process to avoid overfitting. But your problem is underfitting.
 
 
 
@@ -223,7 +219,7 @@ print('****************')
 
 
 # Save the model according to the conditions
-checkpoint = ModelCheckpoint("InceptionV3_retrain.h5", monitor='val_acc', verbose=1, save_best_only=True, save_weights_only=False, mode='auto', period=1)
+checkpoint = ModelCheckpoint("InceptionV3_retrain.h5", monitor='accuracy', verbose=1, save_best_only=True, save_weights_only=False, mode='auto', period=1)
 early = EarlyStopping(monitor='val_acc', min_delta=0, patience=10, verbose=1, mode='auto')
 
 
@@ -382,7 +378,6 @@ filenames = filenames1 + filenames2
 
 ##### Predict
 
-from keras import backend as K
 
 #Load the Inception_V4_resnetv2 model
 inceptionResnet_v2_model = inception_resnet_v2.InceptionResNetV2( weights='imagenet')
