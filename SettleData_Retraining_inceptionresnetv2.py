@@ -81,9 +81,7 @@ import numpy as np
 
 default_path = '/home/alan/Dropbox/KIT/FlickrEU/FlickrCNN'
 os.chdir(default_path)
-photo_path = default_path + '/Photos_168_retraining'
-
-
+# photo_path = default_path + '/Photos_168_retraining'
 
 
 from keras.applications import inception_resnet_v2
@@ -101,11 +99,16 @@ from keras import backend as k
 from keras.callbacks import ModelCheckpoint, LearningRateScheduler, TensorBoard, EarlyStopping
 
 
-img_width, img_height = 331, 331
-train_data_dir = "Photos_338_retraining/train"
-validation_data_dir = "Photos_338_retraining/validation"
-nb_train_samples = 210
-nb_validation_samples = 99
+img_width, img_height = 662, 662
+# train_data_dir = "Photos_338_retraining/train"
+# validation_data_dir = "Photos_338_retraining/validation"
+# nb_train_samples = 210
+# nb_validation_samples = 99
+
+train_data_dir = "Photos_338_retraining_wovalidation/train"
+validation_data_dir = "Photos_338_retraining_wovalidation/validation"
+nb_train_samples = 220
+nb_validation_samples = 0
 
 batch_size = 32 # proportional to the training sample size..
 epochs = 50
@@ -172,17 +175,15 @@ model_final = Model(inputs = model.input, outputs = predictions)
 #model_final.compile(loss = "categorical_crossentropy", optimizer = optimizers.SGD(lr=0.0001, momentum=0.9), metrics=["accuracy"])
 
 # model_final.compile(optimizer='rmsprop', loss='categorical_crossentropy')
-model.compile(loss='categorical_crossentropy',
-               optimizer=Adam(lr=0.00001),
-               metrics=['accuracy'])
+
 
 ## load previously trained weights
-model_final.load_weights('TrainedWeights/InceptionResnetV2_retrain.h5')
+model_final.load_weights('TrainedWeights/InceptionResnetV2_retrain_instagram_epoch50_acc0.92.h5')
 
 
 
 # Compile the final model using an Adam optimizer, with a low learning rate (since we are 'fine-tuning')
-model_final.compile(optimizer=Adam(lr=1e-5), loss='categorical_crossentropy', metrics=['acc'])
+model_final.compile(optimizer=Adam(lr=1e-5), loss='categorical_crossentropy', metrics=['accuracy'])
 
 print(model_final.summary())
 
@@ -228,10 +229,8 @@ print('****************')
 
 
 # Save the model according to the conditions
-checkpoint = ModelCheckpoint("TrainedWeights/InceptionResnetV2_retrain.h5", monitor='val_acc', verbose=1, save_best_only=True, save_weights_only=False, mode='auto', period=1)
+checkpoint = ModelCheckpoint("TrainedWeights/InceptionResnetV2_retrain.h5", monitor='acc', verbose=1, save_best_only=True, save_weights_only=False, mode='auto', period=1)
 early = EarlyStopping(monitor='val_acc', min_delta=0, patience=10, verbose=1, mode='auto')
-
-
 
 
 
@@ -240,8 +239,8 @@ history = model_final.fit_generator(
     train_generator,
     steps_per_epoch = nb_train_samples,
     epochs = epochs,
-    validation_data = validation_generator,
-    validation_steps = nb_validation_samples,
+ #   validation_data = validation_generator,
+ #   validation_steps = nb_validation_samples,
     callbacks = [checkpoint, early])
 
 # at this point, the top layers are well trained.
@@ -260,7 +259,7 @@ val_loss = history.history['val_loss']
 
 epochs = range(len(acc))
 
-plt.plot(epochs, acc, 'b', label='Training acc')
+plt.plot(epochs, acc[:], 'b', label='Training acc')
 plt.plot(epochs, val_acc, 'r', label='Validation acc')
 plt.title('Training and validation accuracy')
 plt.legend()
