@@ -178,7 +178,7 @@ model_final = Model(inputs = model.input, outputs = predictions)
 
 
 ## load previously trained weights
-model_final.load_weights('TrainedWeights/InceptionResnetV2_retrain_instagram_epoch50_acc0.92.h5')
+model_final.load_weights('TrainedWeights/InceptionResnetV2_retrain_instagram_epoch100_acc0.96.h5')
 
 
 
@@ -253,22 +253,22 @@ model_final.save('TrainedWeights/InceptionResnetV2_retrain_instagram_final.h5')
 
 
 acc = history.history['acc']
-val_acc = history.history['val_acc']
+#val_acc = history.history['val_acc']
 loss = history.history['loss']
-val_loss = history.history['val_loss']
+#val_loss = history.history['val_loss']
 
 epochs = range(len(acc))
 
-plt.plot(epochs, acc[:], 'b', label='Training acc')
-plt.plot(epochs, val_acc, 'r', label='Validation acc')
-plt.title('Training and validation accuracy')
+plt.plot( acc, 'b', label='Training acc')
+#plt.plot(epochs, val_acc, 'r', label='Validation acc')
+plt.title('Training accuracy')
 plt.legend()
 
 plt.figure()
 
-plt.plot(epochs, loss, 'b', label='Training loss')
-plt.plot(epochs, val_loss, 'r', label='Validation loss')
-plt.title('Training and validation loss')
+plt.plot( loss, 'b', label='Training loss')
+#plt.plot(epochs, val_loss, 'r', label='Validation loss')
+plt.title('Training loss')
 plt.legend()
 
 plt.show()
