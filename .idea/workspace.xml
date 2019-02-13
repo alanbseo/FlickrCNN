@@ -1,440 +1,661 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b3653e0-9452-4d77-a903-044e2f504c7d" name="Default Changelist" comment="Tutorial filed archived.">
+    <list default="true" id="1b3653e0-9452-4d77-a903-044e2f504c7d" name="Default Changelist" comment="Data files deleted.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/minor samples/NA/photoid_000072_46443508_NA_1531712763.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/minor samples/NA/photoid_000073_2030042229_NA_1527985456.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/minor samples/NA/photoid_000074_3649557500_NA_1527481175.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/minor samples/NA/photoid_000075_3649557500_NA_1527481175.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/minor samples/NA/photoid_000076_3649557500_NA_1527481175.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/minor samples/NA/photoid_000077_3649557500_NA_1527481175.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/minor samples/NA/photoid_000078_4920598721_NA_1526271523.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/minor samples/NA/photoid_000079_4920598721_NA_1526271523.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/minor samples/NA/photoid_000080_493403636_NA_1498938978.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/minor samples/NA/photoid_000081_41221471_NA_1496900648.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/minor samples/NA/photoid_000082_41221471_NA_1496900648.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/minor samples/NA/photoid_000083_264139081_NA_1471218926.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/minor samples/NA/photoid_000084_264139081_NA_1471218926.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/minor samples/NA/photoid_000085_404420744_NA_1460955058.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/minor samples/NA/photoid_000086_404420744_NA_1460955058.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/minor samples/NA/photoid_000087_45832801_NA_1540266055.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/minor samples/NA/photoid_000088_177598394_NA_1533484185.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/minor samples/NA/photoid_000089_4241177067_NA_1528580587.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/minor samples/NA/photoid_000091_5200136_NA_1515289701.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/minor samples/NA/photoid_000092_216447792_NA_1513468795.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/minor samples/NA/photoid_000093_258471803_NA_1498953252.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/minor samples/NA/photoid_000094_1739648205_NA_1497110397.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/minor samples/NA/photoid_000095_4773108221_NA_1544648448.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/minor samples/NA/photoid_000096_9529832551_NA_1544488174.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/minor samples/NA/photoid_000132_5508090426_NA_1531908309.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/minor samples/NA/photoid_000133_5508090426_NA_1531908309.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/minor samples/NA/photoid_000134_5508090426_NA_1531908309.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/minor samples/NA/photoid_000135_5508090426_NA_1531908309.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/minor samples/NA/photoid_000136_5508090426_NA_1531908309.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/minor samples/NA/photoid_000140_354175797_NA_1531254321.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/minor samples/NA/photoid_000141_354175797_NA_1531254321.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/minor samples/mtnbiking/photoid_000071_1113950118_mtn biking_1504623299.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/minor samples/mtnbiking/photoid_000150_1310760880_mtn biking_1530073363.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/minor samples/mtnbiking/photoid_000151_1310760880_mtn biking_1530073363.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/minor samples/mtnbiking/photoid_000152_1310760880_mtn biking_1530073363.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/minor samples/photoid_000008_1585076796_camping CG_1540169494.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/minor samples/photoid_000037_3460074907_working_1473820770.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/minor samples/photoid_000099_710733106_trailrunning_1498943714.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/minor samples/photoid_000100_710733106_trailrunning_1498943714.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/minor samples/photoid_000101_710733106_trailrunning_1498943714.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/minor samples/photoid_000142_202841487_camping CG_1531165683.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/minor samples/photoid_000143_202841487_camping CG_1531165683.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/minor samples/photoid_000155_1511652091_fishing_1528076813.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/minor samples/swimming/photoid_000098_2940689442_swimming_1463791763.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/minor samples/swimming/photoid_000122_25979274_swimming_1532989705.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/minor samples/swimming/photoid_000123_25979274_swimming_1532989705.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/minor samples/swimming/photoid_000124_25979274_swimming_1532989705.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/minor samples/swimming/photoid_000139_1968937195_swimming_1531470947.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/minor samples/swimming/photoid_000154_298202324_swimming_1528998872.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/train/backpacking/photoid_000001_192016770_backpacking_1504564660.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/train/backpacking/photoid_000002_192016770_backpacking_1504564660.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/train/backpacking/photoid_000003_192016770_backpacking_1504564660.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/train/backpacking/photoid_000004_24293552_backpacking_1544289256.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/train/backpacking/photoid_000005_24293552_backpacking_1544289256.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/train/backpacking/photoid_000006_1431444102_backpacking_1542585137.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/train/backpacking/photoid_000007_247429222_backpacking_1541252671.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/train/backpacking/photoid_000112_1963736990_backpacking_1534086768.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/train/backpacking/photoid_000113_1963736990_backpacking_1534086768.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/train/backpacking/photoid_000114_1963736990_backpacking_1534086768.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/train/backpacking/photoid_000115_1963736990_backpacking_1534086768.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/train/backpacking/photoid_000116_1963736990_backpacking_1534086768.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/train/backpacking/photoid_000117_1963736990_backpacking_1534086768.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/train/backpacking/photoid_000144_202841487_backpacking_1531165445.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/train/backpacking/photoid_000145_44360727_backpacking_1531006674.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/train/hiking/photoid_000025_1077543642_hiking_1489364477.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/train/hiking/photoid_000026_1077543642_hiking_1489364477.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/train/hiking/photoid_000027_1077543642_hiking_1489364477.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/train/hiking/photoid_000028_1077543642_hiking_1489362272.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/train/hiking/photoid_000029_1077543642_hiking_1489362272.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/train/hiking/photoid_000030_1077543642_hiking_1489362272.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/train/hiking/photoid_000031_177049525_hiking_1460847823.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/train/hiking/photoid_000032_177049525_hiking_1460847823.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/train/hiking/photoid_000033_177049525_hiking_1460847549.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/train/hiking/photoid_000034_177049525_hiking_1460847549.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/train/hiking/photoid_000035_177049525_hiking_1460847549.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/train/hiking/photoid_000036_177049525_hiking_1460847549.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/train/hiking/photoid_000038_210708170_hiking_1534226056.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/train/hiking/photoid_000039_15295485_hiking_1543784253.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/train/hiking/photoid_000040_15295485_hiking_1543784253.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/train/hiking/photoid_000041_243267679_hiking_1543192097.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/train/hiking/photoid_000042_243267679_hiking_1543192097.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/train/hiking/photoid_000043_905224234_hiking_1541784909.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/train/hiking/photoid_000044_25774374_hiking_1538835379.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/train/hiking/photoid_000045_30507238_hiking_1538524040.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/train/hiking/photoid_000046_2285751075_hiking_1537758341.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/train/hiking/photoid_000047_2285751075_hiking_1537758341.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/train/hiking/photoid_000048_15076576_hiking_1535983268.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/train/hiking/photoid_000049_15076576_hiking_1535983268.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/train/hiking/photoid_000050_15076576_hiking_1535983268.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/train/hiking/photoid_000109_3564536678_hiking_1534604115.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/train/hiking/photoid_000110_610532472_hiking_1534360075.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/train/hiking/photoid_000111_1963736990_hiking_1534126206.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/train/hiking/photoid_000119_7896756636_hiking_1533664330.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/train/hiking/photoid_000129_223570370_hiking_1532369943.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/train/hiking/photoid_000137_24856430_hiking_1531771971.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/train/hiking/photoid_000138_24856430_hiking_1531771971.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/train/hiking/photoid_000153_1684410941_hiking_1529528667.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/train/hiking/photoid_000156_4373836427_hiking_1528066187.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/train/hiking/photoid_000157_4373836427_hiking_1528066187.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/train/hiking/photoid_000158_4373836427_hiking_1528066187.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/train/hiking/photoid_000159_4373836427_hiking_1528066187.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/train/hiking/photoid_000161_173966013_hiking_1527792215.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/train/hotsprings/photoid_000051_3401659826_hotsprings_1544651655.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/train/hotsprings/photoid_000052_7893254460_hotsprings_1541734420.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/train/hotsprings/photoid_000053_7893254460_hotsprings_1541734420.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/train/hotsprings/photoid_000054_1267366409_hotsprings_1541117060.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/train/hotsprings/photoid_000055_19117145_hotsprings_1538364013.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/train/hotsprings/photoid_000056_256756334_hotsprings_1538226719.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/train/hotsprings/photoid_000057_256756334_hotsprings_1538226719.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/train/hotsprings/photoid_000058_26885879_hotsprings_1537503549.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/train/hotsprings/photoid_000059_17003445_hotsprings_1537483990.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/train/hotsprings/photoid_000060_17003445_hotsprings_1537483990.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/train/hotsprings/photoid_000061_27623130_hotsprings_1537471696.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/train/hotsprings/photoid_000062_17198508_hotsprings_1537241435.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/train/hotsprings/photoid_000063_1311667164_hotsprings_1536766584.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/train/hotsprings/photoid_000064_2258188372_hotsprings_1536691526.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/train/hotsprings/photoid_000065_104826366_hotsprings_1536303547.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/train/hotsprings/photoid_000066_7328487851_hotsprings_1536205198.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/train/hotsprings/photoid_000067_439294263_hotsprings_1536029978.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/train/hotsprings/photoid_000068_439294263_hotsprings_1536014386.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/train/hotsprings/photoid_000069_439294263_hotsprings_1536014386.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/train/hotsprings/photoid_000070_439294263_hotsprings_1536014386.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/train/hotsprings/photoid_000102_437308288_Hotsprings_1534655276.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/train/hotsprings/photoid_000103_437308288_Hotsprings_1534655151.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/train/hotsprings/photoid_000104_1311667164_Hotsprings_1534608732.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/train/hotsprings/photoid_000105_1311667164_Hotsprings_1534608732.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/train/hotsprings/photoid_000106_1311667164_Hotsprings_1534608732.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/train/hotsprings/photoid_000107_3564536678_hotsprings_1534605958.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/train/hotsprings/photoid_000108_3564536678_hotsprings_1534605958.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/train/hotsprings/photoid_000120_7896756636_hotsprings_1533561653.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/validation/backpacking/photoid_000146_44360727_backpacking_1531006674.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/validation/backpacking/photoid_000147_202841487_backpacking_1531164767.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/validation/backpacking/photoid_000148_202841487_backpacking_1531164767.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/validation/backpacking/photoid_000166_2954506481_backpacking_1527681157.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/validation/backpacking/photoid_000167_2954506481_backpacking_1527681157.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/validation/backpacking/photoid_000168_2954506481_backpacking_1527680818.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/validation/hiking/photoid_000009_17242323_hiking_1466375807.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/validation/hiking/photoid_000010_17242323_hiking_1466375807.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/validation/hiking/photoid_000011_17242323_hiking_1466375807.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/validation/hiking/photoid_000012_17242323_hiking_1466375807.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/validation/hiking/photoid_000013_8250150_hiking_1465097654.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/validation/hiking/photoid_000014_443809638_hiking_1542003670.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/validation/hiking/photoid_000015_443809638_hiking_1542003670.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/validation/hiking/photoid_000016_8470852187_hiking_1542583704.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/validation/hiking/photoid_000017_25243358_hiking_1538026230.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/validation/hiking/photoid_000018_4113241777_hiking_1535260384.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/validation/hiking/photoid_000019_4113241777_hiking_1535260384.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/validation/hiking/photoid_000020_4113241777_hiking_1535260384.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/validation/hiking/photoid_000021_4113241777_hiking_1535260384.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/validation/hiking/photoid_000022_4113241777_hiking_1535260384.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/validation/hiking/photoid_000023_190792643_hiking_1527864042.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/validation/hiking/photoid_000024_209977477_hiking_1524439422.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/validation/hotsprings/photoid_000118_1404552379_hotsprings_1533965071.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/validation/hotsprings/photoid_000121_317894208_hotsprings_1533282347.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/validation/hotsprings/photoid_000125_208051635_hotsprings_1532924043.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/validation/hotsprings/photoid_000126_208051635_hotsprings_1532924043.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/validation/hotsprings/photoid_000127_303164118_hotsprings_1532915397.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/validation/hotsprings/photoid_000128_303164118_hotsprings_1532915397.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/validation/hotsprings/photoid_000130_5508090426_hotsprings_1532032862.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/validation/hotsprings/photoid_000131_5508090426_hotsprings_1532032862.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/validation/hotsprings/photoid_000149_16739640_hotsprings_1530498486.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/validation/hotsprings/photoid_000160_1994599903_hotsprings_1527807649.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/validation/hotsprings/photoid_000162_173966013_hotsprings_1527724465.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/validation/hotsprings/photoid_000163_173966013_hotsprings_1527724465.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/validation/hotsprings/photoid_000164_173966013_hotsprings_1527724465.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_168_retraining/validation/hotsprings/photoid_000165_173966013_hotsprings_1527724465.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/backpacking/photoid_000003_backpacking_1504564660.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/backpacking/photoid_000004_backpacking_1544289256.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/backpacking/photoid_000006_backpacking_1542585137.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/backpacking/photoid_000007_backpacking_1541252671.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/backpacking/photoid_000112_backpacking_1534086768.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/backpacking/photoid_000144_backpacking_1531165445.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/backpacking/photoid_000146_backpacking_1531006674.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/backpacking/photoid_000147_backpacking_1531164767.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/backpacking/photoid_000166_backpacking_1527681157.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/backpacking/photoid_000168_backpacking_1527680818.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/backpacking/photoid_000210_backpacking_29655867305.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/backpacking/photoid_000236_backpacking_1521748488.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/backpacking/photoid_000238_backpacking_1521425704.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/hiking/photoid_000043_hiking_1541784909.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/hiking/photoid_000044_hiking_1538835379.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/hiking/photoid_000045_hiking_1538524040.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/hiking/photoid_000047_hiking_1537758341.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/hiking/photoid_000050_hiking_1535983268.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/hiking/photoid_000073_hiking_1527985456.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/hiking/photoid_000077_hiking_1527481175.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/hiking/photoid_000079_hiking_1526271523.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/hiking/photoid_000084_hiking_1471218926.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/hiking/photoid_000109_hiking_1534604115.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/hiking/photoid_000110_hiking_1534360075.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/hiking/photoid_000111_hiking_1534126206.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/hiking/photoid_000119_hiking_1533664330.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/hiking/photoid_000129_hiking_1532369943.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/hiking/photoid_000137_hiking_1531771971.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/hiking/photoid_000153_hiking_1529528667.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/hiking/photoid_000159_hiking_1528066187.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/hiking/photoid_000161_hiking_1527792215.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/hiking/photoid_000178_hiking_19568808955.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/hiking/photoid_000185_hiking_8622678704.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/hiking/photoid_000188_hiking_2819562824.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/hiking/photoid_000193_hiking_9001826246.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/hiking/photoid_000194_hiking_1968159942.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/hiking/photoid_000202_hiking_20020138215.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/hiking/photoid_000205_hiking_25653368504.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/hiking/photoid_000206_hiking_20011399025.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/hiking/photoid_000209_hiking_19832241028.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/hiking/photoid_000212_hiking_3672504899.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/hiking/photoid_000216_hiking_5106034180.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/hiking/photoid_000248_hiking_1520824874.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/hiking/photoid_000252_hiking_1519534069.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/hiking/photoid_000265_hiking_1517201748.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/hiking/photoid_000288_hiking_1514252346.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/hiking/photoid_000290_hiking_1513712776.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/hiking/photoid_000292_hiking_1513712730.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/hiking/photoid_000294_hiking_1513712523.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/hiking/photoid_000295_hiking_1513712318.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/hiking/photoid_000297_hiking_1513653509.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/hiking/photoid_000299_hiking_1513369644.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/hiking/photoid_000309_hiking_1510767514.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/hiking/photoid_000320_hiking_1510028487.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/hiking/photoid_000327_hiking_1507333422.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/hotsprings/photoid_000131_hotsprings_1532032862.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/hotsprings/photoid_000149_hotsprings_1530498486.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/hotsprings/photoid_000160_hotsprings_1527807649.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/hotsprings/photoid_000165_hotsprings_1527724465.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/hotsprings/photoid_000181_hotspring_43936951261.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/hotsprings/photoid_000220_hotsprings_1525969958.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/hotsprings/photoid_000221_hotsprings_1524621102.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/hotsprings/photoid_000222_hotsprings_1524026996.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/hotsprings/photoid_000223_hotsprings_1523511210.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/hotsprings/photoid_000224_hotsprings_1523393348.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/hotsprings/photoid_000227_hotsprings_1522568601.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/hotsprings/photoid_000228_hotsprings_1522515184.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/hotsprings/photoid_000234_hotsprings_1521786817.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/hotsprings/photoid_000237_hotsprings_1521724340.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/hotsprings/photoid_000243_hotsprings_1521080863.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/hotsprings/photoid_000250_hotsprings_1520530948.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/hotsprings/photoid_000251_hotsprings_1519613394.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/hotsprings/photoid_000253_hotsprings_1519074624.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/hotsprings/photoid_000256_hotsprings_1518061997.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/hotsprings/photoid_000259_hotsprings_1517880986.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/hotsprings/photoid_000264_hotsprings_1517535744.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/hotsprings/photoid_000267_hotsprings_1517193859.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/hotsprings/photoid_000274_hotsprings_1516636321.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/hotsprings/photoid_000279_hotsprings_1515697729.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/hotsprings/photoid_000287_hotsprings_1514253816.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/hotsprings/photoid_000300_hotsprings_1513310005.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/hotsprings/photoid_000302_hotsprings_1512319684.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/hotsprings/photoid_000304_hotsprings_1511388117.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/hotsprings/photoid_000305_hotsprings_1510810552.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/hotsprings/photoid_000311_hotsprings_1510360134.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/hotsprings/photoid_000312_hotsprings_1510212759.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/hotsprings/photoid_000313_hotsprings_1510212631.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/hotsprings/photoid_000315_hotsprings_1510212609.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/hotsprings/photoid_000318_hotsprings_1510212577.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/hotsprings/photoid_000323_hotsprings_1507911385.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/hotsprings/photoid_000326_hotsprings_1507430149.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/hotsprings/photoid_000330_hotsprings_1507249031.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/hotsprings/photoid_000331_hotsprings_1506077001.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/hotsprings/photoid_000333_hotsprings_1503365153.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/hotsprings/photoid_000334_hotsprings_1503676042.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/hotsprings/photoid_000338_hotsprings_1501216419.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/hotsprings/photoid_000339_hotspring_1501138093.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/hotsprings/photoid_000340_hotsprings_1501137038.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/hotsprings/photoid_000346_hotsprings_1500871036.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/hotsprings/photoid_000347_hotsprings_1500087901.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/hotsprings/photoid_000350_hotsprings_1500398930.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/noactivity/photoid_000171_NoActivity_2675911879.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/noactivity/photoid_000172_NoActivity_5928837309.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/noactivity/photoid_000173_NoActivity_371459065.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/noactivity/photoid_000174_NoActivity_23077966934.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/noactivity/photoid_000175_NoActivity_5899517079.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/noactivity/photoid_000176_NoActivity_7756288436.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/noactivity/photoid_000177_NoActivity_7987004409.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/noactivity/photoid_000179_NoActivity_36498092914.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/noactivity/photoid_000180_NoActivity_4207915158.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/noactivity/photoid_000182_NoActivity_2306857836.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/noactivity/photoid_000183_NoActivity_6188315368.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/noactivity/photoid_000184_NoActivity_36785780416.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/noactivity/photoid_000187_NoActivity_18175831445.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/noactivity/photoid_000189_NoActivity_41136977550.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/noactivity/photoid_000190_NoActivity_15425602669.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/noactivity/photoid_000191_NoActivity_38200579335.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/noactivity/photoid_000192_NoActivity_39224116694.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/noactivity/photoid_000199_NoActivity_37524679690.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/noactivity/photoid_000200_NoActivity_33658941250.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/noactivity/photoid_000201_NoActivity_7821633572.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/noactivity/photoid_000203_NoActivity_15590557213.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/noactivity/photoid_000204_NoActivity_449092721.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/noactivity/photoid_000207_NoActivity_5633931192.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/noactivity/photoid_000208_NoActivity_7897273406.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/noactivity/photoid_000211_NoActivity_17024783742.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/noactivity/photoid_000213_NoActivity_7975615153.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/noactivity/photoid_000214_NoActivity_7849164138.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/noactivity/photoid_000217_NoActivity_2933657180.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/noactivity/photoid_000218_NoActivity_39912712864.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/noactivity/photoid_000271_NoActivity_1516763767.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/noactivity/photoid_000278_NoActivity_1516439293.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/noactivity/photoid_000285_NoActivity_1515425063.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/noactivity/photoid_000310_NoActivity_1510601895.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/noactivity/photoid_000328_NoActivity_1507313723.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/noactivity/photoid_000332_NoActivity_1504591796.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/noactivity/photoid_000335_NoActivity_1501983111.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/noactivity/photoid_000344_NoActivity_1500857291.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/otheractivities/photoid_000008_camping CG_1540169494.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/otheractivities/photoid_000037_working_1473820770.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/otheractivities/photoid_000071_mtn biking_1504623299.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/otheractivities/photoid_000095_working_1544648448.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/otheractivities/photoid_000099_trailrunning_1498943714.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/otheractivities/photoid_000142_camping CG_1531165683.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/otheractivities/photoid_000152_mtn biking_1530073363.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/otheractivities/photoid_000155_fishing_1528076813.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/otheractivities/photoid_000196_drinking_5910249367.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/otheractivities/photoid_000226_camping CG_1522620932.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/otheractivities/photoid_000241_photography_1521317930.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/otheractivities/photoid_000249_camping CG_1520818035.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/otheractivities/photoid_000258_mtn biking_1518024678.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/otheractivities/swimming/photoid_000086_swimming_1460955058.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/otheractivities/swimming/photoid_000098_swimming_1463791763.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/otheractivities/swimming/photoid_000124_swimming_1532989705.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/otheractivities/swimming/photoid_000139_swimming_1531470947.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/train/otheractivities/swimming/photoid_000154_swimming_1528998872.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/validation/backpacking/photoid_000239_backpacking_1521425704.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/validation/backpacking/photoid_000240_backpacking_1521317930.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/validation/backpacking/photoid_000280_backpacking_1515786007.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/validation/backpacking/photoid_000283_backpacking_1515516529.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/validation/backpacking/photoid_000322_backpacking_1508182749.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/validation/backpacking/photoid_000325_backpacking_1507497164.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/validation/backpacking/photoid_000342_backpacking_1501110540.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/validation/hiking/photoid_000009_hiking_1466375807.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/validation/hiking/photoid_000013_hiking_1465097654.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/validation/hiking/photoid_000014_hiking_1542003670.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/validation/hiking/photoid_000016_hiking_1542583704.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/validation/hiking/photoid_000017_hiking_1538026230.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/validation/hiking/photoid_000018_hiking_1535260384.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/validation/hiking/photoid_000020_hiking_1535260384.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/validation/hiking/photoid_000023_hiking_1527864042.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/validation/hiking/photoid_000024_hiking_1524439422.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/validation/hiking/photoid_000025_hiking_1489364477.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/validation/hiking/photoid_000028_hiking_1489362272.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/validation/hiking/photoid_000031_hiking_1460847823.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/validation/hiking/photoid_000033_hiking_1460847549.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/validation/hiking/photoid_000038_hiking_1534226056.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/validation/hiking/photoid_000040_hiking_1543784253.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/validation/hiking/photoid_000041_hiking_1543192097.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/validation/hiking/photoid_000042_hiking_1543192097.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/validation/hotsprings/photoid_000051_hotsprings_1544651655.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/validation/hotsprings/photoid_000052_hotsprings_1541734420.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/validation/hotsprings/photoid_000054_hotsprings_1541117060.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/validation/hotsprings/photoid_000055_hotsprings_1538364013.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/validation/hotsprings/photoid_000057_hotsprings_1538226719.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/validation/hotsprings/photoid_000058_hotsprings_1537503549.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/validation/hotsprings/photoid_000059_hotsprings_1537483990.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/validation/hotsprings/photoid_000061_hotsprings_1537471696.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/validation/hotsprings/photoid_000062_hotsprings_1537241435.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/validation/hotsprings/photoid_000063_hotsprings_1536766584.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/validation/hotsprings/photoid_000064_hotsprings_1536691526.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/validation/hotsprings/photoid_000065_hotsprings_1536303547.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/validation/hotsprings/photoid_000066_hotsprings_1536205198.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/validation/hotsprings/photoid_000067_hotsprings_1536029978.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/validation/hotsprings/photoid_000069_hotsprings_1536014386.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/validation/hotsprings/photoid_000102_Hotsprings_1534655276.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/validation/hotsprings/photoid_000103_Hotsprings_1534655151.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/validation/hotsprings/photoid_000105_Hotsprings_1534608732.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/validation/hotsprings/photoid_000107_hotsprings_1534605958.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/validation/hotsprings/photoid_000118_hotsprings_1533965071.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/validation/hotsprings/photoid_000120_hotsprings_1533561653.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/validation/hotsprings/photoid_000121_hotsprings_1533282347.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/validation/hotsprings/photoid_000126_hotsprings_1532924043.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/validation/hotsprings/photoid_000127_hotsprings_1532915397.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/validation/hotsprings/photoid_000130_hotsprings_1532032862.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/validation/noactivity/photoid_000072_NoActivity_1531712763.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/validation/noactivity/photoid_000080_NoActivity_1498938978.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/validation/noactivity/photoid_000081_NoActivity_1496900648.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/validation/noactivity/photoid_000087_NoActivity_1540266055.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/validation/noactivity/photoid_000088_NoActivity_1533484185.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/validation/noactivity/photoid_000089_NoActivity_1528580587.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/validation/noactivity/photoid_000091_NoActivity_1515289701.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/validation/noactivity/photoid_000092_NoActivity_1513468795.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/validation/noactivity/photoid_000093_NoActivity_1498953252.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/validation/noactivity/photoid_000096_NoActivity_1544488174.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/validation/noactivity/photoid_000132_NoActivity_1531908309.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/validation/noactivity/photoid_000136_NoActivity_1531908309.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/validation/noactivity/photoid_000141_NoActivity_1531254321.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/validation/noactivity/photoid_000169_NoActivity_23663993529.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_338_retraining/validation/noactivity/photoid_000170_NoActivity_170070951.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_50_Flickr/photoid_15425602669.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_50_Flickr/photoid_15590557213.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_50_Flickr/photoid_170070951.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_50_Flickr/photoid_17024783742.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_50_Flickr/photoid_18175831445.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_50_Flickr/photoid_19568808955.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_50_Flickr/photoid_1968159942.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_50_Flickr/photoid_19832241028.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_50_Flickr/photoid_20011399025.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_50_Flickr/photoid_20020138215.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_50_Flickr/photoid_2306857836.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_50_Flickr/photoid_23077966934.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_50_Flickr/photoid_23663993529.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_50_Flickr/photoid_25653368504.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_50_Flickr/photoid_2675911879.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_50_Flickr/photoid_2819562824.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_50_Flickr/photoid_2933657180.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_50_Flickr/photoid_29655867305.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_50_Flickr/photoid_33658941250.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_50_Flickr/photoid_36498092914.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_50_Flickr/photoid_3672504899.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_50_Flickr/photoid_36785780416.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_50_Flickr/photoid_371459065.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_50_Flickr/photoid_37524679690.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_50_Flickr/photoid_38200579335.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_50_Flickr/photoid_39224116694.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_50_Flickr/photoid_39912712864.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_50_Flickr/photoid_41136977550.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_50_Flickr/photoid_4207915158.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_50_Flickr/photoid_43936951261.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_50_Flickr/photoid_449092721.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_50_Flickr/photoid_5106034180.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_50_Flickr/photoid_5633931192.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_50_Flickr/photoid_5899517079.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_50_Flickr/photoid_5910249367.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_50_Flickr/photoid_5928837309.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_50_Flickr/photoid_6188315368.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_50_Flickr/photoid_7756288436.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_50_Flickr/photoid_7821633572.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_50_Flickr/photoid_7849164138.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_50_Flickr/photoid_7897273406.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_50_Flickr/photoid_7975615153.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_50_Flickr/photoid_7987004409.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_50_Flickr/photoid_8622678704.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_50_Flickr/photoid_9001826246.jpg" beforeDir="false" />
     </list>
+    <ignored path="Photos_168_retraining/minor samples/mtnbiking/photoid_000071_1113950118_mtn biking_1504623299.jpg" />
+    <ignored path="Photos_168_retraining/minor samples/mtnbiking/photoid_000150_1310760880_mtn biking_1530073363.jpg" />
+    <ignored path="Photos_168_retraining/minor samples/mtnbiking/photoid_000151_1310760880_mtn biking_1530073363.jpg" />
+    <ignored path="Photos_168_retraining/minor samples/mtnbiking/photoid_000152_1310760880_mtn biking_1530073363.jpg" />
+    <ignored path="Photos_168_retraining/minor samples/NA/photoid_000072_46443508_NA_1531712763.jpg" />
+    <ignored path="Photos_168_retraining/minor samples/NA/photoid_000073_2030042229_NA_1527985456.jpg" />
+    <ignored path="Photos_168_retraining/minor samples/NA/photoid_000074_3649557500_NA_1527481175.jpg" />
+    <ignored path="Photos_168_retraining/minor samples/NA/photoid_000075_3649557500_NA_1527481175.jpg" />
+    <ignored path="Photos_168_retraining/minor samples/NA/photoid_000076_3649557500_NA_1527481175.jpg" />
+    <ignored path="Photos_168_retraining/minor samples/NA/photoid_000077_3649557500_NA_1527481175.jpg" />
+    <ignored path="Photos_168_retraining/minor samples/NA/photoid_000078_4920598721_NA_1526271523.jpg" />
+    <ignored path="Photos_168_retraining/minor samples/NA/photoid_000079_4920598721_NA_1526271523.jpg" />
+    <ignored path="Photos_168_retraining/minor samples/NA/photoid_000080_493403636_NA_1498938978.jpg" />
+    <ignored path="Photos_168_retraining/minor samples/NA/photoid_000081_41221471_NA_1496900648.jpg" />
+    <ignored path="Photos_168_retraining/minor samples/NA/photoid_000082_41221471_NA_1496900648.jpg" />
+    <ignored path="Photos_168_retraining/minor samples/NA/photoid_000083_264139081_NA_1471218926.jpg" />
+    <ignored path="Photos_168_retraining/minor samples/NA/photoid_000084_264139081_NA_1471218926.jpg" />
+    <ignored path="Photos_168_retraining/minor samples/NA/photoid_000085_404420744_NA_1460955058.jpg" />
+    <ignored path="Photos_168_retraining/minor samples/NA/photoid_000086_404420744_NA_1460955058.jpg" />
+    <ignored path="Photos_168_retraining/minor samples/NA/photoid_000087_45832801_NA_1540266055.jpg" />
+    <ignored path="Photos_168_retraining/minor samples/NA/photoid_000088_177598394_NA_1533484185.jpg" />
+    <ignored path="Photos_168_retraining/minor samples/NA/photoid_000089_4241177067_NA_1528580587.jpg" />
+    <ignored path="Photos_168_retraining/minor samples/NA/photoid_000091_5200136_NA_1515289701.jpg" />
+    <ignored path="Photos_168_retraining/minor samples/NA/photoid_000092_216447792_NA_1513468795.jpg" />
+    <ignored path="Photos_168_retraining/minor samples/NA/photoid_000093_258471803_NA_1498953252.jpg" />
+    <ignored path="Photos_168_retraining/minor samples/NA/photoid_000094_1739648205_NA_1497110397.jpg" />
+    <ignored path="Photos_168_retraining/minor samples/NA/photoid_000095_4773108221_NA_1544648448.jpg" />
+    <ignored path="Photos_168_retraining/minor samples/NA/photoid_000096_9529832551_NA_1544488174.jpg" />
+    <ignored path="Photos_168_retraining/minor samples/NA/photoid_000132_5508090426_NA_1531908309.jpg" />
+    <ignored path="Photos_168_retraining/minor samples/NA/photoid_000133_5508090426_NA_1531908309.jpg" />
+    <ignored path="Photos_168_retraining/minor samples/NA/photoid_000134_5508090426_NA_1531908309.jpg" />
+    <ignored path="Photos_168_retraining/minor samples/NA/photoid_000135_5508090426_NA_1531908309.jpg" />
+    <ignored path="Photos_168_retraining/minor samples/NA/photoid_000136_5508090426_NA_1531908309.jpg" />
+    <ignored path="Photos_168_retraining/minor samples/NA/photoid_000140_354175797_NA_1531254321.jpg" />
+    <ignored path="Photos_168_retraining/minor samples/NA/photoid_000141_354175797_NA_1531254321.jpg" />
+    <ignored path="Photos_168_retraining/minor samples/swimming/photoid_000098_2940689442_swimming_1463791763.jpg" />
+    <ignored path="Photos_168_retraining/minor samples/swimming/photoid_000122_25979274_swimming_1532989705.jpg" />
+    <ignored path="Photos_168_retraining/minor samples/swimming/photoid_000123_25979274_swimming_1532989705.jpg" />
+    <ignored path="Photos_168_retraining/minor samples/swimming/photoid_000124_25979274_swimming_1532989705.jpg" />
+    <ignored path="Photos_168_retraining/minor samples/swimming/photoid_000139_1968937195_swimming_1531470947.jpg" />
+    <ignored path="Photos_168_retraining/minor samples/swimming/photoid_000154_298202324_swimming_1528998872.jpg" />
+    <ignored path="Photos_168_retraining/minor samples/photoid_000008_1585076796_camping CG_1540169494.jpg" />
+    <ignored path="Photos_168_retraining/minor samples/photoid_000037_3460074907_working_1473820770.jpg" />
+    <ignored path="Photos_168_retraining/minor samples/photoid_000099_710733106_trailrunning_1498943714.jpg" />
+    <ignored path="Photos_168_retraining/minor samples/photoid_000100_710733106_trailrunning_1498943714.jpg" />
+    <ignored path="Photos_168_retraining/minor samples/photoid_000101_710733106_trailrunning_1498943714.jpg" />
+    <ignored path="Photos_168_retraining/minor samples/photoid_000142_202841487_camping CG_1531165683.jpg" />
+    <ignored path="Photos_168_retraining/minor samples/photoid_000143_202841487_camping CG_1531165683.jpg" />
+    <ignored path="Photos_168_retraining/minor samples/photoid_000155_1511652091_fishing_1528076813.jpg" />
+    <ignored path="Photos_168_retraining/train/backpacking/photoid_000001_192016770_backpacking_1504564660.jpg" />
+    <ignored path="Photos_168_retraining/train/backpacking/photoid_000002_192016770_backpacking_1504564660.jpg" />
+    <ignored path="Photos_168_retraining/train/backpacking/photoid_000003_192016770_backpacking_1504564660.jpg" />
+    <ignored path="Photos_168_retraining/train/backpacking/photoid_000004_24293552_backpacking_1544289256.jpg" />
+    <ignored path="Photos_168_retraining/train/backpacking/photoid_000005_24293552_backpacking_1544289256.jpg" />
+    <ignored path="Photos_168_retraining/train/backpacking/photoid_000006_1431444102_backpacking_1542585137.jpg" />
+    <ignored path="Photos_168_retraining/train/backpacking/photoid_000007_247429222_backpacking_1541252671.jpg" />
+    <ignored path="Photos_168_retraining/train/backpacking/photoid_000112_1963736990_backpacking_1534086768.jpg" />
+    <ignored path="Photos_168_retraining/train/backpacking/photoid_000113_1963736990_backpacking_1534086768.jpg" />
+    <ignored path="Photos_168_retraining/train/backpacking/photoid_000114_1963736990_backpacking_1534086768.jpg" />
+    <ignored path="Photos_168_retraining/train/backpacking/photoid_000115_1963736990_backpacking_1534086768.jpg" />
+    <ignored path="Photos_168_retraining/train/backpacking/photoid_000116_1963736990_backpacking_1534086768.jpg" />
+    <ignored path="Photos_168_retraining/train/backpacking/photoid_000117_1963736990_backpacking_1534086768.jpg" />
+    <ignored path="Photos_168_retraining/train/backpacking/photoid_000144_202841487_backpacking_1531165445.jpg" />
+    <ignored path="Photos_168_retraining/train/backpacking/photoid_000145_44360727_backpacking_1531006674.jpg" />
+    <ignored path="Photos_168_retraining/train/hiking/photoid_000025_1077543642_hiking_1489364477.jpg" />
+    <ignored path="Photos_168_retraining/train/hiking/photoid_000026_1077543642_hiking_1489364477.jpg" />
+    <ignored path="Photos_168_retraining/train/hiking/photoid_000027_1077543642_hiking_1489364477.jpg" />
+    <ignored path="Photos_168_retraining/train/hiking/photoid_000028_1077543642_hiking_1489362272.jpg" />
+    <ignored path="Photos_168_retraining/train/hiking/photoid_000029_1077543642_hiking_1489362272.jpg" />
+    <ignored path="Photos_168_retraining/train/hiking/photoid_000030_1077543642_hiking_1489362272.jpg" />
+    <ignored path="Photos_168_retraining/train/hiking/photoid_000031_177049525_hiking_1460847823.jpg" />
+    <ignored path="Photos_168_retraining/train/hiking/photoid_000032_177049525_hiking_1460847823.jpg" />
+    <ignored path="Photos_168_retraining/train/hiking/photoid_000033_177049525_hiking_1460847549.jpg" />
+    <ignored path="Photos_168_retraining/train/hiking/photoid_000034_177049525_hiking_1460847549.jpg" />
+    <ignored path="Photos_168_retraining/train/hiking/photoid_000035_177049525_hiking_1460847549.jpg" />
+    <ignored path="Photos_168_retraining/train/hiking/photoid_000036_177049525_hiking_1460847549.jpg" />
+    <ignored path="Photos_168_retraining/train/hiking/photoid_000038_210708170_hiking_1534226056.jpg" />
+    <ignored path="Photos_168_retraining/train/hiking/photoid_000039_15295485_hiking_1543784253.jpg" />
+    <ignored path="Photos_168_retraining/train/hiking/photoid_000040_15295485_hiking_1543784253.jpg" />
+    <ignored path="Photos_168_retraining/train/hiking/photoid_000041_243267679_hiking_1543192097.jpg" />
+    <ignored path="Photos_168_retraining/train/hiking/photoid_000042_243267679_hiking_1543192097.jpg" />
+    <ignored path="Photos_168_retraining/train/hiking/photoid_000043_905224234_hiking_1541784909.jpg" />
+    <ignored path="Photos_168_retraining/train/hiking/photoid_000044_25774374_hiking_1538835379.jpg" />
+    <ignored path="Photos_168_retraining/train/hiking/photoid_000045_30507238_hiking_1538524040.jpg" />
+    <ignored path="Photos_168_retraining/train/hiking/photoid_000046_2285751075_hiking_1537758341.jpg" />
+    <ignored path="Photos_168_retraining/train/hiking/photoid_000047_2285751075_hiking_1537758341.jpg" />
+    <ignored path="Photos_168_retraining/train/hiking/photoid_000048_15076576_hiking_1535983268.jpg" />
+    <ignored path="Photos_168_retraining/train/hiking/photoid_000049_15076576_hiking_1535983268.jpg" />
+    <ignored path="Photos_168_retraining/train/hiking/photoid_000050_15076576_hiking_1535983268.jpg" />
+    <ignored path="Photos_168_retraining/train/hiking/photoid_000109_3564536678_hiking_1534604115.jpg" />
+    <ignored path="Photos_168_retraining/train/hiking/photoid_000110_610532472_hiking_1534360075.jpg" />
+    <ignored path="Photos_168_retraining/train/hiking/photoid_000111_1963736990_hiking_1534126206.jpg" />
+    <ignored path="Photos_168_retraining/train/hiking/photoid_000119_7896756636_hiking_1533664330.jpg" />
+    <ignored path="Photos_168_retraining/train/hiking/photoid_000129_223570370_hiking_1532369943.jpg" />
+    <ignored path="Photos_168_retraining/train/hiking/photoid_000137_24856430_hiking_1531771971.jpg" />
+    <ignored path="Photos_168_retraining/train/hiking/photoid_000138_24856430_hiking_1531771971.jpg" />
+    <ignored path="Photos_168_retraining/train/hiking/photoid_000153_1684410941_hiking_1529528667.jpg" />
+    <ignored path="Photos_168_retraining/train/hiking/photoid_000156_4373836427_hiking_1528066187.jpg" />
+    <ignored path="Photos_168_retraining/train/hiking/photoid_000157_4373836427_hiking_1528066187.jpg" />
+    <ignored path="Photos_168_retraining/train/hiking/photoid_000158_4373836427_hiking_1528066187.jpg" />
+    <ignored path="Photos_168_retraining/train/hiking/photoid_000159_4373836427_hiking_1528066187.jpg" />
+    <ignored path="Photos_168_retraining/train/hiking/photoid_000161_173966013_hiking_1527792215.jpg" />
+    <ignored path="Photos_168_retraining/train/hotsprings/photoid_000051_3401659826_hotsprings_1544651655.jpg" />
+    <ignored path="Photos_168_retraining/train/hotsprings/photoid_000052_7893254460_hotsprings_1541734420.jpg" />
+    <ignored path="Photos_168_retraining/train/hotsprings/photoid_000053_7893254460_hotsprings_1541734420.jpg" />
+    <ignored path="Photos_168_retraining/train/hotsprings/photoid_000054_1267366409_hotsprings_1541117060.jpg" />
+    <ignored path="Photos_168_retraining/train/hotsprings/photoid_000055_19117145_hotsprings_1538364013.jpg" />
+    <ignored path="Photos_168_retraining/train/hotsprings/photoid_000056_256756334_hotsprings_1538226719.jpg" />
+    <ignored path="Photos_168_retraining/train/hotsprings/photoid_000057_256756334_hotsprings_1538226719.jpg" />
+    <ignored path="Photos_168_retraining/train/hotsprings/photoid_000058_26885879_hotsprings_1537503549.jpg" />
+    <ignored path="Photos_168_retraining/train/hotsprings/photoid_000059_17003445_hotsprings_1537483990.jpg" />
+    <ignored path="Photos_168_retraining/train/hotsprings/photoid_000060_17003445_hotsprings_1537483990.jpg" />
+    <ignored path="Photos_168_retraining/train/hotsprings/photoid_000061_27623130_hotsprings_1537471696.jpg" />
+    <ignored path="Photos_168_retraining/train/hotsprings/photoid_000062_17198508_hotsprings_1537241435.jpg" />
+    <ignored path="Photos_168_retraining/train/hotsprings/photoid_000063_1311667164_hotsprings_1536766584.jpg" />
+    <ignored path="Photos_168_retraining/train/hotsprings/photoid_000064_2258188372_hotsprings_1536691526.jpg" />
+    <ignored path="Photos_168_retraining/train/hotsprings/photoid_000065_104826366_hotsprings_1536303547.jpg" />
+    <ignored path="Photos_168_retraining/train/hotsprings/photoid_000066_7328487851_hotsprings_1536205198.jpg" />
+    <ignored path="Photos_168_retraining/train/hotsprings/photoid_000067_439294263_hotsprings_1536029978.jpg" />
+    <ignored path="Photos_168_retraining/train/hotsprings/photoid_000068_439294263_hotsprings_1536014386.jpg" />
+    <ignored path="Photos_168_retraining/train/hotsprings/photoid_000069_439294263_hotsprings_1536014386.jpg" />
+    <ignored path="Photos_168_retraining/train/hotsprings/photoid_000070_439294263_hotsprings_1536014386.jpg" />
+    <ignored path="Photos_168_retraining/train/hotsprings/photoid_000102_437308288_Hotsprings_1534655276.jpg" />
+    <ignored path="Photos_168_retraining/train/hotsprings/photoid_000103_437308288_Hotsprings_1534655151.jpg" />
+    <ignored path="Photos_168_retraining/train/hotsprings/photoid_000104_1311667164_Hotsprings_1534608732.jpg" />
+    <ignored path="Photos_168_retraining/train/hotsprings/photoid_000105_1311667164_Hotsprings_1534608732.jpg" />
+    <ignored path="Photos_168_retraining/train/hotsprings/photoid_000106_1311667164_Hotsprings_1534608732.jpg" />
+    <ignored path="Photos_168_retraining/train/hotsprings/photoid_000107_3564536678_hotsprings_1534605958.jpg" />
+    <ignored path="Photos_168_retraining/train/hotsprings/photoid_000108_3564536678_hotsprings_1534605958.jpg" />
+    <ignored path="Photos_168_retraining/train/hotsprings/photoid_000120_7896756636_hotsprings_1533561653.jpg" />
+    <ignored path="Photos_168_retraining/validation/backpacking/photoid_000146_44360727_backpacking_1531006674.jpg" />
+    <ignored path="Photos_168_retraining/validation/backpacking/photoid_000147_202841487_backpacking_1531164767.jpg" />
+    <ignored path="Photos_168_retraining/validation/backpacking/photoid_000148_202841487_backpacking_1531164767.jpg" />
+    <ignored path="Photos_168_retraining/validation/backpacking/photoid_000166_2954506481_backpacking_1527681157.jpg" />
+    <ignored path="Photos_168_retraining/validation/backpacking/photoid_000167_2954506481_backpacking_1527681157.jpg" />
+    <ignored path="Photos_168_retraining/validation/backpacking/photoid_000168_2954506481_backpacking_1527680818.jpg" />
+    <ignored path="Photos_168_retraining/validation/hiking/photoid_000009_17242323_hiking_1466375807.jpg" />
+    <ignored path="Photos_168_retraining/validation/hiking/photoid_000010_17242323_hiking_1466375807.jpg" />
+    <ignored path="Photos_168_retraining/validation/hiking/photoid_000011_17242323_hiking_1466375807.jpg" />
+    <ignored path="Photos_168_retraining/validation/hiking/photoid_000012_17242323_hiking_1466375807.jpg" />
+    <ignored path="Photos_168_retraining/validation/hiking/photoid_000013_8250150_hiking_1465097654.jpg" />
+    <ignored path="Photos_168_retraining/validation/hiking/photoid_000014_443809638_hiking_1542003670.jpg" />
+    <ignored path="Photos_168_retraining/validation/hiking/photoid_000015_443809638_hiking_1542003670.jpg" />
+    <ignored path="Photos_168_retraining/validation/hiking/photoid_000016_8470852187_hiking_1542583704.jpg" />
+    <ignored path="Photos_168_retraining/validation/hiking/photoid_000017_25243358_hiking_1538026230.jpg" />
+    <ignored path="Photos_168_retraining/validation/hiking/photoid_000018_4113241777_hiking_1535260384.jpg" />
+    <ignored path="Photos_168_retraining/validation/hiking/photoid_000019_4113241777_hiking_1535260384.jpg" />
+    <ignored path="Photos_168_retraining/validation/hiking/photoid_000020_4113241777_hiking_1535260384.jpg" />
+    <ignored path="Photos_168_retraining/validation/hiking/photoid_000021_4113241777_hiking_1535260384.jpg" />
+    <ignored path="Photos_168_retraining/validation/hiking/photoid_000022_4113241777_hiking_1535260384.jpg" />
+    <ignored path="Photos_168_retraining/validation/hiking/photoid_000023_190792643_hiking_1527864042.jpg" />
+    <ignored path="Photos_168_retraining/validation/hiking/photoid_000024_209977477_hiking_1524439422.jpg" />
+    <ignored path="Photos_168_retraining/validation/hotsprings/photoid_000118_1404552379_hotsprings_1533965071.jpg" />
+    <ignored path="Photos_168_retraining/validation/hotsprings/photoid_000121_317894208_hotsprings_1533282347.jpg" />
+    <ignored path="Photos_168_retraining/validation/hotsprings/photoid_000125_208051635_hotsprings_1532924043.jpg" />
+    <ignored path="Photos_168_retraining/validation/hotsprings/photoid_000126_208051635_hotsprings_1532924043.jpg" />
+    <ignored path="Photos_168_retraining/validation/hotsprings/photoid_000127_303164118_hotsprings_1532915397.jpg" />
+    <ignored path="Photos_168_retraining/validation/hotsprings/photoid_000128_303164118_hotsprings_1532915397.jpg" />
+    <ignored path="Photos_168_retraining/validation/hotsprings/photoid_000130_5508090426_hotsprings_1532032862.jpg" />
+    <ignored path="Photos_168_retraining/validation/hotsprings/photoid_000131_5508090426_hotsprings_1532032862.jpg" />
+    <ignored path="Photos_168_retraining/validation/hotsprings/photoid_000149_16739640_hotsprings_1530498486.jpg" />
+    <ignored path="Photos_168_retraining/validation/hotsprings/photoid_000160_1994599903_hotsprings_1527807649.jpg" />
+    <ignored path="Photos_168_retraining/validation/hotsprings/photoid_000162_173966013_hotsprings_1527724465.jpg" />
+    <ignored path="Photos_168_retraining/validation/hotsprings/photoid_000163_173966013_hotsprings_1527724465.jpg" />
+    <ignored path="Photos_168_retraining/validation/hotsprings/photoid_000164_173966013_hotsprings_1527724465.jpg" />
+    <ignored path="Photos_168_retraining/validation/hotsprings/photoid_000165_173966013_hotsprings_1527724465.jpg" />
+    <ignored path="Photos_338_retraining/train/backpacking/photoid_000003_backpacking_1504564660.jpg" />
+    <ignored path="Photos_338_retraining/train/backpacking/photoid_000004_backpacking_1544289256.jpg" />
+    <ignored path="Photos_338_retraining/train/backpacking/photoid_000006_backpacking_1542585137.jpg" />
+    <ignored path="Photos_338_retraining/train/backpacking/photoid_000007_backpacking_1541252671.jpg" />
+    <ignored path="Photos_338_retraining/train/backpacking/photoid_000112_backpacking_1534086768.jpg" />
+    <ignored path="Photos_338_retraining/train/backpacking/photoid_000144_backpacking_1531165445.jpg" />
+    <ignored path="Photos_338_retraining/train/backpacking/photoid_000146_backpacking_1531006674.jpg" />
+    <ignored path="Photos_338_retraining/train/backpacking/photoid_000147_backpacking_1531164767.jpg" />
+    <ignored path="Photos_338_retraining/train/backpacking/photoid_000166_backpacking_1527681157.jpg" />
+    <ignored path="Photos_338_retraining/train/backpacking/photoid_000168_backpacking_1527680818.jpg" />
+    <ignored path="Photos_338_retraining/train/backpacking/photoid_000210_backpacking_29655867305.jpg" />
+    <ignored path="Photos_338_retraining/train/backpacking/photoid_000236_backpacking_1521748488.jpg" />
+    <ignored path="Photos_338_retraining/train/backpacking/photoid_000238_backpacking_1521425704.jpg" />
+    <ignored path="Photos_338_retraining/train/hiking/photoid_000043_hiking_1541784909.jpg" />
+    <ignored path="Photos_338_retraining/train/hiking/photoid_000044_hiking_1538835379.jpg" />
+    <ignored path="Photos_338_retraining/train/hiking/photoid_000045_hiking_1538524040.jpg" />
+    <ignored path="Photos_338_retraining/train/hiking/photoid_000047_hiking_1537758341.jpg" />
+    <ignored path="Photos_338_retraining/train/hiking/photoid_000050_hiking_1535983268.jpg" />
+    <ignored path="Photos_338_retraining/train/hiking/photoid_000073_hiking_1527985456.jpg" />
+    <ignored path="Photos_338_retraining/train/hiking/photoid_000077_hiking_1527481175.jpg" />
+    <ignored path="Photos_338_retraining/train/hiking/photoid_000079_hiking_1526271523.jpg" />
+    <ignored path="Photos_338_retraining/train/hiking/photoid_000084_hiking_1471218926.jpg" />
+    <ignored path="Photos_338_retraining/train/hiking/photoid_000109_hiking_1534604115.jpg" />
+    <ignored path="Photos_338_retraining/train/hiking/photoid_000110_hiking_1534360075.jpg" />
+    <ignored path="Photos_338_retraining/train/hiking/photoid_000111_hiking_1534126206.jpg" />
+    <ignored path="Photos_338_retraining/train/hiking/photoid_000119_hiking_1533664330.jpg" />
+    <ignored path="Photos_338_retraining/train/hiking/photoid_000129_hiking_1532369943.jpg" />
+    <ignored path="Photos_338_retraining/train/hiking/photoid_000137_hiking_1531771971.jpg" />
+    <ignored path="Photos_338_retraining/train/hiking/photoid_000153_hiking_1529528667.jpg" />
+    <ignored path="Photos_338_retraining/train/hiking/photoid_000159_hiking_1528066187.jpg" />
+    <ignored path="Photos_338_retraining/train/hiking/photoid_000161_hiking_1527792215.jpg" />
+    <ignored path="Photos_338_retraining/train/hiking/photoid_000178_hiking_19568808955.jpg" />
+    <ignored path="Photos_338_retraining/train/hiking/photoid_000185_hiking_8622678704.jpg" />
+    <ignored path="Photos_338_retraining/train/hiking/photoid_000188_hiking_2819562824.jpg" />
+    <ignored path="Photos_338_retraining/train/hiking/photoid_000193_hiking_9001826246.jpg" />
+    <ignored path="Photos_338_retraining/train/hiking/photoid_000194_hiking_1968159942.jpg" />
+    <ignored path="Photos_338_retraining/train/hiking/photoid_000202_hiking_20020138215.jpg" />
+    <ignored path="Photos_338_retraining/train/hiking/photoid_000205_hiking_25653368504.jpg" />
+    <ignored path="Photos_338_retraining/train/hiking/photoid_000206_hiking_20011399025.jpg" />
+    <ignored path="Photos_338_retraining/train/hiking/photoid_000209_hiking_19832241028.jpg" />
+    <ignored path="Photos_338_retraining/train/hiking/photoid_000212_hiking_3672504899.jpg" />
+    <ignored path="Photos_338_retraining/train/hiking/photoid_000216_hiking_5106034180.jpg" />
+    <ignored path="Photos_338_retraining/train/hiking/photoid_000248_hiking_1520824874.jpg" />
+    <ignored path="Photos_338_retraining/train/hiking/photoid_000252_hiking_1519534069.jpg" />
+    <ignored path="Photos_338_retraining/train/hiking/photoid_000265_hiking_1517201748.jpg" />
+    <ignored path="Photos_338_retraining/train/hiking/photoid_000288_hiking_1514252346.jpg" />
+    <ignored path="Photos_338_retraining/train/hiking/photoid_000290_hiking_1513712776.jpg" />
+    <ignored path="Photos_338_retraining/train/hiking/photoid_000292_hiking_1513712730.jpg" />
+    <ignored path="Photos_338_retraining/train/hiking/photoid_000294_hiking_1513712523.jpg" />
+    <ignored path="Photos_338_retraining/train/hiking/photoid_000295_hiking_1513712318.jpg" />
+    <ignored path="Photos_338_retraining/train/hiking/photoid_000297_hiking_1513653509.jpg" />
+    <ignored path="Photos_338_retraining/train/hiking/photoid_000299_hiking_1513369644.jpg" />
+    <ignored path="Photos_338_retraining/train/hiking/photoid_000309_hiking_1510767514.jpg" />
+    <ignored path="Photos_338_retraining/train/hiking/photoid_000320_hiking_1510028487.jpg" />
+    <ignored path="Photos_338_retraining/train/hiking/photoid_000327_hiking_1507333422.jpg" />
+    <ignored path="Photos_338_retraining/train/hotsprings/photoid_000131_hotsprings_1532032862.jpg" />
+    <ignored path="Photos_338_retraining/train/hotsprings/photoid_000149_hotsprings_1530498486.jpg" />
+    <ignored path="Photos_338_retraining/train/hotsprings/photoid_000160_hotsprings_1527807649.jpg" />
+    <ignored path="Photos_338_retraining/train/hotsprings/photoid_000165_hotsprings_1527724465.jpg" />
+    <ignored path="Photos_338_retraining/train/hotsprings/photoid_000181_hotspring_43936951261.jpg" />
+    <ignored path="Photos_338_retraining/train/hotsprings/photoid_000220_hotsprings_1525969958.jpg" />
+    <ignored path="Photos_338_retraining/train/hotsprings/photoid_000221_hotsprings_1524621102.jpg" />
+    <ignored path="Photos_338_retraining/train/hotsprings/photoid_000222_hotsprings_1524026996.jpg" />
+    <ignored path="Photos_338_retraining/train/hotsprings/photoid_000223_hotsprings_1523511210.jpg" />
+    <ignored path="Photos_338_retraining/train/hotsprings/photoid_000224_hotsprings_1523393348.jpg" />
+    <ignored path="Photos_338_retraining/train/hotsprings/photoid_000227_hotsprings_1522568601.jpg" />
+    <ignored path="Photos_338_retraining/train/hotsprings/photoid_000228_hotsprings_1522515184.jpg" />
+    <ignored path="Photos_338_retraining/train/hotsprings/photoid_000234_hotsprings_1521786817.jpg" />
+    <ignored path="Photos_338_retraining/train/hotsprings/photoid_000237_hotsprings_1521724340.jpg" />
+    <ignored path="Photos_338_retraining/train/hotsprings/photoid_000243_hotsprings_1521080863.jpg" />
+    <ignored path="Photos_338_retraining/train/hotsprings/photoid_000250_hotsprings_1520530948.jpg" />
+    <ignored path="Photos_338_retraining/train/hotsprings/photoid_000251_hotsprings_1519613394.jpg" />
+    <ignored path="Photos_338_retraining/train/hotsprings/photoid_000253_hotsprings_1519074624.jpg" />
+    <ignored path="Photos_338_retraining/train/hotsprings/photoid_000256_hotsprings_1518061997.jpg" />
+    <ignored path="Photos_338_retraining/train/hotsprings/photoid_000259_hotsprings_1517880986.jpg" />
+    <ignored path="Photos_338_retraining/train/hotsprings/photoid_000264_hotsprings_1517535744.jpg" />
+    <ignored path="Photos_338_retraining/train/hotsprings/photoid_000267_hotsprings_1517193859.jpg" />
+    <ignored path="Photos_338_retraining/train/hotsprings/photoid_000274_hotsprings_1516636321.jpg" />
+    <ignored path="Photos_338_retraining/train/hotsprings/photoid_000279_hotsprings_1515697729.jpg" />
+    <ignored path="Photos_338_retraining/train/hotsprings/photoid_000287_hotsprings_1514253816.jpg" />
+    <ignored path="Photos_338_retraining/train/hotsprings/photoid_000300_hotsprings_1513310005.jpg" />
+    <ignored path="Photos_338_retraining/train/hotsprings/photoid_000302_hotsprings_1512319684.jpg" />
+    <ignored path="Photos_338_retraining/train/hotsprings/photoid_000304_hotsprings_1511388117.jpg" />
+    <ignored path="Photos_338_retraining/train/hotsprings/photoid_000305_hotsprings_1510810552.jpg" />
+    <ignored path="Photos_338_retraining/train/hotsprings/photoid_000311_hotsprings_1510360134.jpg" />
+    <ignored path="Photos_338_retraining/train/hotsprings/photoid_000312_hotsprings_1510212759.jpg" />
+    <ignored path="Photos_338_retraining/train/hotsprings/photoid_000313_hotsprings_1510212631.jpg" />
+    <ignored path="Photos_338_retraining/train/hotsprings/photoid_000315_hotsprings_1510212609.jpg" />
+    <ignored path="Photos_338_retraining/train/hotsprings/photoid_000318_hotsprings_1510212577.jpg" />
+    <ignored path="Photos_338_retraining/train/hotsprings/photoid_000323_hotsprings_1507911385.jpg" />
+    <ignored path="Photos_338_retraining/train/hotsprings/photoid_000326_hotsprings_1507430149.jpg" />
+    <ignored path="Photos_338_retraining/train/hotsprings/photoid_000330_hotsprings_1507249031.jpg" />
+    <ignored path="Photos_338_retraining/train/hotsprings/photoid_000331_hotsprings_1506077001.jpg" />
+    <ignored path="Photos_338_retraining/train/hotsprings/photoid_000333_hotsprings_1503365153.jpg" />
+    <ignored path="Photos_338_retraining/train/hotsprings/photoid_000334_hotsprings_1503676042.jpg" />
+    <ignored path="Photos_338_retraining/train/hotsprings/photoid_000338_hotsprings_1501216419.jpg" />
+    <ignored path="Photos_338_retraining/train/hotsprings/photoid_000339_hotspring_1501138093.jpg" />
+    <ignored path="Photos_338_retraining/train/hotsprings/photoid_000340_hotsprings_1501137038.jpg" />
+    <ignored path="Photos_338_retraining/train/hotsprings/photoid_000346_hotsprings_1500871036.jpg" />
+    <ignored path="Photos_338_retraining/train/hotsprings/photoid_000347_hotsprings_1500087901.jpg" />
+    <ignored path="Photos_338_retraining/train/hotsprings/photoid_000350_hotsprings_1500398930.jpg" />
+    <ignored path="Photos_338_retraining/train/noactivity/photoid_000171_NoActivity_2675911879.jpg" />
+    <ignored path="Photos_338_retraining/train/noactivity/photoid_000172_NoActivity_5928837309.jpg" />
+    <ignored path="Photos_338_retraining/train/noactivity/photoid_000173_NoActivity_371459065.jpg" />
+    <ignored path="Photos_338_retraining/train/noactivity/photoid_000174_NoActivity_23077966934.jpg" />
+    <ignored path="Photos_338_retraining/train/noactivity/photoid_000175_NoActivity_5899517079.jpg" />
+    <ignored path="Photos_338_retraining/train/noactivity/photoid_000176_NoActivity_7756288436.jpg" />
+    <ignored path="Photos_338_retraining/train/noactivity/photoid_000177_NoActivity_7987004409.jpg" />
+    <ignored path="Photos_338_retraining/train/noactivity/photoid_000179_NoActivity_36498092914.jpg" />
+    <ignored path="Photos_338_retraining/train/noactivity/photoid_000180_NoActivity_4207915158.jpg" />
+    <ignored path="Photos_338_retraining/train/noactivity/photoid_000182_NoActivity_2306857836.jpg" />
+    <ignored path="Photos_338_retraining/train/noactivity/photoid_000183_NoActivity_6188315368.jpg" />
+    <ignored path="Photos_338_retraining/train/noactivity/photoid_000184_NoActivity_36785780416.jpg" />
+    <ignored path="Photos_338_retraining/train/noactivity/photoid_000187_NoActivity_18175831445.jpg" />
+    <ignored path="Photos_338_retraining/train/noactivity/photoid_000189_NoActivity_41136977550.jpg" />
+    <ignored path="Photos_338_retraining/train/noactivity/photoid_000190_NoActivity_15425602669.jpg" />
+    <ignored path="Photos_338_retraining/train/noactivity/photoid_000191_NoActivity_38200579335.jpg" />
+    <ignored path="Photos_338_retraining/train/noactivity/photoid_000192_NoActivity_39224116694.jpg" />
+    <ignored path="Photos_338_retraining/train/noactivity/photoid_000199_NoActivity_37524679690.jpg" />
+    <ignored path="Photos_338_retraining/train/noactivity/photoid_000200_NoActivity_33658941250.jpg" />
+    <ignored path="Photos_338_retraining/train/noactivity/photoid_000201_NoActivity_7821633572.jpg" />
+    <ignored path="Photos_338_retraining/train/noactivity/photoid_000203_NoActivity_15590557213.jpg" />
+    <ignored path="Photos_338_retraining/train/noactivity/photoid_000204_NoActivity_449092721.jpg" />
+    <ignored path="Photos_338_retraining/train/noactivity/photoid_000207_NoActivity_5633931192.jpg" />
+    <ignored path="Photos_338_retraining/train/noactivity/photoid_000208_NoActivity_7897273406.jpg" />
+    <ignored path="Photos_338_retraining/train/noactivity/photoid_000211_NoActivity_17024783742.jpg" />
+    <ignored path="Photos_338_retraining/train/noactivity/photoid_000213_NoActivity_7975615153.jpg" />
+    <ignored path="Photos_338_retraining/train/noactivity/photoid_000214_NoActivity_7849164138.jpg" />
+    <ignored path="Photos_338_retraining/train/noactivity/photoid_000217_NoActivity_2933657180.jpg" />
+    <ignored path="Photos_338_retraining/train/noactivity/photoid_000218_NoActivity_39912712864.jpg" />
+    <ignored path="Photos_338_retraining/train/noactivity/photoid_000271_NoActivity_1516763767.jpg" />
+    <ignored path="Photos_338_retraining/train/noactivity/photoid_000278_NoActivity_1516439293.jpg" />
+    <ignored path="Photos_338_retraining/train/noactivity/photoid_000285_NoActivity_1515425063.jpg" />
+    <ignored path="Photos_338_retraining/train/noactivity/photoid_000310_NoActivity_1510601895.jpg" />
+    <ignored path="Photos_338_retraining/train/noactivity/photoid_000328_NoActivity_1507313723.jpg" />
+    <ignored path="Photos_338_retraining/train/noactivity/photoid_000332_NoActivity_1504591796.jpg" />
+    <ignored path="Photos_338_retraining/train/noactivity/photoid_000335_NoActivity_1501983111.jpg" />
+    <ignored path="Photos_338_retraining/train/noactivity/photoid_000344_NoActivity_1500857291.jpg" />
+    <ignored path="Photos_338_retraining/train/otheractivities/swimming/photoid_000086_swimming_1460955058.jpg" />
+    <ignored path="Photos_338_retraining/train/otheractivities/swimming/photoid_000098_swimming_1463791763.jpg" />
+    <ignored path="Photos_338_retraining/train/otheractivities/swimming/photoid_000124_swimming_1532989705.jpg" />
+    <ignored path="Photos_338_retraining/train/otheractivities/swimming/photoid_000139_swimming_1531470947.jpg" />
+    <ignored path="Photos_338_retraining/train/otheractivities/swimming/photoid_000154_swimming_1528998872.jpg" />
+    <ignored path="Photos_338_retraining/train/otheractivities/photoid_000008_camping CG_1540169494.jpg" />
+    <ignored path="Photos_338_retraining/train/otheractivities/photoid_000037_working_1473820770.jpg" />
+    <ignored path="Photos_338_retraining/train/otheractivities/photoid_000071_mtn biking_1504623299.jpg" />
+    <ignored path="Photos_338_retraining/train/otheractivities/photoid_000095_working_1544648448.jpg" />
+    <ignored path="Photos_338_retraining/train/otheractivities/photoid_000099_trailrunning_1498943714.jpg" />
+    <ignored path="Photos_338_retraining/train/otheractivities/photoid_000142_camping CG_1531165683.jpg" />
+    <ignored path="Photos_338_retraining/train/otheractivities/photoid_000152_mtn biking_1530073363.jpg" />
+    <ignored path="Photos_338_retraining/train/otheractivities/photoid_000155_fishing_1528076813.jpg" />
+    <ignored path="Photos_338_retraining/train/otheractivities/photoid_000196_drinking_5910249367.jpg" />
+    <ignored path="Photos_338_retraining/train/otheractivities/photoid_000226_camping CG_1522620932.jpg" />
+    <ignored path="Photos_338_retraining/train/otheractivities/photoid_000241_photography_1521317930.jpg" />
+    <ignored path="Photos_338_retraining/train/otheractivities/photoid_000249_camping CG_1520818035.jpg" />
+    <ignored path="Photos_338_retraining/train/otheractivities/photoid_000258_mtn biking_1518024678.jpg" />
+    <ignored path="Photos_338_retraining/validation/backpacking/photoid_000239_backpacking_1521425704.jpg" />
+    <ignored path="Photos_338_retraining/validation/backpacking/photoid_000240_backpacking_1521317930.jpg" />
+    <ignored path="Photos_338_retraining/validation/backpacking/photoid_000280_backpacking_1515786007.jpg" />
+    <ignored path="Photos_338_retraining/validation/backpacking/photoid_000283_backpacking_1515516529.jpg" />
+    <ignored path="Photos_338_retraining/validation/backpacking/photoid_000322_backpacking_1508182749.jpg" />
+    <ignored path="Photos_338_retraining/validation/backpacking/photoid_000325_backpacking_1507497164.jpg" />
+    <ignored path="Photos_338_retraining/validation/backpacking/photoid_000342_backpacking_1501110540.jpg" />
+    <ignored path="Photos_338_retraining/validation/hiking/photoid_000009_hiking_1466375807.jpg" />
+    <ignored path="Photos_338_retraining/validation/hiking/photoid_000013_hiking_1465097654.jpg" />
+    <ignored path="Photos_338_retraining/validation/hiking/photoid_000014_hiking_1542003670.jpg" />
+    <ignored path="Photos_338_retraining/validation/hiking/photoid_000016_hiking_1542583704.jpg" />
+    <ignored path="Photos_338_retraining/validation/hiking/photoid_000017_hiking_1538026230.jpg" />
+    <ignored path="Photos_338_retraining/validation/hiking/photoid_000018_hiking_1535260384.jpg" />
+    <ignored path="Photos_338_retraining/validation/hiking/photoid_000020_hiking_1535260384.jpg" />
+    <ignored path="Photos_338_retraining/validation/hiking/photoid_000023_hiking_1527864042.jpg" />
+    <ignored path="Photos_338_retraining/validation/hiking/photoid_000024_hiking_1524439422.jpg" />
+    <ignored path="Photos_338_retraining/validation/hiking/photoid_000025_hiking_1489364477.jpg" />
+    <ignored path="Photos_338_retraining/validation/hiking/photoid_000028_hiking_1489362272.jpg" />
+    <ignored path="Photos_338_retraining/validation/hiking/photoid_000031_hiking_1460847823.jpg" />
+    <ignored path="Photos_338_retraining/validation/hiking/photoid_000033_hiking_1460847549.jpg" />
+    <ignored path="Photos_338_retraining/validation/hiking/photoid_000038_hiking_1534226056.jpg" />
+    <ignored path="Photos_338_retraining/validation/hiking/photoid_000040_hiking_1543784253.jpg" />
+    <ignored path="Photos_338_retraining/validation/hiking/photoid_000041_hiking_1543192097.jpg" />
+    <ignored path="Photos_338_retraining/validation/hiking/photoid_000042_hiking_1543192097.jpg" />
+    <ignored path="Photos_338_retraining/validation/hotsprings/photoid_000051_hotsprings_1544651655.jpg" />
+    <ignored path="Photos_338_retraining/validation/hotsprings/photoid_000052_hotsprings_1541734420.jpg" />
+    <ignored path="Photos_338_retraining/validation/hotsprings/photoid_000054_hotsprings_1541117060.jpg" />
+    <ignored path="Photos_338_retraining/validation/hotsprings/photoid_000055_hotsprings_1538364013.jpg" />
+    <ignored path="Photos_338_retraining/validation/hotsprings/photoid_000057_hotsprings_1538226719.jpg" />
+    <ignored path="Photos_338_retraining/validation/hotsprings/photoid_000058_hotsprings_1537503549.jpg" />
+    <ignored path="Photos_338_retraining/validation/hotsprings/photoid_000059_hotsprings_1537483990.jpg" />
+    <ignored path="Photos_338_retraining/validation/hotsprings/photoid_000061_hotsprings_1537471696.jpg" />
+    <ignored path="Photos_338_retraining/validation/hotsprings/photoid_000062_hotsprings_1537241435.jpg" />
+    <ignored path="Photos_338_retraining/validation/hotsprings/photoid_000063_hotsprings_1536766584.jpg" />
+    <ignored path="Photos_338_retraining/validation/hotsprings/photoid_000064_hotsprings_1536691526.jpg" />
+    <ignored path="Photos_338_retraining/validation/hotsprings/photoid_000065_hotsprings_1536303547.jpg" />
+    <ignored path="Photos_338_retraining/validation/hotsprings/photoid_000066_hotsprings_1536205198.jpg" />
+    <ignored path="Photos_338_retraining/validation/hotsprings/photoid_000067_hotsprings_1536029978.jpg" />
+    <ignored path="Photos_338_retraining/validation/hotsprings/photoid_000069_hotsprings_1536014386.jpg" />
+    <ignored path="Photos_338_retraining/validation/hotsprings/photoid_000102_Hotsprings_1534655276.jpg" />
+    <ignored path="Photos_338_retraining/validation/hotsprings/photoid_000103_Hotsprings_1534655151.jpg" />
+    <ignored path="Photos_338_retraining/validation/hotsprings/photoid_000105_Hotsprings_1534608732.jpg" />
+    <ignored path="Photos_338_retraining/validation/hotsprings/photoid_000107_hotsprings_1534605958.jpg" />
+    <ignored path="Photos_338_retraining/validation/hotsprings/photoid_000118_hotsprings_1533965071.jpg" />
+    <ignored path="Photos_338_retraining/validation/hotsprings/photoid_000120_hotsprings_1533561653.jpg" />
+    <ignored path="Photos_338_retraining/validation/hotsprings/photoid_000121_hotsprings_1533282347.jpg" />
+    <ignored path="Photos_338_retraining/validation/hotsprings/photoid_000126_hotsprings_1532924043.jpg" />
+    <ignored path="Photos_338_retraining/validation/hotsprings/photoid_000127_hotsprings_1532915397.jpg" />
+    <ignored path="Photos_338_retraining/validation/hotsprings/photoid_000130_hotsprings_1532032862.jpg" />
+    <ignored path="Photos_338_retraining/validation/noactivity/photoid_000072_NoActivity_1531712763.jpg" />
+    <ignored path="Photos_338_retraining/validation/noactivity/photoid_000080_NoActivity_1498938978.jpg" />
+    <ignored path="Photos_338_retraining/validation/noactivity/photoid_000081_NoActivity_1496900648.jpg" />
+    <ignored path="Photos_338_retraining/validation/noactivity/photoid_000087_NoActivity_1540266055.jpg" />
+    <ignored path="Photos_338_retraining/validation/noactivity/photoid_000088_NoActivity_1533484185.jpg" />
+    <ignored path="Photos_338_retraining/validation/noactivity/photoid_000089_NoActivity_1528580587.jpg" />
+    <ignored path="Photos_338_retraining/validation/noactivity/photoid_000091_NoActivity_1515289701.jpg" />
+    <ignored path="Photos_338_retraining/validation/noactivity/photoid_000092_NoActivity_1513468795.jpg" />
+    <ignored path="Photos_338_retraining/validation/noactivity/photoid_000093_NoActivity_1498953252.jpg" />
+    <ignored path="Photos_338_retraining/validation/noactivity/photoid_000096_NoActivity_1544488174.jpg" />
+    <ignored path="Photos_338_retraining/validation/noactivity/photoid_000132_NoActivity_1531908309.jpg" />
+    <ignored path="Photos_338_retraining/validation/noactivity/photoid_000136_NoActivity_1531908309.jpg" />
+    <ignored path="Photos_338_retraining/validation/noactivity/photoid_000141_NoActivity_1531254321.jpg" />
+    <ignored path="Photos_338_retraining/validation/noactivity/photoid_000169_NoActivity_23663993529.jpg" />
+    <ignored path="Photos_338_retraining/validation/noactivity/photoid_000170_NoActivity_170070951.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/backpacking/photoid_000003_backpacking_1504564660.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/backpacking/photoid_000004_backpacking_1544289256.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/backpacking/photoid_000006_backpacking_1542585137.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/backpacking/photoid_000007_backpacking_1541252671.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/backpacking/photoid_000112_backpacking_1534086768.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/backpacking/photoid_000144_backpacking_1531165445.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/backpacking/photoid_000146_backpacking_1531006674.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/backpacking/photoid_000147_backpacking_1531164767.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/backpacking/photoid_000166_backpacking_1527681157.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/backpacking/photoid_000168_backpacking_1527680818.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/backpacking/photoid_000210_backpacking_29655867305.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/backpacking/photoid_000236_backpacking_1521748488.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/backpacking/photoid_000238_backpacking_1521425704.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/backpacking/photoid_000239_backpacking_1521425704.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/backpacking/photoid_000240_backpacking_1521317930.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/backpacking/photoid_000280_backpacking_1515786007.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/backpacking/photoid_000283_backpacking_1515516529.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/backpacking/photoid_000322_backpacking_1508182749.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/backpacking/photoid_000325_backpacking_1507497164.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/backpacking/photoid_000342_backpacking_1501110540.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hiking/photoid_000009_hiking_1466375807.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hiking/photoid_000013_hiking_1465097654.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hiking/photoid_000014_hiking_1542003670.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hiking/photoid_000016_hiking_1542583704.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hiking/photoid_000017_hiking_1538026230.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hiking/photoid_000018_hiking_1535260384.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hiking/photoid_000020_hiking_1535260384.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hiking/photoid_000023_hiking_1527864042.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hiking/photoid_000024_hiking_1524439422.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hiking/photoid_000025_hiking_1489364477.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hiking/photoid_000028_hiking_1489362272.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hiking/photoid_000031_hiking_1460847823.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hiking/photoid_000033_hiking_1460847549.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hiking/photoid_000038_hiking_1534226056.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hiking/photoid_000040_hiking_1543784253.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hiking/photoid_000041_hiking_1543192097.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hiking/photoid_000042_hiking_1543192097.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hiking/photoid_000043_hiking_1541784909.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hiking/photoid_000044_hiking_1538835379.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hiking/photoid_000045_hiking_1538524040.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hiking/photoid_000047_hiking_1537758341.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hiking/photoid_000050_hiking_1535983268.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hiking/photoid_000073_hiking_1527985456.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hiking/photoid_000077_hiking_1527481175.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hiking/photoid_000079_hiking_1526271523.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hiking/photoid_000084_hiking_1471218926.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hiking/photoid_000109_hiking_1534604115.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hiking/photoid_000110_hiking_1534360075.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hiking/photoid_000111_hiking_1534126206.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hiking/photoid_000119_hiking_1533664330.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hiking/photoid_000129_hiking_1532369943.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hiking/photoid_000137_hiking_1531771971.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hiking/photoid_000153_hiking_1529528667.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hiking/photoid_000159_hiking_1528066187.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hiking/photoid_000161_hiking_1527792215.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hiking/photoid_000178_hiking_19568808955.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hiking/photoid_000185_hiking_8622678704.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hiking/photoid_000188_hiking_2819562824.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hiking/photoid_000193_hiking_9001826246.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hiking/photoid_000194_hiking_1968159942.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hiking/photoid_000202_hiking_20020138215.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hiking/photoid_000205_hiking_25653368504.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hiking/photoid_000206_hiking_20011399025.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hiking/photoid_000209_hiking_19832241028.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hiking/photoid_000212_hiking_3672504899.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hiking/photoid_000216_hiking_5106034180.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hiking/photoid_000248_hiking_1520824874.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hiking/photoid_000252_hiking_1519534069.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hiking/photoid_000265_hiking_1517201748.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hiking/photoid_000288_hiking_1514252346.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hiking/photoid_000290_hiking_1513712776.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hiking/photoid_000292_hiking_1513712730.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hiking/photoid_000294_hiking_1513712523.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hiking/photoid_000295_hiking_1513712318.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hiking/photoid_000297_hiking_1513653509.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hiking/photoid_000299_hiking_1513369644.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hiking/photoid_000309_hiking_1510767514.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hiking/photoid_000320_hiking_1510028487.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hiking/photoid_000327_hiking_1507333422.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hotsprings/photoid_000051_hotsprings_1544651655.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hotsprings/photoid_000052_hotsprings_1541734420.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hotsprings/photoid_000054_hotsprings_1541117060.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hotsprings/photoid_000055_hotsprings_1538364013.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hotsprings/photoid_000057_hotsprings_1538226719.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hotsprings/photoid_000058_hotsprings_1537503549.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hotsprings/photoid_000059_hotsprings_1537483990.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hotsprings/photoid_000061_hotsprings_1537471696.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hotsprings/photoid_000062_hotsprings_1537241435.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hotsprings/photoid_000063_hotsprings_1536766584.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hotsprings/photoid_000064_hotsprings_1536691526.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hotsprings/photoid_000065_hotsprings_1536303547.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hotsprings/photoid_000066_hotsprings_1536205198.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hotsprings/photoid_000067_hotsprings_1536029978.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hotsprings/photoid_000069_hotsprings_1536014386.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hotsprings/photoid_000102_Hotsprings_1534655276.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hotsprings/photoid_000103_Hotsprings_1534655151.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hotsprings/photoid_000105_Hotsprings_1534608732.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hotsprings/photoid_000107_hotsprings_1534605958.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hotsprings/photoid_000118_hotsprings_1533965071.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hotsprings/photoid_000120_hotsprings_1533561653.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hotsprings/photoid_000121_hotsprings_1533282347.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hotsprings/photoid_000126_hotsprings_1532924043.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hotsprings/photoid_000127_hotsprings_1532915397.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hotsprings/photoid_000130_hotsprings_1532032862.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hotsprings/photoid_000131_hotsprings_1532032862.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hotsprings/photoid_000149_hotsprings_1530498486.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hotsprings/photoid_000160_hotsprings_1527807649.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hotsprings/photoid_000165_hotsprings_1527724465.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hotsprings/photoid_000181_hotspring_43936951261.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hotsprings/photoid_000220_hotsprings_1525969958.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hotsprings/photoid_000221_hotsprings_1524621102.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hotsprings/photoid_000222_hotsprings_1524026996.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hotsprings/photoid_000223_hotsprings_1523511210.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hotsprings/photoid_000224_hotsprings_1523393348.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hotsprings/photoid_000227_hotsprings_1522568601.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hotsprings/photoid_000228_hotsprings_1522515184.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hotsprings/photoid_000234_hotsprings_1521786817.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hotsprings/photoid_000237_hotsprings_1521724340.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hotsprings/photoid_000243_hotsprings_1521080863.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hotsprings/photoid_000250_hotsprings_1520530948.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hotsprings/photoid_000251_hotsprings_1519613394.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hotsprings/photoid_000253_hotsprings_1519074624.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hotsprings/photoid_000256_hotsprings_1518061997.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hotsprings/photoid_000259_hotsprings_1517880986.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hotsprings/photoid_000264_hotsprings_1517535744.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hotsprings/photoid_000267_hotsprings_1517193859.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hotsprings/photoid_000274_hotsprings_1516636321.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hotsprings/photoid_000279_hotsprings_1515697729.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hotsprings/photoid_000287_hotsprings_1514253816.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hotsprings/photoid_000300_hotsprings_1513310005.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hotsprings/photoid_000302_hotsprings_1512319684.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hotsprings/photoid_000304_hotsprings_1511388117.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hotsprings/photoid_000305_hotsprings_1510810552.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hotsprings/photoid_000311_hotsprings_1510360134.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hotsprings/photoid_000312_hotsprings_1510212759.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hotsprings/photoid_000313_hotsprings_1510212631.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hotsprings/photoid_000315_hotsprings_1510212609.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hotsprings/photoid_000318_hotsprings_1510212577.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hotsprings/photoid_000323_hotsprings_1507911385.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hotsprings/photoid_000326_hotsprings_1507430149.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hotsprings/photoid_000330_hotsprings_1507249031.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hotsprings/photoid_000331_hotsprings_1506077001.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hotsprings/photoid_000333_hotsprings_1503365153.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hotsprings/photoid_000334_hotsprings_1503676042.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hotsprings/photoid_000338_hotsprings_1501216419.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hotsprings/photoid_000339_hotspring_1501138093.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hotsprings/photoid_000340_hotsprings_1501137038.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hotsprings/photoid_000346_hotsprings_1500871036.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hotsprings/photoid_000347_hotsprings_1500087901.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/hotsprings/photoid_000350_hotsprings_1500398930.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/noactivity/photoid_000072_NoActivity_1531712763.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/noactivity/photoid_000080_NoActivity_1498938978.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/noactivity/photoid_000081_NoActivity_1496900648.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/noactivity/photoid_000087_NoActivity_1540266055.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/noactivity/photoid_000088_NoActivity_1533484185.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/noactivity/photoid_000089_NoActivity_1528580587.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/noactivity/photoid_000091_NoActivity_1515289701.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/noactivity/photoid_000092_NoActivity_1513468795.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/noactivity/photoid_000093_NoActivity_1498953252.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/noactivity/photoid_000096_NoActivity_1544488174.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/noactivity/photoid_000132_NoActivity_1531908309.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/noactivity/photoid_000136_NoActivity_1531908309.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/noactivity/photoid_000141_NoActivity_1531254321.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/noactivity/photoid_000169_NoActivity_23663993529.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/noactivity/photoid_000170_NoActivity_170070951.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/noactivity/photoid_000171_NoActivity_2675911879.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/noactivity/photoid_000172_NoActivity_5928837309.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/noactivity/photoid_000173_NoActivity_371459065.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/noactivity/photoid_000174_NoActivity_23077966934.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/noactivity/photoid_000175_NoActivity_5899517079.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/noactivity/photoid_000176_NoActivity_7756288436.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/noactivity/photoid_000177_NoActivity_7987004409.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/noactivity/photoid_000179_NoActivity_36498092914.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/noactivity/photoid_000180_NoActivity_4207915158.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/noactivity/photoid_000182_NoActivity_2306857836.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/noactivity/photoid_000183_NoActivity_6188315368.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/noactivity/photoid_000184_NoActivity_36785780416.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/noactivity/photoid_000187_NoActivity_18175831445.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/noactivity/photoid_000189_NoActivity_41136977550.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/noactivity/photoid_000190_NoActivity_15425602669.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/noactivity/photoid_000191_NoActivity_38200579335.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/noactivity/photoid_000192_NoActivity_39224116694.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/noactivity/photoid_000199_NoActivity_37524679690.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/noactivity/photoid_000200_NoActivity_33658941250.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/noactivity/photoid_000201_NoActivity_7821633572.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/noactivity/photoid_000203_NoActivity_15590557213.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/noactivity/photoid_000204_NoActivity_449092721.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/noactivity/photoid_000207_NoActivity_5633931192.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/noactivity/photoid_000208_NoActivity_7897273406.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/noactivity/photoid_000211_NoActivity_17024783742.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/noactivity/photoid_000213_NoActivity_7975615153.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/noactivity/photoid_000214_NoActivity_7849164138.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/noactivity/photoid_000217_NoActivity_2933657180.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/noactivity/photoid_000218_NoActivity_39912712864.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/noactivity/photoid_000271_NoActivity_1516763767.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/noactivity/photoid_000278_NoActivity_1516439293.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/noactivity/photoid_000285_NoActivity_1515425063.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/noactivity/photoid_000310_NoActivity_1510601895.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/noactivity/photoid_000328_NoActivity_1507313723.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/noactivity/photoid_000332_NoActivity_1504591796.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/noactivity/photoid_000335_NoActivity_1501983111.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/noactivity/photoid_000344_NoActivity_1500857291.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/otheractivities/swimming/photoid_000086_swimming_1460955058.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/otheractivities/swimming/photoid_000098_swimming_1463791763.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/otheractivities/swimming/photoid_000124_swimming_1532989705.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/otheractivities/swimming/photoid_000139_swimming_1531470947.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/otheractivities/swimming/photoid_000154_swimming_1528998872.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/otheractivities/photoid_000008_camping CG_1540169494.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/otheractivities/photoid_000037_working_1473820770.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/otheractivities/photoid_000071_mtn biking_1504623299.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/otheractivities/photoid_000095_working_1544648448.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/otheractivities/photoid_000099_trailrunning_1498943714.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/otheractivities/photoid_000142_camping CG_1531165683.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/otheractivities/photoid_000152_mtn biking_1530073363.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/otheractivities/photoid_000155_fishing_1528076813.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/otheractivities/photoid_000196_drinking_5910249367.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/otheractivities/photoid_000226_camping CG_1522620932.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/otheractivities/photoid_000241_photography_1521317930.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/otheractivities/photoid_000249_camping CG_1520818035.jpg" />
+    <ignored path="Photos_338_retraining_wovalidation/train/otheractivities/photoid_000258_mtn biking_1518024678.jpg" />
+    <ignored path="Photos_50_Flickr/photoid_15425602669.jpg" />
+    <ignored path="Photos_50_Flickr/photoid_15590557213.jpg" />
+    <ignored path="Photos_50_Flickr/photoid_170070951.jpg" />
+    <ignored path="Photos_50_Flickr/photoid_17024783742.jpg" />
+    <ignored path="Photos_50_Flickr/photoid_18175831445.jpg" />
+    <ignored path="Photos_50_Flickr/photoid_19568808955.jpg" />
+    <ignored path="Photos_50_Flickr/photoid_1968159942.jpg" />
+    <ignored path="Photos_50_Flickr/photoid_19832241028.jpg" />
+    <ignored path="Photos_50_Flickr/photoid_20011399025.jpg" />
+    <ignored path="Photos_50_Flickr/photoid_20020138215.jpg" />
+    <ignored path="Photos_50_Flickr/photoid_2306857836.jpg" />
+    <ignored path="Photos_50_Flickr/photoid_23077966934.jpg" />
+    <ignored path="Photos_50_Flickr/photoid_23663993529.jpg" />
+    <ignored path="Photos_50_Flickr/photoid_25653368504.jpg" />
+    <ignored path="Photos_50_Flickr/photoid_2675911879.jpg" />
+    <ignored path="Photos_50_Flickr/photoid_2819562824.jpg" />
+    <ignored path="Photos_50_Flickr/photoid_2933657180.jpg" />
+    <ignored path="Photos_50_Flickr/photoid_29655867305.jpg" />
+    <ignored path="Photos_50_Flickr/photoid_33658941250.jpg" />
+    <ignored path="Photos_50_Flickr/photoid_36498092914.jpg" />
+    <ignored path="Photos_50_Flickr/photoid_3672504899.jpg" />
+    <ignored path="Photos_50_Flickr/photoid_36785780416.jpg" />
+    <ignored path="Photos_50_Flickr/photoid_371459065.jpg" />
+    <ignored path="Photos_50_Flickr/photoid_37524679690.jpg" />
+    <ignored path="Photos_50_Flickr/photoid_38200579335.jpg" />
+    <ignored path="Photos_50_Flickr/photoid_39224116694.jpg" />
+    <ignored path="Photos_50_Flickr/photoid_39912712864.jpg" />
+    <ignored path="Photos_50_Flickr/photoid_41136977550.jpg" />
+    <ignored path="Photos_50_Flickr/photoid_4207915158.jpg" />
+    <ignored path="Photos_50_Flickr/photoid_43936951261.jpg" />
+    <ignored path="Photos_50_Flickr/photoid_449092721.jpg" />
+    <ignored path="Photos_50_Flickr/photoid_5106034180.jpg" />
+    <ignored path="Photos_50_Flickr/photoid_5633931192.jpg" />
+    <ignored path="Photos_50_Flickr/photoid_5899517079.jpg" />
+    <ignored path="Photos_50_Flickr/photoid_5910249367.jpg" />
+    <ignored path="Photos_50_Flickr/photoid_5928837309.jpg" />
+    <ignored path="Photos_50_Flickr/photoid_6188315368.jpg" />
+    <ignored path="Photos_50_Flickr/photoid_7756288436.jpg" />
+    <ignored path="Photos_50_Flickr/photoid_7821633572.jpg" />
+    <ignored path="Photos_50_Flickr/photoid_7849164138.jpg" />
+    <ignored path="Photos_50_Flickr/photoid_7897273406.jpg" />
+    <ignored path="Photos_50_Flickr/photoid_7975615153.jpg" />
+    <ignored path="Photos_50_Flickr/photoid_7987004409.jpg" />
+    <ignored path="Photos_50_Flickr/photoid_8622678704.jpg" />
+    <ignored path="Photos_50_Flickr/photoid_9001826246.jpg" />
+    <ignored path="TrainedWeights/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -449,7 +670,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SettleData_BatchTagging_v1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1923">
+            <state relative-caret-position="756">
               <caret line="56" selection-start-line="56" selection-end-line="56" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
@@ -458,11 +679,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SettleData_Retraining_inceptionresnetv2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="164" lean-forward="true" selection-start-line="164" selection-end-line="164" />
+            <state relative-caret-position="192">
+              <caret line="148" selection-start-line="148" selection-end-line="148" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SettleData_Retraining_inceptionv3.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1026">
+              <caret line="160" selection-start-line="160" selection-end-line="160" />
+              <folding>
+                <element signature="e#1655#1667#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -514,8 +747,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="600" />
-    <option name="y" value="167" />
+    <option name="x" value="119" />
+    <option name="y" value="34" />
     <option name="width" value="2868" />
     <option name="height" value="1878" />
   </component>
@@ -532,6 +765,11 @@
               <item name="FlickrCNN" type="b2602c69:ProjectViewProjectNode" />
               <item name="FlickrCNN" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="FlickrCNN" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FlickrCNN" type="462c0819:PsiDirectoryNode" />
+              <item name="TrainedWeights" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -540,7 +778,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
@@ -553,6 +791,11 @@
         <option name="myModuleName" value="FlickrCNN" />
       </console-settings>
     </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/old" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -571,6 +814,9 @@
       <module name="FlickrCNN" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="/usr/bin/python3.6" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
@@ -702,6 +948,11 @@
       <workItem from="1549388031983" duration="6305000" />
       <workItem from="1549407020036" duration="2623000" />
       <workItem from="1549410414667" duration="36000" />
+      <workItem from="1549500858229" duration="975000" />
+      <workItem from="1549531397656" duration="620000" />
+      <workItem from="1549562688887" duration="364000" />
+      <workItem from="1549666709924" duration="98000" />
+      <workItem from="1549995099846" duration="1873000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1548876139497</created>
@@ -899,11 +1150,25 @@
       <option name="project" value="LOCAL" />
       <updated>1549494522006</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Data files deleted.">
+      <created>1549494635874</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1549494635874</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Data files deleted.">
+      <created>1549531425252</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1549531425253</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66555000" />
+    <option name="totallyTimeSpent" value="71513000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -915,9 +1180,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="600" y="167" width="2868" height="1878" extended-state="0" />
+    <frame x="119" y="34" width="2868" height="1878" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21301565" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22261736" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -932,15 +1197,15 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32968834" />
-      <window_info anchor="bottom" id="Python Console" order="12" visible="true" weight="0.42023122" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.41907513" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" sideWeight="0.4995015" visible="true" weight="0.3296586" />
+      <window_info anchor="right" id="SciView" order="3" sideWeight="0.49421966" visible="true" weight="0.329303" />
       <window_info anchor="right" id="R Graphics" order="4" />
       <window_info anchor="right" id="R Packages" order="5" />
       <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" x="0" y="0" width="667" height="1765" id="Documentation" order="7" sideWeight="0.50049853" side_tool="true" visible="true" weight="0.3296586" />
+      <window_info anchor="right" x="0" y="0" width="667" height="1765" id="Documentation" order="7" sideWeight="0.50578034" side_tool="true" visible="true" weight="0.329303" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -970,7 +1235,8 @@
     <MESSAGE value="Monitoring routine improved" />
     <MESSAGE value="Network structure tuned. Achived acc=0.95 after 100 epochs." />
     <MESSAGE value="Tutorial filed archived." />
-    <option name="LAST_COMMIT_MESSAGE" value="Tutorial filed archived." />
+    <MESSAGE value="Data files deleted." />
+    <option name="LAST_COMMIT_MESSAGE" value="Data files deleted." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/keras/engine/training.py" />
@@ -1006,19 +1272,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SettleData_Retraining_inceptionv3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="160" lean-forward="true" selection-start-line="160" selection-end-line="160" />
-          <folding>
-            <element signature="e#1655#1667#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SettleData_BatchTagging_v1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1923">
+        <state relative-caret-position="756">
           <caret line="56" selection-start-line="56" selection-end-line="56" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
@@ -1045,8 +1301,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SettleData_Retraining_inceptionresnetv2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="164" lean-forward="true" selection-start-line="164" selection-end-line="164" />
+        <state relative-caret-position="192">
+          <caret line="148" selection-start-line="148" selection-end-line="148" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SettleData_Retraining_inceptionv3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1026">
+          <caret line="160" selection-start-line="160" selection-end-line="160" />
+          <folding>
+            <element signature="e#1655#1667#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
