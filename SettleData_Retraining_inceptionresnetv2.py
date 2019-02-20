@@ -110,8 +110,8 @@ validation_data_dir = "Photos_338_retraining_wovalidation/validation"
 nb_train_samples = 220
 nb_validation_samples = 0
 
-batch_size = 32 # proportional to the training sample size..
-epochs = 50
+batch_size = 32 # proportional to the training sample size.. (64 did not work for Vega56 8GB)
+epochs = 100
 
 num_classes = 5
 
