@@ -79,7 +79,7 @@ import numpy as np
 
 
 
-default_path = '/home/alan/Dropbox/KIT/FlickrEU/FlickrCNN'
+default_path = '/Users/seo-b/Dropbox/KIT/FlickrEU/FlickrCNN'
 os.chdir(default_path)
 # photo_path = default_path + '/Photos_168_retraining'
 
@@ -178,7 +178,7 @@ model_final = Model(inputs = model.input, outputs = predictions)
 
 
 ## load previously trained weights
-model_final.load_weights('TrainedWeights/InceptionResnetV2_retrain_instagram_epoch100_acc0.96.h5')
+model_final.load_weights('TrainedWeights/InceptionResnetV2_retrain_instagram_epoch150_acc0.97.h5')
 
 
 
@@ -249,6 +249,10 @@ history = model_final.fit_generator(
 
 # Save the model
 model_final.save('TrainedWeights/InceptionResnetV2_retrain_instagram_final.h5')
+
+# Save the model architecture
+with open('InceptionResnetV2_retrain_instagram_final_architecture.json', 'w') as f:
+    f.write(model_final.to_json())
 
 
 

@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1b3653e0-9452-4d77-a903-044e2f504c7d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SettleData_BatchTagging_using_instadata_v2.py" beforeDir="false" afterPath="$PROJECT_DIR$/SettleData_BatchTagging_using_instadata_v2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SettleData_Retraining_inceptionresnetv2.py" beforeDir="false" afterPath="$PROJECT_DIR$/SettleData_Retraining_inceptionresnetv2.py" afterDir="false" />
     </list>
     <ignored path="Photos_168_retraining/minor samples/mtnbiking/photoid_000071_1113950118_mtn biking_1504623299.jpg" />
@@ -664,27 +665,16 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/FlickrCNN$SettleData_Retraining_inceptionresnetv2.coverage" NAME="SettleData_Retraining_inceptionresnetv2 Coverage Results" MODIFIED="1550651102018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/FlickrCNN$SettleData_Retraining_inceptionrv3.coverage" NAME="SettleData_Retraining_inceptionrv3 Coverage Results" MODIFIED="1549388050087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SettleData_BatchTagging_v1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="56" selection-start-line="56" selection-end-line="56" />
-              <folding>
-                <element signature="e#0#12#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SettleData_Retraining_inceptionresnetv2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1470">
-              <caret line="113" column="12" selection-start-line="113" selection-start-column="12" selection-end-line="113" selection-end-column="12" />
+            <state relative-caret-position="112">
+              <caret line="101" column="23" lean-forward="true" selection-start-line="101" selection-end-line="102" />
             </state>
           </provider>
         </entry>
@@ -692,11 +682,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SettleData_BatchTagging_using_instadata_v2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
-              <folding>
-                <element signature="e#0#12#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="259">
+              <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
             </state>
           </provider>
         </entry>
@@ -732,6 +719,7 @@
         <option value="$PROJECT_DIR$/SettleData_Retraining_inceptionrv3.py" />
         <option value="$PROJECT_DIR$/SettleData_Retraining_inceptionv3.py" />
         <option value="$PROJECT_DIR$/SettleData_Retraining_inceptionresnetv2.py" />
+        <option value="$PROJECT_DIR$/SettleData_BatchTagging_using_instadata_v2.py" />
       </list>
     </option>
   </component>
@@ -745,6 +733,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -752,16 +741,10 @@
               <item name="FlickrCNN" type="b2602c69:ProjectViewProjectNode" />
               <item name="FlickrCNN" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="FlickrCNN" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FlickrCNN" type="462c0819:PsiDirectoryNode" />
-              <item name="Photos_168_retraining" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -797,7 +780,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.SettleData_Retraining_inceptionresnetv2">
+  <component name="RunManager" selected="Python.SettleData_BatchTagging_using_instadata_v2">
+    <configuration name="SettleData_BatchTagging_using_instadata_v2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="FlickrCNN" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SettleData_BatchTagging_using_instadata_v2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="SettleData_Retraining_inceptionresnetv2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="FlickrCNN" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -805,9 +807,9 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="/usr/bin/python3.6" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
@@ -895,9 +897,11 @@
     <list>
       <item itemvalue="Python.SettleData_Retraining_inceptionresnetv2" />
       <item itemvalue="Python.SettleData_Retraining_inceptionrv3" />
+      <item itemvalue="Python.SettleData_BatchTagging_using_instadata_v2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.SettleData_BatchTagging_using_instadata_v2" />
         <item itemvalue="Python.SettleData_Retraining_inceptionresnetv2" />
         <item itemvalue="Python.SettleData_Retraining_inceptionrv3" />
       </list>
@@ -947,7 +951,9 @@
       <workItem from="1550211388918" duration="1750000" />
       <workItem from="1550326773284" duration="7000" />
       <workItem from="1550583447410" duration="1085000" />
-      <workItem from="1550605849023" duration="1139000" />
+      <workItem from="1550605849023" duration="3782000" />
+      <workItem from="1550651228692" duration="44000" />
+      <workItem from="1550666554089" duration="870000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1548876139497</created>
@@ -1166,11 +1172,25 @@
       <option name="project" value="LOCAL" />
       <updated>1550031197278</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Delete the labels">
+      <created>1550648223271</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1550648223271</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Moved the old scripts to the back-up folder.">
+      <created>1550648344373</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1550648344373</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77696000" />
+    <option name="totallyTimeSpent" value="81253000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -1185,12 +1205,12 @@
     <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23626374" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24175824" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4127683" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4117647" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1200,23 +1220,21 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32968834" />
-      <window_info anchor="bottom" id="Python Console" order="12" visible="true" weight="0.29518718" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="12" visible="true" weight="0.29518718" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" sideWeight="0.48558423" visible="true" weight="0.22649573" />
+      <window_info anchor="right" id="SciView" order="3" sideWeight="0.4825493" visible="true" weight="0.22649573" />
       <window_info anchor="right" id="R Graphics" order="4" />
       <window_info anchor="right" id="R Packages" order="5" />
       <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" x="0" y="0" width="667" height="1765" id="Documentation" order="7" sideWeight="0.5144158" side_tool="true" visible="true" weight="0.22649573" />
+      <window_info anchor="right" x="0" y="0" width="667" height="1765" id="Documentation" order="7" sideWeight="0.5174507" side_tool="true" visible="true" weight="0.22649573" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Initial commit" />
-    <MESSAGE value="Commenting on the tutorial file. Yet unfinished..!" />
     <MESSAGE value="Revising the tutorial file" />
     <MESSAGE value="Added the instagram photos" />
     <MESSAGE value="Added the Instagram photo downloading - need to resolve the duplicated file names issue (unique photo id necessary)" />
@@ -1240,7 +1258,9 @@
     <MESSAGE value="Tutorial filed archived." />
     <MESSAGE value="Data files deleted." />
     <MESSAGE value="Result plots" />
-    <option name="LAST_COMMIT_MESSAGE" value="Result plots" />
+    <MESSAGE value="Delete the labels" />
+    <MESSAGE value="Moved the old scripts to the back-up folder." />
+    <option name="LAST_COMMIT_MESSAGE" value="Moved the old scripts to the back-up folder." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/keras/engine/training.py" />
@@ -1252,13 +1272,7 @@
     <entry file="file://$PROJECT_DIR$/Seattle_Retraining_instagram_v3_googlecolab.ipynb" />
     <entry file="file://$USER_HOME$/Google Drive/Colab Notebooks/Seattle_retraining_instagram_v5.ipynb" />
     <entry file="file://$PROJECT_DIR$/SettleData_Retraining_v1.py" />
-    <entry file="file://$PROJECT_DIR$/Seattle_retraining_instagram_inceptionv3_ver2.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="10" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Seattle_retraining_instagram_inceptionv3_ver2.ipynb" />
     <entry file="file://$PROJECT_DIR$/old/Seattle_retraining_instagram_inceptionv3_ver1.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
@@ -1276,33 +1290,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SettleData_Retraining_inceptionv3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="160" selection-start-line="160" selection-end-line="160" />
-          <folding>
-            <element signature="e#1655#1667#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SettleData_BatchTagging_v1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SettleData_Retraining_inceptionresnetv2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1470">
-          <caret line="113" column="12" selection-start-line="113" selection-start-column="12" selection-end-line="113" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/SettleData_Retraining_inceptionv3.py" />
+    <entry file="file://$PROJECT_DIR$/SettleData_BatchTagging_v1.py" />
     <entry file="file://$PROJECT_DIR$/Seattle_retraining_instagram_inceptionresnetv2_ver5.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
@@ -1310,13 +1299,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/SettleData_Retraining_inceptionresnetv2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="101" column="23" lean-forward="true" selection-start-line="101" selection-end-line="102" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/SettleData_BatchTagging_using_instadata_v2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="259">
+          <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
         </state>
       </provider>
     </entry>

@@ -27,7 +27,7 @@ else:
     ssl._create_default_https_context = _create_unverified_https_context
 
 
-from keras.applications import inception_v3
+from keras.applications import inception_resnet_v2
 from keras.preprocessing import image
 from keras.preprocessing.image import load_img
 from keras.preprocessing.image import img_to_array
@@ -44,15 +44,15 @@ from keras.layers import Dropout, Flatten, Dense, GlobalAveragePooling2D
 from keras import backend as k
 from keras.callbacks import ModelCheckpoint, LearningRateScheduler, TensorBoard, EarlyStopping
 img_width, img_height = 331, 331
-train_data_dir = "Photos_168_retraining/train"
-validation_data_dir = "Photos_168_retraining/validation"
+train_data_dir = "Photos_338_retraining/train"
+validation_data_dir = "Photos_338_retraining/validation"
 nb_train_samples = 81
 nb_validation_samples = 36
 
 batch_size = 16 # proportional to the training sample size..
 epochs = 30
 
-num_classes = 3
+num_classes = 5
 
 
 
@@ -63,9 +63,9 @@ num_classes = 3
 
 
 
-default_path = '/Users/seo-b/Dropbox/KIT/Peatland/FlickrCNN'
+default_path = '/Users/seo-b/Dropbox/KIT/FlickrEU/FlickrCNN'
 os.chdir(default_path)
-photo_path = default_path + '/Photos_50'
+photo_path = default_path + '/Photos_50_Flickr'
 
 ### Read filenames
 filenames = os.listdir(photo_path)
@@ -76,7 +76,7 @@ filenames2 = fnmatch.filter(filenames, "*.JPG")
 filenames = filenames1 + filenames2
 
 
-img_width, img_height = 331, 331
+img_width, img_height = 662, 662
 train_data_dir = "Photos_168_retraining/train"
 validation_data_dir = "Photos_168_retraining/validation"
 nb_train_samples = 81
@@ -90,12 +90,20 @@ num_classes = 3
 
 ##### Predict
 
+from keras.models import model_from_json
+
+# Model reconstruction from JSON file
+with open('InceptionResnetV2_retrain_instagram_final_architecture.json', 'r') as f:
+    model_trained = model_from_json(f.read())
+
+# Load weights into the new model
+model_trained.load_weights('TrainedWeights/InceptionResnetV2_retrain_instagram_epoch150_acc0.97.h5')
 
 #Load the Inception_V3
 
 # Load the base pre-trained model
 # do not include the top fully-connected layer
-model = inception_v3.InceptionV3(include_top=False,  input_shape=(img_width, img_height, 3))
+# model = inception_v3.InceptionV3(include_top=False,  input_shape=(img_width, img_height, 3))
 # Freeze the layers which you don't want to train. Here I am freezing the all layers.
 
 
@@ -124,10 +132,10 @@ model_final = Model(inputs = model.input, outputs = predictions)
 
 
 
-model_final.load_weights('TrainedWeights/inception_v3_retrain_epoch35.h5')
+model_final.load_weights('TrainedWeights/InceptionResnetV2_retrain_instagram_epoch150_acc0.97.h5')
 
 modelname = "InceptionV3"
-dataname = "Photos_50"
+dataname = "Photos_338"
 
 
 # filename = 'photoid_19568808955.jpg' # granpa
