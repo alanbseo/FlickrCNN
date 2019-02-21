@@ -83,9 +83,15 @@ nb_train_samples = 81
 nb_validation_samples = 36
 
 batch_size = 16 # proportional to the training sample size..
-epochs = 30
 
-num_classes = 3
+# Class #0 = backpacking
+# Class #1 = hiking
+# Class #2 = hotsprings
+# Class #3 = noactivity
+# Class #4 = otheractivities
+classes = ["backpacking", "hiking", "hotsprings", "noactivity", "otheractivities"]
+
+num_classes = len(classes)
 
 
 ##### Predict
@@ -110,36 +116,39 @@ model_trained.load_weights('TrainedWeights/InceptionResnetV2_retrain_instagram_e
 # New dataset is small and similar to original dataset:
 # There is a problem of over-fitting, if we try to train the entire network. Since the data is similar to the original data, we expect higher-level features in the ConvNet to be relevant to this dataset as well. Hence, the best idea might be to train a linear classifier on the CNN codes.
 # So lets freeze all the layers and train only the classifier
-
-# first: train only the top layers (which were randomly initialized)
-# i.e. freeze all InceptionV3 layers
-for layer in model.layers[:]:
-    layer.trainable = False
-# Adding custom Layer
-x = model.output
-# add a global spatial average pooling layer
-x = GlobalAveragePooling2D()(x)
-
-# let's add a fully-connected layer
-x = Dense(1024, activation='relu')(x)
-# and a logistic layer -- let's say we have n classes
-predictions = Dense(num_classes, activation='softmax')(x)
-
-
-# creating the final model
-# this is the model we will train
-model_final = Model(inputs = model.input, outputs = predictions)
-
-
-
-model_final.load_weights('TrainedWeights/InceptionResnetV2_retrain_instagram_epoch150_acc0.97.h5')
-
-modelname = "InceptionV3"
+#
+# # first: train only the top layers (which were randomly initialized)
+# # i.e. freeze all InceptionV3 layers
+# for layer in model.layers[:]:
+#     layer.trainable = False
+# # Adding custom Layer
+# x = model.output
+# # add a global spatial average pooling layer
+# x = GlobalAveragePooling2D()(x)
+#
+# # let's add a fully-connected layer
+# x = Dense(1024, activation='relu')(x)
+# # and a logistic layer -- let's say we have n classes
+# predictions = Dense(num_classes, activation='softmax')(x)
+#
+#
+# # creating the final model
+# # this is the model we will train
+# model_final = Model(inputs = model.input, outputs = predictions)
+#
+#
+#
+# model_final.load_weights('TrainedWeights/InceptionResnetV2_retrain_instagram_epoch150_acc0.97.h5')
+#
+modelname = "InceptionResnetV2"
 dataname = "Photos_338"
 
 
 # filename = 'photoid_19568808955.jpg' # granpa
 filename = 'photoid_23663993529.jpg' # bridge
+
+
+
 
 
 for filename in filenames:
@@ -151,7 +160,7 @@ for filename in filenames:
 
         # load an image in PIL format
         # original = load_img(filename, target_size=(299, 299))
-        original = load_img(fname, target_size=(331, 331))
+        original = load_img(fname, target_size=(662, 662))
 
         # convert the PIL image to a numpy array
         # IN PIL - image is in (width, height, channel)
@@ -166,29 +175,29 @@ for filename in filenames:
 
 
         # prepare the image (normalisation for channels)
-        processed_image = inception_v3.preprocess_input(image_batch.copy())
+        processed_image = inception_resnet_v2.preprocess_input(image_batch.copy())
 
 
 
         # get the predicted probabilities for each class
-        predictions = model_final.predict(processed_image)
+        predictions = model_trained.predict(processed_image)
         # print predictions
+        dominant_feature_idx = np.argmax(predictions[0])
 
         # convert the probabilities to class labels
-        # We will get top 5 predictions which is the default
-        predicted_tags = decode_predictions(predictions,  top=3)
-        print('Predicted:', predicted_tags )
+        predicted_class = classes[dominant_feature_idx]
+        print('Predicted:', predicted_class )
 
 
-        df = pd.DataFrame(predicted_tags[0])
+        df = pd.DataFrame(predictions[0]).transpose()
         name_csv = default_path + "/Result/Tag_" + modelname + "/" + filename + ".csv"
 
 
 
         # df.to_csv(name_csv)
-        header = ["Rank", "ConceptID", "Concept", "PhotoID"]
-
-        df.to_csv(name_csv, index_label=header)
+        header = classes
+        df.columns = classes
+        df.to_csv(name_csv, index=False, columns= header)
 
 
 
