@@ -79,7 +79,7 @@ import numpy as np
 
 
 
-default_path = '/Users/seo-b/Dropbox/KIT/FlickrEU/FlickrCNN'
+default_path = '/home/alan/Dropbox/KIT/FlickrEU/FlickrCNN'
 os.chdir(default_path)
 # photo_path = default_path + '/Photos_168_retraining'
 

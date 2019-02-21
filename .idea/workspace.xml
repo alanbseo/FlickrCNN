@@ -3,52 +3,53 @@
   <component name="ChangeListManager">
     <list default="true" id="1b3653e0-9452-4d77-a903-044e2f504c7d" name="Default Changelist" comment="model structure save/load (json)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_15425602669.jpg.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_15425602669.jpg.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_15590557213.jpg.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_15590557213.jpg.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_170070951.jpg.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_170070951.jpg.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_17024783742.jpg.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_17024783742.jpg.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_18175831445.jpg.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_18175831445.jpg.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_19568808955.jpg.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_19568808955.jpg.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_1968159942.jpg.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_1968159942.jpg.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_19832241028.jpg.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_19832241028.jpg.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_20011399025.jpg.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_20011399025.jpg.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_20020138215.jpg.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_20020138215.jpg.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_2306857836.jpg.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_2306857836.jpg.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_23077966934.jpg.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_23077966934.jpg.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_23663993529.jpg.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_23663993529.jpg.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_25653368504.jpg.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_25653368504.jpg.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_2675911879.jpg.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_2675911879.jpg.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_2819562824.jpg.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_2819562824.jpg.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_2933657180.jpg.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_2933657180.jpg.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_29655867305.jpg.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_29655867305.jpg.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_33658941250.jpg.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_33658941250.jpg.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_36498092914.jpg.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_36498092914.jpg.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_3672504899.jpg.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_3672504899.jpg.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_36785780416.jpg.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_36785780416.jpg.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_371459065.jpg.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_371459065.jpg.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_37524679690.jpg.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_37524679690.jpg.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_38200579335.jpg.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_38200579335.jpg.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_39224116694.jpg.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_39224116694.jpg.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_39912712864.jpg.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_39912712864.jpg.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_41136977550.jpg.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_41136977550.jpg.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_4207915158.jpg.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_4207915158.jpg.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_43936951261.jpg.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_43936951261.jpg.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_449092721.jpg.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_449092721.jpg.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_5106034180.jpg.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_5106034180.jpg.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_5633931192.jpg.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_5633931192.jpg.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_5899517079.jpg.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_5899517079.jpg.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_5910249367.jpg.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_5910249367.jpg.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_5928837309.jpg.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_5928837309.jpg.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_6188315368.jpg.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_6188315368.jpg.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_7756288436.jpg.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_7756288436.jpg.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_7821633572.jpg.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_7821633572.jpg.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_7849164138.jpg.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_7849164138.jpg.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_7897273406.jpg.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_7897273406.jpg.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_7975615153.jpg.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_7975615153.jpg.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_7987004409.jpg.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_7987004409.jpg.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_8622678704.jpg.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_8622678704.jpg.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_9001826246.jpg.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_9001826246.jpg.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_15425602669.jpg.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_15590557213.jpg.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_170070951.jpg.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_17024783742.jpg.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_18175831445.jpg.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_19568808955.jpg.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_1968159942.jpg.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_19832241028.jpg.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_20011399025.jpg.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_20020138215.jpg.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_2306857836.jpg.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_23077966934.jpg.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_23663993529.jpg.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_25653368504.jpg.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_2675911879.jpg.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_2819562824.jpg.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_2933657180.jpg.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_29655867305.jpg.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_33658941250.jpg.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_36498092914.jpg.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_3672504899.jpg.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_36785780416.jpg.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_371459065.jpg.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_37524679690.jpg.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_38200579335.jpg.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_39224116694.jpg.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_39912712864.jpg.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_41136977550.jpg.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_4207915158.jpg.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_43936951261.jpg.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_449092721.jpg.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_5106034180.jpg.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_5633931192.jpg.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_5899517079.jpg.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_5910249367.jpg.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_5928837309.jpg.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_6188315368.jpg.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_7756288436.jpg.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_7821633572.jpg.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_7849164138.jpg.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_7897273406.jpg.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_7975615153.jpg.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_7987004409.jpg.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_8622678704.jpg.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Result/Tag_InceptionResnetV2/photoid_9001826246.jpg.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/SettleData_BatchTagging_using_instadata_v2.py" beforeDir="false" afterPath="$PROJECT_DIR$/SettleData_BatchTagging_using_instadata_v2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SettleData_Retraining_inceptionresnetv2.py" beforeDir="false" afterPath="$PROJECT_DIR$/SettleData_Retraining_inceptionresnetv2.py" afterDir="false" />
     </list>
     <ignored path="Photos_168_retraining/minor samples/mtnbiking/photoid_000071_1113950118_mtn biking_1504623299.jpg" />
     <ignored path="Photos_168_retraining/minor samples/mtnbiking/photoid_000150_1310760880_mtn biking_1530073363.jpg" />
@@ -717,8 +718,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SettleData_Retraining_inceptionresnetv2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5112">
-              <caret line="303" column="9" selection-start-line="303" selection-end-line="303" selection-end-column="9" />
+            <state relative-caret-position="1044">
+              <caret line="304" selection-start-line="279" selection-end-line="304" />
             </state>
           </provider>
         </entry>
@@ -726,8 +727,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SettleData_BatchTagging_using_instadata_v2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="177" column="18" selection-start-line="177" selection-start-column="18" selection-end-line="177" selection-end-column="18" />
+            <state relative-caret-position="639">
+              <caret line="263" selection-start-line="263" selection-end-line="263" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
@@ -943,9 +944,9 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.SettleData_BatchTagging_using_instadata_v2" />
       <item itemvalue="Python.SettleData_Retraining_inceptionresnetv2" />
       <item itemvalue="Python.SettleData_Retraining_inceptionrv3" />
-      <item itemvalue="Python.SettleData_BatchTagging_using_instadata_v2" />
     </list>
     <recent_temporary>
       <list>
@@ -1002,7 +1003,7 @@
       <workItem from="1550605849023" duration="3782000" />
       <workItem from="1550651228692" duration="44000" />
       <workItem from="1550666554089" duration="5616000" />
-      <workItem from="1550741429711" duration="3873000" />
+      <workItem from="1550741429711" duration="9014000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1548876139497</created>
@@ -1242,11 +1243,18 @@
       <option name="project" value="LOCAL" />
       <updated>1550667511811</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="try catch exception while reading images">
+      <created>1550746095761</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1550746095762</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89872000" />
+    <option name="totallyTimeSpent" value="94269000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -1258,10 +1266,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="34" width="1613" height="1016" extended-state="6" />
+    <frame x="67" y="34" width="3773" height="2126" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27617213" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.115684696" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1276,22 +1284,21 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32968834" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.38018432" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="12" visible="true" weight="0.16683519" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" sideWeight="0.48041475" visible="true" weight="0.25305074" />
+      <window_info anchor="right" id="SciView" order="3" sideWeight="0.4811893" visible="true" weight="0.10599946" />
       <window_info anchor="right" id="R Graphics" order="4" />
       <window_info anchor="right" id="R Packages" order="5" />
       <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" x="0" y="0" width="667" height="1765" id="Documentation" order="7" sideWeight="0.51958525" side_tool="true" visible="true" weight="0.25305074" />
+      <window_info anchor="right" x="0" y="0" width="667" height="1765" id="Documentation" order="7" sideWeight="0.5188107" side_tool="true" visible="true" weight="0.10599946" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added the instagram photos" />
     <MESSAGE value="Added the Instagram photo downloading - need to resolve the duplicated file names issue (unique photo id necessary)" />
     <MESSAGE value="Unique photo id (Index + host id + timestamp) done." />
     <MESSAGE value="Insta photos (168)" />
@@ -1316,7 +1323,8 @@
     <MESSAGE value="Delete the labels" />
     <MESSAGE value="Moved the old scripts to the back-up folder." />
     <MESSAGE value="model structure save/load (json)" />
-    <option name="LAST_COMMIT_MESSAGE" value="model structure save/load (json)" />
+    <MESSAGE value="try catch exception while reading images" />
+    <option name="LAST_COMMIT_MESSAGE" value="try catch exception while reading images" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/keras/engine/training.py" />
@@ -1348,13 +1356,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SettleData_Retraining_inceptionv3.py" />
     <entry file="file://$PROJECT_DIR$/SettleData_BatchTagging_v1.py" />
-    <entry file="file://$PROJECT_DIR$/SettleData_Retraining_inceptionresnetv2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5112">
-          <caret line="303" column="9" selection-start-line="303" selection-end-line="303" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Seattle_retraining_instagram_inceptionresnetv2_ver5.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
@@ -1362,10 +1363,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/SettleData_Retraining_inceptionresnetv2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1044">
+          <caret line="304" selection-start-line="279" selection-end-line="304" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/SettleData_BatchTagging_using_instadata_v2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="177" column="18" selection-start-line="177" selection-start-column="18" selection-end-line="177" selection-end-column="18" />
+        <state relative-caret-position="639">
+          <caret line="263" selection-start-line="263" selection-end-line="263" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>
