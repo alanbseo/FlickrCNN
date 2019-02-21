@@ -62,10 +62,11 @@ num_classes = 5
 
 
 
-
-default_path = '/Users/seo-b/Dropbox/KIT/FlickrEU/FlickrCNN'
+# default_path = '/Users/seo-b/Dropbox/KIT/FlickrEU/FlickrCNN'
+default_path = '/home/alan/Dropbox/KIT/FlickrEU/FlickrCNN'
 os.chdir(default_path)
-photo_path = default_path + '/Photos_50_Flickr'
+# photo_path = default_path + '/Photos_50_Flickr'
+photo_path = default_path + '/../FlickrSeattle_Photos_Flickr_All'
 
 ### Read filenames
 filenames = os.listdir(photo_path)
@@ -141,7 +142,8 @@ model_trained.load_weights('TrainedWeights/InceptionResnetV2_retrain_instagram_e
 # model_final.load_weights('TrainedWeights/InceptionResnetV2_retrain_instagram_epoch150_acc0.97.h5')
 #
 modelname = "InceptionResnetV2"
-dataname = "Photos_338"
+#dataname = "Photos_338"
+dataname = "FlickrSeattle_Photos_Flickr_All"
 
 
 # filename = 'photoid_19568808955.jpg' # granpa
@@ -151,7 +153,7 @@ filename = 'photoid_23663993529.jpg' # bridge
 
 
 
-for filename in filenames:
+for filename in filenames[3454:]:
 
 
     fname = photo_path + "/" + filename
@@ -160,7 +162,12 @@ for filename in filenames:
 
         # load an image in PIL format
         # original = load_img(filename, target_size=(299, 299))
-        original = load_img(fname, target_size=(662, 662))
+        try:
+            original = load_img(fname, target_size=(662, 662))
+        except OSError:
+            print("Bad file - Try again..." + fname)
+
+
 
         # convert the PIL image to a numpy array
         # IN PIL - image is in (width, height, channel)
@@ -201,47 +208,59 @@ for filename in filenames:
 
 
 
-        # Heatmaap
+for filename in filenames:
 
-        # `img` is a PIL image of size 224x224
-        img = image.load_img(fname, target_size=(224, 224))
 
-        # `x` is a float32 Numpy array of shape (224, 224, 3)
-        x = image.img_to_array(img)
+    fname = photo_path + "/" + filename
 
-        # We add a dimension to transform our array into a "batch"
-        # of size (1, 224, 224, 3)
-        x = np.expand_dims(x, axis=0)
+    if os.path.isfile(fname):
 
-        # Finally we preprocess the batch
-        # (this does channel-wise color normalization)
-        x = vgg16.preprocess_input(x)
+        #
+        #
+        # # Heatmaap
+        #
+        # # `img` is a PIL image of size 224x224
+        # img = image.load_img(fname, target_size=(224, 224))
+        #
+        # # `x` is a float32 Numpy array of shape (224, 224, 3)
+        # x = image.img_to_array(img)
+        #
+        # # We add a dimension to transform our array into a "batch"
+        # # of size (1, 224, 224, 3)
+        # x = np.expand_dims(x, axis=0)
+        #
+        # # Finally we preprocess the batch
+        # # (this does channel-wise color normalization)
+        # x = vgg16.preprocess_input(x)
+        #
+        # preds = vgg_model.predict(x)
+        # print('Predicted:', decode_predictions(preds, top=10)[0])
 
-        preds = vgg_model.predict(x)
-        print('Predicted:', decode_predictions(preds, top=10)[0])
-
-        dominant_feature_idx = np.argmax(preds[0])
-
+        # preds
+        #
+        #
+        # dominant_feature_idx = np.argmax(preds[0])
+        model_trained.output
 
         # This is the dominant entry in the prediction vector
-        dominant_output = vgg_model.output[:, dominant_feature_idx]
+        dominant_output = model_trained.output[:, dominant_feature_idx]
 
         # The is the output feature map of the `block5_conv3` layer,
         # the last convolutional layer in VGG16
-        last_conv_layer = vgg_model.get_layer('block5_conv3')
+        last_conv_layer = model_trained.get_layer('conv_7b_ac')
 
-        # This is the gradient of the "african elephant" class with regard to
+        # This is the gradient of the dominant class with regard to
         # the output feature map of `block5_conv3`
-        grads = K.gradients(dominant_output, last_conv_layer.output)[0]
+        grads = k.gradients(dominant_output, last_conv_layer.output)[0]
 
         # This is a vector of shape (512,), where each entry
         # is the mean intensity of the gradient over a specific feature map channel
-        pooled_grads = K.mean(grads, axis=(0, 1, 2))
+        pooled_grads = k.mean(grads, axis=(0, 1, 2))
 
         # This function allows us to access the values of the quantities we just defined:
         # `pooled_grads` and the output feature map of `block5_conv3`,
         # given a sample image
-        iterate = K.function([vgg_model.input], [pooled_grads, last_conv_layer.output[0]])
+        iterate = k.function([model_trained.input], [pooled_grads, last_conv_layer.output[0]])
 
         # These are the values of these two quantities, as Numpy arrays,
         # given our sample image of two elephants
@@ -249,7 +268,7 @@ for filename in filenames:
 
         # We multiply each channel in the feature map array
         # by "how important this channel is" with regard to the elephant class
-        for i in range(512):
+        for i in range(1536):
             conv_layer_output_value[:, :, i] *= pooled_grads_value[i]
 
         # The channel-wise mean of the resulting feature map
