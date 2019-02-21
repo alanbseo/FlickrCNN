@@ -152,7 +152,65 @@ filename = 'photoid_23663993529.jpg' # bridge
 
 
 
-for filename in filenames:
+for filename in filenames[:]:
+
+
+    fname = photo_path + "/" + filename
+
+    if os.path.isfile(fname):
+
+        # load an image in PIL format
+        # original = load_img(filename, target_size=(299, 299))
+        try:
+            original = load_img(fname, target_size=(662, 662))
+        except OSError:
+            print("Bad file - Try again..." + fname)
+            continue
+
+
+
+        # convert the PIL image to a numpy array
+        # IN PIL - image is in (width, height, channel)
+        # In Numpy - image is in (height, width, channel)
+        numpy_image = img_to_array(original)
+
+        # Convert the image / images into batch format
+        # expand_dims will add an extra dimension to the data at a particular axis
+        # We want the input matrix to the network to be of the form (batchsize, height, width, channels)
+        # Thus we add the extra dimension to the axis 0.
+        image_batch = np.expand_dims(numpy_image, axis=0)
+
+
+        # prepare the image (normalisation for channels)
+        processed_image = inception_resnet_v2.preprocess_input(image_batch.copy())
+
+
+
+        # get the predicted probabilities for each class
+        predictions = model_trained.predict(processed_image)
+        # print predictions
+        dominant_feature_idx = np.argmax(predictions[0])
+
+        # convert the probabilities to class labels
+        predicted_class = classes[dominant_feature_idx]
+        print('Predicted:', predicted_class )
+
+
+        df = pd.DataFrame(predictions[0]).transpose()
+        name_csv = default_path + "/Result/Tag_" + modelname + "/" + filename + ".csv"
+
+
+
+        # df.to_csv(name_csv)
+        header = classes
+        df.columns = classes
+        df.to_csv(name_csv, index=False, columns= header)
+
+
+
+
+
+for filename in filenames[2000:]:
 
 
     fname = photo_path + "/" + filename
@@ -256,67 +314,7 @@ for filename in filenames:
         # 0.4 here is a heatmap intensity factor
         superimposed_img = heatmap * 0.4 + img
 
-
-        ## @todo vgg to incresv2
         # Save the image to disk
         cv2.imwrite("Result/Heatmap_" + modelname + "/AttentionMap_" + predicted_class + "_" + filename, superimposed_img)
-
-
-
-
-for filename in filenames[:]:
-
-
-    fname = photo_path + "/" + filename
-
-    if os.path.isfile(fname):
-
-        # load an image in PIL format
-        # original = load_img(filename, target_size=(299, 299))
-        try:
-            original = load_img(fname, target_size=(662, 662))
-        except OSError:
-            print("Bad file - Try again..." + fname)
-            continue
-
-
-
-        # convert the PIL image to a numpy array
-        # IN PIL - image is in (width, height, channel)
-        # In Numpy - image is in (height, width, channel)
-        numpy_image = img_to_array(original)
-
-        # Convert the image / images into batch format
-        # expand_dims will add an extra dimension to the data at a particular axis
-        # We want the input matrix to the network to be of the form (batchsize, height, width, channels)
-        # Thus we add the extra dimension to the axis 0.
-        image_batch = np.expand_dims(numpy_image, axis=0)
-
-
-        # prepare the image (normalisation for channels)
-        processed_image = inception_resnet_v2.preprocess_input(image_batch.copy())
-
-
-
-        # get the predicted probabilities for each class
-        predictions = model_trained.predict(processed_image)
-        # print predictions
-        dominant_feature_idx = np.argmax(predictions[0])
-
-        # convert the probabilities to class labels
-        predicted_class = classes[dominant_feature_idx]
-        print('Predicted:', predicted_class )
-
-
-        df = pd.DataFrame(predictions[0]).transpose()
-        name_csv = default_path + "/Result/Tag_" + modelname + "/" + filename + ".csv"
-
-
-
-        # df.to_csv(name_csv)
-        header = classes
-        df.columns = classes
-        df.to_csv(name_csv, index=False, columns= header)
-
 
 
