@@ -153,7 +153,7 @@ filename = 'photoid_23663993529.jpg' # bridge
 
 
 
-for filename in filenames[1983:]:
+for filename in filenames[8910:]:
 
 
     fname = photo_path + "/" + filename
@@ -184,6 +184,7 @@ for filename in filenames[1983:]:
         processed_image = inception_resnet_v2.preprocess_input(image_batch.copy())
 
         # get the predicted probabilities for each class
+        # @todo predict_on_batch
         predictions = model_trained.predict(processed_image)
 
         # print predictions

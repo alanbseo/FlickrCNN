@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1b3653e0-9452-4d77-a903-044e2f504c7d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Result/TrainingAccuracy_I4V2_epoch100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Result/TrainingLoss_I4V2_epoch100.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/SettleData_BatchTagging_using_instadata_v2.py" beforeDir="false" afterPath="$PROJECT_DIR$/SettleData_BatchTagging_using_instadata_v2.py" afterDir="false" />
     </list>
     <ignored path="Photos_168_retraining/minor samples/mtnbiking/photoid_000071_1113950118_mtn biking_1504623299.jpg" />
@@ -670,31 +672,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SettleData_Retraining_inceptionresnetv2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="67">
-              <caret line="240" column="20" selection-start-line="240" selection-start-column="20" selection-end-line="240" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SettleData_BatchTagging_using_instadata_v2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3015">
-              <caret line="215" selection-start-line="215" selection-end-line="215" />
+            <state relative-caret-position="864">
+              <caret line="186" column="32" selection-start-line="186" selection-start-column="32" selection-end-line="186" selection-end-column="32" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Seattle_retraining_instagram_inceptionresnetv2_ver5.ipynb">
-          <provider selected="true" editor-type-id="ipnb-editor">
-            <state>
-              <selected id="3" />
             </state>
           </provider>
         </entry>
@@ -725,7 +709,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="2560" />
     <option name="height" value="1417" />
@@ -735,6 +719,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -746,7 +731,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -787,9 +771,6 @@
       <module name="FlickrCNN" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -961,7 +942,8 @@
       <workItem from="1550666554089" duration="5616000" />
       <workItem from="1550741429711" duration="9359000" />
       <workItem from="1550777383468" duration="373000" />
-      <workItem from="1550780990215" duration="576000" />
+      <workItem from="1550780990215" duration="1444000" />
+      <workItem from="1550860986535" duration="247000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1548876139497</created>
@@ -1215,11 +1197,18 @@
       <option name="project" value="LOCAL" />
       <updated>1550766642863</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Tagging polished">
+      <created>1550781675369</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1550781675370</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95563000" />
+    <option name="totallyTimeSpent" value="97321000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -1231,9 +1220,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="2560" height="1417" extended-state="0" />
+    <frame x="67" y="34" width="3773" height="2126" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.117156476" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.116491795" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1248,15 +1238,15 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32968834" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="12" visible="true" weight="0.16679245" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="12" visible="true" weight="0.16683519" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" sideWeight="0.47916666" visible="true" weight="0.1056394" />
+      <window_info anchor="right" id="SciView" order="3" sideWeight="0.48058254" visible="true" weight="0.10599946" />
       <window_info anchor="right" id="R Graphics" order="4" />
       <window_info anchor="right" id="R Packages" order="5" />
       <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" x="0" y="0" width="667" height="1765" id="Documentation" order="7" sideWeight="0.5208333" side_tool="true" visible="true" weight="0.1056394" />
+      <window_info anchor="right" x="0" y="0" width="667" height="1765" id="Documentation" order="7" sideWeight="0.51941746" side_tool="true" visible="true" weight="0.10599946" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1320,27 +1310,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SettleData_Retraining_inceptionv3.py" />
     <entry file="file://$PROJECT_DIR$/SettleData_BatchTagging_v1.py" />
+    <entry file="file://$PROJECT_DIR$/Seattle_retraining_instagram_inceptionresnetv2_ver5.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/SettleData_Retraining_inceptionresnetv2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="240" column="20" selection-start-line="240" selection-start-column="20" selection-end-line="240" selection-end-column="20" />
+        <state relative-caret-position="1044">
+          <caret line="304" selection-start-line="279" selection-end-line="304" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SettleData_BatchTagging_using_instadata_v2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3015">
-          <caret line="215" selection-start-line="215" selection-end-line="215" />
+        <state relative-caret-position="864">
+          <caret line="186" column="32" selection-start-line="186" selection-start-column="32" selection-end-line="186" selection-end-column="32" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Seattle_retraining_instagram_inceptionresnetv2_ver5.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="3" />
         </state>
       </provider>
     </entry>
