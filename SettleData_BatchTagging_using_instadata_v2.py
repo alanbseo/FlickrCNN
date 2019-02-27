@@ -34,6 +34,7 @@ from keras.preprocessing.image import img_to_array
 from keras.applications.imagenet_utils import decode_predictions
 import matplotlib.pyplot as plt
 
+from PIL import ImageFont, ImageDraw, Image
 
 
 from keras import applications
@@ -52,15 +53,12 @@ nb_validation_samples = 36
 batch_size = 16 # proportional to the training sample size..
 epochs = 30
 
-num_classes = 5
 
 
 
 
 # or qt5.
 # PyQt5 or similar required.. (https://stackoverflow.com/questions/52346254/importerror-failed-to-import-any-qt-binding-python-tensorflow)
-
-
 
 # default_path = '/Users/seo-b/Dropbox/KIT/FlickrEU/FlickrCNN'
 default_path = '/home/alan/Dropbox/KIT/FlickrEU/FlickrCNN'
@@ -153,7 +151,7 @@ filename = 'photoid_23663993529.jpg' # bridge
 
 
 
-for filename in filenames[8910:]:
+for filename in filenames[7540:]:
 
 
     fname = photo_path + "/" + filename
@@ -161,12 +159,19 @@ for filename in filenames[8910:]:
     if os.path.isfile(fname):
 
         # load an image in PIL format
-        # original = load_img(filename, target_size=(299, 299))
         try:
-            original = load_img(fname, target_size=(662, 662))
+            original = load_img(fname, target_size=(img_width, img_height))
         except OSError:
             print("Bad file - Try again..." + fname)
             continue
+
+        # plt.imshow(original)
+        # plt.show()
+
+        # @todo skip readily done files.
+
+
+
 
         # convert the PIL image to a numpy array
         # IN PIL - image is in (width, height, channel)
@@ -252,8 +257,20 @@ for filename in filenames[8910:]:
         # 0.4 here is a heatmap intensity factor
         superimposed_img = heatmap * 0.4 + img
 
+        # Choose a font
+        font = cv2.FONT_HERSHEY_COMPLEX
+
+        # Draw the text
+
+        for x in range(0, num_classes):
+            tags = classes[x] + ":" + str((predictions[0][x]*100).round(2)) + "%"
+            cv2.putText(superimposed_img,tags,(10, 100 * x + int(img.shape[0]/3)), font, 2,(255,255,255),2) # ,cv2.LINE_AA)
+
+
+        # os.mkdir("Result/Heatmap_" + modelname + "/" + predicted_class)
+
         # Save the image to disk
-        cv2.imwrite("Result/Heatmap_" + modelname + "/AttentionMap_" + predicted_class + "_" + filename, superimposed_img)
+        cv2.imwrite("Result/Heatmap_" + modelname + "/" + predicted_class + "/AttentionMap_" + predicted_class + "_" + filename, superimposed_img)
 
 
 
