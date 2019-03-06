@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b3653e0-9452-4d77-a903-044e2f504c7d" name="Default Changelist" comment="">
+    <list default="true" id="1b3653e0-9452-4d77-a903-044e2f504c7d" name="Default Changelist" comment="labels on the activation maps">
+      <change afterPath="$PROJECT_DIR$/SaxonyData_Retraining_inceptionresnetv2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/FlickrCNN.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/FlickrCNN.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SettleData_BatchTagging_using_instadata_v2.py" beforeDir="false" afterPath="$PROJECT_DIR$/SettleData_BatchTagging_using_instadata_v2.py" afterDir="false" />
     </list>
@@ -664,16 +667,26 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/FlickrCNN$SaxonyData_Retraining_inceptionresnetv2.coverage" NAME="SaxonyData_Retraining_inceptionresnetv2 Coverage Results" MODIFIED="1551860952052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/FlickrCNN$SettleData_Retraining_inceptionresnetv2.coverage" NAME="SettleData_Retraining_inceptionresnetv2 Coverage Results" MODIFIED="1550651102018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/FlickrCNN$SettleData_Retraining_inceptionrv3.coverage" NAME="SettleData_Retraining_inceptionrv3 Coverage Results" MODIFIED="1549388050087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SettleData_BatchTagging_using_instadata_v2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+            <state relative-caret-position="245">
+              <caret line="119" column="38" selection-start-line="119" selection-start-column="38" selection-end-line="119" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SaxonyData_Retraining_inceptionresnetv2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="764">
+              <caret line="296" column="37" lean-forward="true" selection-start-line="296" selection-start-column="37" selection-end-line="296" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -711,13 +724,14 @@
         <option value="$PROJECT_DIR$/SettleData_Retraining_inceptionv3.py" />
         <option value="$PROJECT_DIR$/SettleData_Retraining_inceptionresnetv2.py" />
         <option value="$PROJECT_DIR$/SettleData_BatchTagging_using_instadata_v2.py" />
+        <option value="$PROJECT_DIR$/SaxonyData_Retraining_inceptionresnetv2.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="172" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="15" />
     <option name="y" value="23" />
-    <option name="width" value="2955" />
+    <option name="width" value="2840" />
     <option name="height" value="1417" />
   </component>
   <component name="ProjectView">
@@ -725,6 +739,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -741,7 +756,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -761,6 +775,9 @@
     </option>
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/old" />
     </key>
@@ -777,7 +794,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.SettleData_BatchTagging_using_instadata_v2">
+  <component name="RunManager" selected="Python.SaxonyData_Retraining_inceptionresnetv2">
+    <configuration name="SaxonyData_Retraining_inceptionresnetv2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="FlickrCNN" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python3.6" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SaxonyData_Retraining_inceptionresnetv2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="SettleData_BatchTagging_using_instadata_v2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="FlickrCNN" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -898,9 +937,11 @@
       <item itemvalue="Python.SettleData_BatchTagging_using_instadata_v2" />
       <item itemvalue="Python.SettleData_Retraining_inceptionresnetv2" />
       <item itemvalue="Python.SettleData_Retraining_inceptionrv3" />
+      <item itemvalue="Python.SaxonyData_Retraining_inceptionresnetv2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.SaxonyData_Retraining_inceptionresnetv2" />
         <item itemvalue="Python.SettleData_BatchTagging_using_instadata_v2" />
         <item itemvalue="Python.SettleData_Retraining_inceptionresnetv2" />
         <item itemvalue="Python.SettleData_Retraining_inceptionrv3" />
@@ -963,7 +1004,11 @@
       <workItem from="1551090149393" duration="10069000" />
       <workItem from="1551135562726" duration="1154000" />
       <workItem from="1551137863153" duration="2988000" />
-      <workItem from="1551261628695" duration="350000" />
+      <workItem from="1551261628695" duration="1077000" />
+      <workItem from="1551283583422" duration="1895000" />
+      <workItem from="1551347205095" duration="154000" />
+      <workItem from="1551817578019" duration="532000" />
+      <workItem from="1551860487463" duration="299000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1548876139497</created>
@@ -1231,11 +1276,18 @@
       <option name="project" value="LOCAL" />
       <updated>1550861320926</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="labels on the activation maps">
+      <created>1551263568762</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1551263568762</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="114513000" />
+    <option name="totallyTimeSpent" value="118120000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -1247,9 +1299,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="172" y="23" width="2955" height="1417" extended-state="0" />
+    <frame x="0" y="23" width="2560" height="1417" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22966014" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23788722" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1264,23 +1316,22 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32968834" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="12" visible="true" weight="0.11169811" />
+      <window_info anchor="bottom" id="Python Console" order="12" visible="true" weight="0.23924528" />
       <window_info anchor="bottom" id="Duplicates" order="13" weight="0.32981133" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" sideWeight="0.47748512" visible="true" weight="0.37521455" />
+      <window_info anchor="right" id="SciView" order="3" sideWeight="0.47619048" visible="true" weight="0.37490073" />
       <window_info anchor="right" id="R Graphics" order="4" />
       <window_info anchor="right" id="R Packages" order="5" />
       <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" x="0" y="0" width="667" height="1765" id="Documentation" order="7" sideWeight="0.5225149" side_tool="true" visible="true" weight="0.37521455" />
+      <window_info anchor="right" x="0" y="0" width="667" height="1765" id="Documentation" order="7" sideWeight="0.52380955" side_tool="true" visible="true" weight="0.37490073" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Retraining routine done" />
     <MESSAGE value="Retraining routine improved for visualisation." />
     <MESSAGE value="Google colab script" />
     <MESSAGE value="Initial work done.." />
@@ -1305,7 +1356,8 @@
     <MESSAGE value="Heatmap using the InceptionResnetV2 model." />
     <MESSAGE value="Tagging polished" />
     <MESSAGE value="added to do (predict_on_batch) for speeding-up" />
-    <option name="LAST_COMMIT_MESSAGE" value="added to do (predict_on_batch) for speeding-up" />
+    <MESSAGE value="labels on the activation maps" />
+    <option name="LAST_COMMIT_MESSAGE" value="labels on the activation maps" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/keras/engine/training.py" />
@@ -1343,8 +1395,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SettleData_BatchTagging_using_instadata_v2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+        <state relative-caret-position="245">
+          <caret line="119" column="38" selection-start-line="119" selection-start-column="38" selection-end-line="119" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -1352,6 +1404,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1455">
           <caret line="108" selection-start-line="108" selection-end-line="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SaxonyData_Retraining_inceptionresnetv2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="764">
+          <caret line="296" column="37" lean-forward="true" selection-start-line="296" selection-start-column="37" selection-end-line="296" selection-end-column="37" />
         </state>
       </provider>
     </entry>

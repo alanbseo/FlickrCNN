@@ -151,7 +151,7 @@ filename = 'photoid_23663993529.jpg' # bridge
 
 
 
-for filename in filenames[7540:]:
+for filename in filenames[8990:]:
 
 
     fname = photo_path + "/" + filename
