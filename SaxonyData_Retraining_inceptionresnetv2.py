@@ -182,7 +182,7 @@ model_final = Model(inputs = model.input, outputs = predictions)
 
 
 ## load previously trained weights
-# model_final.load_weights('TrainedWeights/InceptionResnetV2_retrain_instagram_epoch150_acc0.97.h5')
+model_final.load_weights('TrainedWeights/InceptionResnetV2_Saxony_retrain_flickr_final_epoch100_acc0.99.h5')
 
 
 
