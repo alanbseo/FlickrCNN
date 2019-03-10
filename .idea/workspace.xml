@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b3653e0-9452-4d77-a903-044e2f504c7d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/FlickrCNN.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/FlickrCNN.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="Photos_168_retraining/minor samples/mtnbiking/photoid_000071_1113950118_mtn biking_1504623299.jpg" />
@@ -674,7 +672,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SettleData_BatchTagging_using_instadata_v2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1575">
+            <state relative-caret-position="1890">
               <caret line="119" column="38" selection-start-line="119" selection-start-column="38" selection-end-line="119" selection-end-column="38" />
             </state>
           </provider>
@@ -683,8 +681,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SaxonyData_Retraining_inceptionresnetv2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="980">
-              <caret line="184" column="103" selection-start-line="184" selection-start-column="103" selection-end-line="184" selection-end-column="103" />
+            <state relative-caret-position="734">
+              <caret line="171" column="54" selection-start-line="171" selection-start-column="54" selection-end-line="171" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -692,7 +690,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/old/Inception_tutorial_v0.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1455">
+            <state relative-caret-position="1746">
               <caret line="108" selection-start-line="108" selection-end-line="110" />
             </state>
           </provider>
@@ -1011,7 +1009,8 @@
       <workItem from="1551861149435" duration="52000" />
       <workItem from="1551929099528" duration="150000" />
       <workItem from="1551950389590" duration="308000" />
-      <workItem from="1551967833133" duration="45000" />
+      <workItem from="1551967833133" duration="97000" />
+      <workItem from="1551997972466" duration="2005000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1548876139497</created>
@@ -1293,11 +1292,18 @@
       <option name="project" value="LOCAL" />
       <updated>1551861124135</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Saxony retraining">
+      <created>1551967902523</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1551967902523</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119599000" />
+    <option name="totallyTimeSpent" value="121656000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -1309,10 +1315,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="2560" height="1417" extended-state="6" />
+    <frame x="67" y="34" width="3773" height="2126" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24503574" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24670433" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1332,18 +1338,17 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" sideWeight="0.47245282" visible="true" weight="0.37450358" />
+      <window_info active="true" anchor="right" id="SciView" order="3" sideWeight="0.47219414" visible="true" weight="0.37449557" />
       <window_info anchor="right" id="R Graphics" order="4" />
       <window_info anchor="right" id="R Packages" order="5" />
       <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" x="0" y="0" width="667" height="1765" id="Documentation" order="7" sideWeight="0.5275472" side_tool="true" visible="true" weight="0.37450358" />
+      <window_info anchor="right" x="0" y="0" width="667" height="1765" id="Documentation" order="7" sideWeight="0.52780586" side_tool="true" visible="true" weight="0.37449557" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Google colab script" />
     <MESSAGE value="Initial work done.." />
     <MESSAGE value="Initial work done - including google colab notebook." />
     <MESSAGE value="Trainable layer setup was wrong. Fixed." />
@@ -1368,7 +1373,8 @@
     <MESSAGE value="added to do (predict_on_batch) for speeding-up" />
     <MESSAGE value="labels on the activation maps" />
     <MESSAGE value="Saxony data added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Saxony data added" />
+    <MESSAGE value="Saxony retraining" />
+    <option name="LAST_COMMIT_MESSAGE" value="Saxony retraining" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/keras/engine/training.py" />
@@ -1406,22 +1412,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SettleData_BatchTagging_using_instadata_v2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1575">
+        <state relative-caret-position="1890">
           <caret line="119" column="38" selection-start-line="119" selection-start-column="38" selection-end-line="119" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/old/Inception_tutorial_v0.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1455">
+        <state relative-caret-position="1746">
           <caret line="108" selection-start-line="108" selection-end-line="110" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SaxonyData_Retraining_inceptionresnetv2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="980">
-          <caret line="184" column="103" selection-start-line="184" selection-start-column="103" selection-end-line="184" selection-end-column="103" />
+        <state relative-caret-position="734">
+          <caret line="171" column="54" selection-start-line="171" selection-start-column="54" selection-end-line="171" selection-end-column="54" />
         </state>
       </provider>
     </entry>
