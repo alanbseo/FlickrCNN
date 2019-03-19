@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b3653e0-9452-4d77-a903-044e2f504c7d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/SaxonyData_BatchTagging_using_flickrdata_v1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UFZ_workshop/Seattle_retraining_instagram_inceptionresnetv2_ver5.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UFZ_workshop/UFZ_workshop_RCNN.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/FlickrCNN.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/FlickrCNN.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="Photos_168_retraining/minor samples/mtnbiking/photoid_000071_1113950118_mtn biking_1504623299.jpg" />
@@ -663,40 +668,94 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/FlickrCNN$SaxonyData_Retraining_inceptionresnetv2.coverage" NAME="SaxonyData_Retraining_inceptionresnetv2 Coverage Results" MODIFIED="1551950622763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/FlickrCNN$FlickrCNN.coverage" NAME="FlickrCNN Coverage Results" MODIFIED="1553022779255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/FlickrCNN$SaxonyData_Retraining_inceptionresnetv2.coverage" NAME="SaxonyData_Retraining_inceptionresnetv2 Coverage Results" MODIFIED="1552285550131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/FlickrCNN$SettleData_Retraining_inceptionresnetv2.coverage" NAME="SettleData_Retraining_inceptionresnetv2 Coverage Results" MODIFIED="1550651102018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/FlickrCNN$SettleData_Retraining_inceptionrv3.coverage" NAME="SettleData_Retraining_inceptionrv3 Coverage Results" MODIFIED="1549388050087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SettleData_BatchTagging_using_instadata_v2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1890">
-              <caret line="119" column="38" selection-start-line="119" selection-start-column="38" selection-end-line="119" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SaxonyData_Retraining_inceptionresnetv2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="734">
-              <caret line="171" column="54" selection-start-line="171" selection-start-column="54" selection-end-line="171" selection-end-column="54" />
+            <state relative-caret-position="1620">
+              <caret line="105" column="24" selection-start-line="105" selection-start-column="24" selection-end-line="105" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/old/Inception_tutorial_v0.py">
+        <entry file="file://$PROJECT_DIR$/SaxonyData_BatchTagging_using_flickrdata_v1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1746">
-              <caret line="108" selection-start-line="108" selection-end-line="110" />
+            <state relative-caret-position="4266">
+              <caret line="251" selection-start-line="251" selection-end-line="251" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UFZ_workshop/Seattle_retraining_instagram_inceptionresnetv2_ver5.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UFZ_workshop/frcnn_test_vgg.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UFZ_workshop/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/UFZ_workshop/Object_Detection_DataPreprocessing.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UFZ_workshop/UFZ_workshop_RCNN.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UFZ_workshop/frcnn_train_vgg.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="7" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jupyter Notebook" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -721,20 +780,26 @@
         <option value="$PROJECT_DIR$/SettleData_Retraining_inceptionresnetv2.py" />
         <option value="$PROJECT_DIR$/SettleData_BatchTagging_using_instadata_v2.py" />
         <option value="$PROJECT_DIR$/SaxonyData_Retraining_inceptionresnetv2.py" />
+        <option value="$PROJECT_DIR$/SaxonyData_BatchTagging_using_flickrdata_v1.py" />
+        <option value="$PROJECT_DIR$/UFZ_workshop/Seattle_retraining_instagram_inceptionresnetv2_ver5.ipynb" />
+        <option value="$PROJECT_DIR$/UFZ_workshop/UFZ_workshop_RCNN.ipynb" />
+        <option value="$PROJECT_DIR$/UFZ_workshop/frcnn_test_vgg.ipynb" />
+        <option value="$PROJECT_DIR$/UFZ_workshop/Object_Detection_DataPreprocessing.ipynb" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="413" />
-    <option name="y" value="64" />
-    <option name="width" value="3374" />
-    <option name="height" value="1861" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="236" />
+    <option name="y" value="146" />
+    <option name="width" value="3364" />
+    <option name="height" value="1948" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -745,17 +810,17 @@
             <path>
               <item name="FlickrCNN" type="b2602c69:ProjectViewProjectNode" />
               <item name="FlickrCNN" type="462c0819:PsiDirectoryNode" />
-              <item name="old" type="462c0819:PsiDirectoryNode" />
+              <item name="UFZ_workshop" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -772,6 +837,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/UFZ_workshop" />
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -790,7 +856,47 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.SaxonyData_Retraining_inceptionresnetv2">
+  <component name="RunManager" selected="Jupyter Notebook.FlickrCNN">
+    <configuration name="FlickrCNN" type="JupiterNotebook" factoryName="Jupyter Notebook">
+      <module name="FlickrCNN" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="additionalOptions" value="" />
+      <option name="ipnbHost" value="127.0.0.1" />
+      <option name="ipnbPort" value="8888" />
+      <method v="2" />
+    </configuration>
+    <configuration name="SaxonyData_BatchTagging_using_flickrdata_v1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="FlickrCNN" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SaxonyData_BatchTagging_using_flickrdata_v1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="SaxonyData_Retraining_inceptionresnetv2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="FlickrCNN" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -930,13 +1036,16 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.SaxonyData_BatchTagging_using_flickrdata_v1" />
       <item itemvalue="Python.SaxonyData_Retraining_inceptionresnetv2" />
       <item itemvalue="Python.SettleData_BatchTagging_using_instadata_v2" />
       <item itemvalue="Python.SettleData_Retraining_inceptionresnetv2" />
       <item itemvalue="Python.SettleData_Retraining_inceptionrv3" />
+      <item itemvalue="Jupyter Notebook.FlickrCNN" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.SaxonyData_BatchTagging_using_flickrdata_v1" />
         <item itemvalue="Python.SaxonyData_Retraining_inceptionresnetv2" />
         <item itemvalue="Python.SettleData_BatchTagging_using_instadata_v2" />
         <item itemvalue="Python.SettleData_Retraining_inceptionresnetv2" />
@@ -1011,6 +1120,19 @@
       <workItem from="1551950389590" duration="308000" />
       <workItem from="1551967833133" duration="97000" />
       <workItem from="1551997972466" duration="2005000" />
+      <workItem from="1552248748570" duration="89000" />
+      <workItem from="1552284689179" duration="5000" />
+      <workItem from="1552285338036" duration="2659000" />
+      <workItem from="1552551350141" duration="3386000" />
+      <workItem from="1552578123183" duration="1802000" />
+      <workItem from="1552597251989" duration="1243000" />
+      <workItem from="1552602013462" duration="24000" />
+      <workItem from="1552995555045" duration="70000" />
+      <workItem from="1552996799331" duration="654000" />
+      <workItem from="1552997474920" duration="855000" />
+      <workItem from="1552998433132" duration="733000" />
+      <workItem from="1552999291511" duration="319000" />
+      <workItem from="1553021870383" duration="1738000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1548876139497</created>
@@ -1299,11 +1421,18 @@
       <option name="project" value="LOCAL" />
       <updated>1551967902523</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Json structure updated">
+      <created>1552248819825</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1552248819825</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121656000" />
+    <option name="totallyTimeSpent" value="135233000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -1315,15 +1444,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="34" width="3773" height="2126" extended-state="6" />
+    <frame x="67" y="72" width="3364" height="1948" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24670433" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2729746" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4109749" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49969772" visible="true" weight="0.09944444" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1331,25 +1460,25 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32941177" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.5003023" side_tool="true" visible="true" weight="0.09944444" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32968834" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.23904383" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.22611111" />
       <window_info anchor="bottom" id="Duplicates" order="13" weight="0.32981133" />
+      <window_info anchor="bottom" id="Regex Tester" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" id="SciView" order="3" sideWeight="0.47219414" visible="true" weight="0.37449557" />
+      <window_info anchor="right" id="SciView" order="3" sideWeight="0.46977204" visible="true" weight="0.3086457" />
       <window_info anchor="right" id="R Graphics" order="4" />
       <window_info anchor="right" id="R Packages" order="5" />
       <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" x="0" y="0" width="667" height="1765" id="Documentation" order="7" sideWeight="0.52780586" side_tool="true" visible="true" weight="0.37449557" />
+      <window_info anchor="right" x="0" y="0" width="667" height="1765" id="Documentation" order="7" sideWeight="0.53022796" side_tool="true" visible="true" weight="0.37441424" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Initial work done.." />
     <MESSAGE value="Initial work done - including google colab notebook." />
     <MESSAGE value="Trainable layer setup was wrong. Fixed." />
     <MESSAGE value="Show class labels." />
@@ -1374,7 +1503,8 @@
     <MESSAGE value="labels on the activation maps" />
     <MESSAGE value="Saxony data added" />
     <MESSAGE value="Saxony retraining" />
-    <option name="LAST_COMMIT_MESSAGE" value="Saxony retraining" />
+    <MESSAGE value="Json structure updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="Json structure updated" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/keras/engine/training.py" />
@@ -1412,11 +1542,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SettleData_BatchTagging_using_instadata_v2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1890">
+        <state relative-caret-position="1881">
           <caret line="119" column="38" selection-start-line="119" selection-start-column="38" selection-end-line="119" selection-end-column="38" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-1247971763/cv2/cv2/__init__.py" />
     <entry file="file://$PROJECT_DIR$/old/Inception_tutorial_v0.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1746">
@@ -1426,8 +1557,65 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SaxonyData_Retraining_inceptionresnetv2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="734">
-          <caret line="171" column="54" selection-start-line="171" selection-start-column="54" selection-end-line="171" selection-end-column="54" />
+        <state relative-caret-position="1620">
+          <caret line="105" column="24" selection-start-line="105" selection-start-column="24" selection-end-line="105" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SaxonyData_BatchTagging_using_flickrdata_v1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4266">
+          <caret line="251" selection-start-line="251" selection-end-line="251" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///run/user/1000/snap.pycharm-professional/jupyter/nbserver-23346-open.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-end-line="16" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UFZ_workshop/Seattle_retraining_instagram_inceptionresnetv2_ver5.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UFZ_workshop/frcnn_train_vgg.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UFZ_workshop/UFZ_workshop_RCNN.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UFZ_workshop/frcnn_test_vgg.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UFZ_workshop/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UFZ_workshop/Object_Detection_DataPreprocessing.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="4" />
         </state>
       </provider>
     </entry>
