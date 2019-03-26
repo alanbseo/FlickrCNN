@@ -1,18 +1,12 @@
-import keras
 import numpy as np
 import os
+
 import cv2
-
-import csv
+import numpy as np
 import pandas as pd
-import pathlib
-import fnmatch
-
-
-import ssl
-
 ### Avoid certificat error (source: https://stackoverflow.com/questions/27835619/urllib-and-ssl-certificate-verify-failed-error)
 import requests
+
 requests.packages.urllib3.disable_warnings()
 
 import ssl
@@ -28,22 +22,11 @@ else:
 
 
 from keras.applications import inception_resnet_v2
-from keras.preprocessing import image
 from keras.preprocessing.image import load_img
 from keras.preprocessing.image import img_to_array
-from keras.applications.imagenet_utils import decode_predictions
-import matplotlib.pyplot as plt
 
-from PIL import ImageFont, ImageDraw, Image
-
-
-from keras import applications
-from keras.preprocessing.image import ImageDataGenerator
-from keras import optimizers
-from keras.models import Sequential, Model
-from keras.layers import Dropout, Flatten, Dense, GlobalAveragePooling2D
 from keras import backend as k
-from keras.callbacks import ModelCheckpoint, LearningRateScheduler, TensorBoard, EarlyStopping
+
 img_width, img_height = 331, 331
 train_data_dir = "Photos_338_retraining/train"
 validation_data_dir = "Photos_338_retraining/validation"

@@ -1,5 +1,5 @@
 
-#### Fine-tune InceptionV3 on a new set of classes
+#### Fine-tune InceptionV4 on a new set of classes
 
 # The task of fine-tuning a network is to tweak the parameters of an already trained network so that it adapts to the new task at hand. As explained here, the initial layers learn very general features and as we go higher up the network, the layers tend to learn patterns more specific to the task it is being trained on. Thus, for fine-tuning, we want to keep the initial layers intact ( or freeze them ) and retrain the later layers for our task.
 # Thus, fine-tuning avoids both the limitations discussed above.
@@ -78,8 +78,8 @@ import numpy as np
 
 
 
-default_path = '/home/alan/Dropbox/KIT/FlickrEU/FlickrCNN'
-# default_path = '/Users/seo-b/Dropbox/KIT/FlickrEU/FlickrCNN'
+# default_path = '/home/alan/Dropbox/KIT/FlickrEU/FlickrCNN'
+default_path = '/Users/seo-b/Dropbox/KIT/FlickrEU/FlickrCNN'
 
 os.chdir(default_path)
 # photo_path = default_path + '/Photos_168_retraining'
@@ -115,8 +115,10 @@ validation_data_dir = "Saxony_Flickr_Selection/validation"
 nb_train_samples = 104
 nb_validation_samples = 0
 
-batch_size = 32 # proportional to the training sample size.. (64 did not work for Vega56 8GB)
-epochs = 100
+batch_size = 32 #  Means the number of images used in one batch. If you have 320 images and your batch size is 32, you need 10 internal iterations go through the data set once (which is called `one epoch')
+# It is set  proportional to the training sample size. There are discussions but generally if you can afford, bigger is better. It
+
+epochs = 100 # An epoch means the whole input dataset has been used for training the network. There are some heuristics to determine the maximum epoch. Also there is a way to stop the training based on the performance (callled  `Early stopping').
 
 num_classes = 12
 
@@ -187,6 +189,7 @@ model_final.load_weights('TrainedWeights/InceptionResnetV2_Saxony_retrain_flickr
 
 
 # Compile the final model using an Adam optimizer, with a low learning rate (since we are 'fine-tuning')
+# For classification, categorical_crossentropy is most often used. It measures the information between the predicted and the true class labels similarly with the mutual information. It is
 model_final.compile(optimizer=Adam(lr=1e-5), loss='categorical_crossentropy', metrics=['accuracy'])
 
 print(model_final.summary())
@@ -234,6 +237,8 @@ print('****************')
 
 # Save the model according to the conditions
 checkpoint = ModelCheckpoint("TrainedWeights/InceptionResnetV2_Saxony_retrain.h5", monitor='acc', verbose=1, save_best_only=True, save_weights_only=False, mode='auto', period=1)
+
+# Setup the early stopping criteria
 early = EarlyStopping(monitor='val_acc', min_delta=0, patience=10, verbose=1, mode='auto')
 
 

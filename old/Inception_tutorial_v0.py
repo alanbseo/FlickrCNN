@@ -79,6 +79,15 @@ filename = 'Photos_50/photoid_23663993529.jpg' # bridge
 # original = load_img(filename, target_size=(299, 299))
 original = load_img(filename, target_size=(331, 331))
 
+
+from PIL import Image
+
+from urllib.request import urlopen
+img =Image.open(urlopen('http://dl.iplaypython.com/images/banner336x280.jpg'))
+new_img =img.resize((300,500),Image.ANTIALIAS)
+new_img.save('url.jpg','jpeg')
+
+
 # Typical input image sizes to a Convolutional Neural Network trained on ImageNet are 224×224, 227×227, 256×256, and 299×299; however, you may see other dimensions as well.
 # VGG16, VGG19, and ResNet all accept 224×224 input images while Inception V3 and Xception require 299×299 pixel inputs, as demonstrated by the following code block:
 # Nasnet large 331x331

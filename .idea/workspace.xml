@@ -2,27 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b3653e0-9452-4d77-a903-044e2f504c7d" name="Default Changelist" comment="Json structure updated">
-      <change afterPath="$PROJECT_DIR$/UFZ_workshop/Colab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UFZ_workshop/old/Faster_RCNN_for_Open_Images_Dataset_Keras/.idea/libraries/R_User_Library.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UFZ_workshop/old/Faster_RCNN_for_Open_Images_Dataset_Keras/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/FlickrCNN.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/FlickrCNN.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1612.08544.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Deep learning and process understanding for data-driven Earth system science.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesiv_et_al-2019-Global_Change_Biology.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Progressive Neural Architecture Search_PNASnet1712.00559.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rich feature hierarchies for accurate object detection and semantic segmentation.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tensorflow transfer learning using Python v1.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YOLO9000.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YOLOv3.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/You Only Look Once Unified, Real-Time Object Detection.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deep learning review _ zhu2017.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/journal.pone.0073707.PDF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/journal.pone.0073707.s001.DOCX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorflow_objectdetection paper 2018 1707.06642.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weng2019.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlickrWorkshopUFZ/UFZ_0_IntroductionToColab.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/FlickrWorkshopUFZ/UFZ_0_IntroductionToColab.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlickrWorkshopUFZ/UFZ_1_PretrainedCNN_prediction.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/FlickrWorkshopUFZ/UFZ_1_PretrainedCNN_prediction.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SaxonyData_Retraining_inceptionresnetv2.py" beforeDir="false" afterPath="$PROJECT_DIR$/SaxonyData_Retraining_inceptionresnetv2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SettleData_BatchTagging_using_instadata_v2.py" beforeDir="false" afterPath="$PROJECT_DIR$/SettleData_BatchTagging_using_instadata_v2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/old/Inception_tutorial_v0.py" beforeDir="false" afterPath="$PROJECT_DIR$/old/Inception_tutorial_v0.py" afterDir="false" />
     </list>
     <ignored path="Photos_168_retraining/minor samples/mtnbiking/photoid_000071_1113950118_mtn biking_1504623299.jpg" />
     <ignored path="Photos_168_retraining/minor samples/mtnbiking/photoid_000150_1310760880_mtn biking_1530073363.jpg" />
@@ -685,8 +671,8 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/FlickrCNN$SaxonyData_Retraining_inceptionresnetv2.coverage" NAME="SaxonyData_Retraining_inceptionresnetv2 Coverage Results" MODIFIED="1552285550131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/FlickrCNN$FlickrCNN.coverage" NAME="FlickrCNN Coverage Results" MODIFIED="1553083671383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/FlickrCNN$FlickrCNN.coverage" NAME="FlickrCNN Coverage Results" MODIFIED="1553518820673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/FlickrCNN$SaxonyData_Retraining_inceptionresnetv2.coverage" NAME="SaxonyData_Retraining_inceptionresnetv2 Coverage Results" MODIFIED="1553326502913" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/FlickrCNN$SettleData_Retraining_inceptionresnetv2.coverage" NAME="SettleData_Retraining_inceptionresnetv2 Coverage Results" MODIFIED="1550651102018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/FlickrCNN$SettleData_Retraining_inceptionrv3.coverage" NAME="SettleData_Retraining_inceptionrv3 Coverage Results" MODIFIED="1549388050087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
@@ -713,17 +699,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SettleData_Retraining_inceptionresnetv2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3975">
+            <state relative-caret-position="4770">
               <caret line="280" selection-start-line="280" selection-end-line="280" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UFZ_workshop/Colab/M_RCNN_Demo_UFZ_20Mar2019.ipynb">
-          <provider selected="true" editor-type-id="ipnb-editor">
-            <state>
-              <selected id="2" />
             </state>
           </provider>
         </entry>
@@ -731,35 +708,61 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SaxonyData_BatchTagging_using_flickrdata_v1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="71">
-              <caret line="95" column="12" selection-start-line="95" selection-start-column="12" selection-end-line="96" selection-end-column="60" />
+            <state relative-caret-position="4842">
+              <caret line="283" column="32" selection-start-line="283" selection-start-column="16" selection-end-line="283" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UFZ_workshop/Colab/UFZ_demo_M_RCNN_ver1.ipynb">
-          <provider selected="true" editor-type-id="ipnb-editor">
-            <state>
-              <selected id="0" />
+        <entry file="file://$PROJECT_DIR$/old/Inception_tutorial_v0.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="954">
+              <caret line="64" column="21" selection-start-line="64" selection-end-line="65" />
+              <folding>
+                <element signature="e#447#459#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/UFZ_workshop/Colab/UFZ_demo_CNN_prediction_ver1.ipynb">
-          <provider selected="true" editor-type-id="ipnb-editor">
-            <state>
-              <selected id="1" />
+        <entry file="file://$PROJECT_DIR$/SaxonyData_Retraining_inceptionresnetv2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="474">
+              <caret line="286" column="10" lean-forward="true" selection-start-line="286" selection-start-column="10" selection-end-line="286" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UFZ_workshop/Colab/UFZ_demo_CNN_retraining_ver1.ipynb">
+        <entry file="file://$PROJECT_DIR$/FlickrWorkshopUFZ/UFZ_0_IntroductionToColab.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
             <state>
               <selected id="0" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FlickrWorkshopUFZ/UFZ_1_PretrainedCNN_prediction.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/old/mbsmiddlefork_flickrimages_rand50totagactivities_randomlabels_ignore.csv">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SettleData_BatchTagging_using_instadata_v2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5058">
+              <caret line="281" column="50" selection-start-line="281" selection-start-column="45" selection-end-line="281" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -779,6 +782,10 @@
       <find>dropout</find>
       <find>k.</find>
       <find>num_classes</find>
+      <find>decode_</find>
+      <find>v3</find>
+      <find>label</find>
+      <find>This is a vector of shape</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -794,8 +801,6 @@
         <option value="$PROJECT_DIR$/SettleData_Retraining_inceptionrv3.py" />
         <option value="$PROJECT_DIR$/SettleData_Retraining_inceptionv3.py" />
         <option value="$PROJECT_DIR$/SettleData_Retraining_inceptionresnetv2.py" />
-        <option value="$PROJECT_DIR$/SettleData_BatchTagging_using_instadata_v2.py" />
-        <option value="$PROJECT_DIR$/SaxonyData_Retraining_inceptionresnetv2.py" />
         <option value="$PROJECT_DIR$/SaxonyData_BatchTagging_using_flickrdata_v1.py" />
         <option value="$PROJECT_DIR$/UFZ_workshop/Seattle_retraining_instagram_inceptionresnetv2_ver5.ipynb" />
         <option value="$PROJECT_DIR$/UFZ_workshop/UFZ_workshop_RCNN.ipynb" />
@@ -810,13 +815,18 @@
         <option value="$PROJECT_DIR$/UFZ_workshop/Colab/M_RCNN_Demo_UFZ_20Mar2019.ipynb" />
         <option value="$PROJECT_DIR$/UFZ_workshop/Colab/Mask_RCNN-master/samples/demo.py" />
         <option value="$USER_HOME$/Google Drive/Colab Notebooks/UFZ_demo_M_RCNN_ver1.ipynb" />
+        <option value="$PROJECT_DIR$/SettleData_BatchTagging_using_instadata_v2.py" />
+        <option value="$PROJECT_DIR$/old/Inception_tutorial_v0.py" />
+        <option value="$PROJECT_DIR$/SaxonyData_Retraining_inceptionresnetv2.py" />
+        <option value="$PROJECT_DIR$/FlickrWorkshopUFZ/UFZ_1_PretrainedCNN_prediction_changed?.ipynb" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="877" />
+    <option name="x" value="135" />
+    <option name="y" value="64" />
+    <option name="width" value="2653" />
+    <option name="height" value="1589" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -835,13 +845,12 @@
             <path>
               <item name="FlickrCNN" type="b2602c69:ProjectViewProjectNode" />
               <item name="FlickrCNN" type="462c0819:PsiDirectoryNode" />
-              <item name="UFZ_workshop" type="462c0819:PsiDirectoryNode" />
+              <item name="FlickrWorkshopUFZ" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FlickrCNN" type="b2602c69:ProjectViewProjectNode" />
               <item name="FlickrCNN" type="462c0819:PsiDirectoryNode" />
-              <item name="UFZ_workshop" type="462c0819:PsiDirectoryNode" />
-              <item name="Colab" type="462c0819:PsiDirectoryNode" />
+              <item name="Photos_338_retraining" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -850,13 +859,14 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -890,7 +900,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Jupyter Notebook.FlickrCNN">
+  <component name="RunManager" selected="Python.SaxonyData_Retraining_inceptionresnetv2">
     <configuration name="FlickrCNN" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="FlickrCNN" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -938,7 +948,7 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="/usr/bin/python3.6" />
+      <option name="SDK_HOME" value="/usr/local/bin/python3.6" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -1051,11 +1061,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.SaxonyData_Retraining_inceptionresnetv2" />
+        <item itemvalue="Python.SettleData_Retraining_inceptionresnetv2" />
         <item itemvalue="Python.setup" />
         <item itemvalue="Python.SaxonyData_BatchTagging_using_flickrdata_v1" />
-        <item itemvalue="Python.SaxonyData_Retraining_inceptionresnetv2" />
         <item itemvalue="Python.SettleData_BatchTagging_using_instadata_v2" />
-        <item itemvalue="Python.SettleData_Retraining_inceptionresnetv2" />
       </list>
     </recent_temporary>
   </component>
@@ -1148,7 +1158,16 @@
       <workItem from="1553141155064" duration="512000" />
       <workItem from="1553146483605" duration="234000" />
       <workItem from="1553151771444" duration="531000" />
-      <workItem from="1553164568988" duration="1214000" />
+      <workItem from="1553164568988" duration="1842000" />
+      <workItem from="1553225202423" duration="4960000" />
+      <workItem from="1553233650645" duration="9894000" />
+      <workItem from="1553324534638" duration="755000" />
+      <workItem from="1553326222451" duration="2171000" />
+      <workItem from="1553505561801" duration="15000" />
+      <workItem from="1553505606754" duration="551000" />
+      <workItem from="1553512483714" duration="420000" />
+      <workItem from="1553518699357" duration="6603000" />
+      <workItem from="1553580703775" duration="83000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1548876139497</created>
@@ -1458,11 +1477,18 @@
       <option name="project" value="LOCAL" />
       <updated>1553089243050</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="UFZ workshop">
+      <created>1553224436974</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1553224436974</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="157446000" />
+    <option name="totallyTimeSpent" value="183526000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -1474,16 +1500,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
+    <frame x="135" y="64" width="3773" height="2126" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2716728" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16168953" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="DB Browser" order="3" />
       <window_info id="aws.explorer" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48411438" weight="0.16603774" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4825493" weight="0.296766" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1491,23 +1518,23 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32941177" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.508547" side_tool="true" visible="true" weight="0.31229946" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5174507" side_tool="true" weight="0.2973262" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32968834" />
-      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.491453" visible="true" weight="0.31229946" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="12" sideWeight="0.48869145" visible="true" weight="0.24721941" />
       <window_info anchor="bottom" id="Duplicates" order="13" weight="0.32981133" />
       <window_info anchor="bottom" id="Regex Tester" order="14" />
       <window_info anchor="bottom" id="Inspection Results" order="15" sideWeight="0.4996986" weight="0.32993016" />
       <window_info anchor="bottom" id="DB Execution Console" order="16" />
-      <window_info anchor="bottom" id="SonarLint" order="17" />
+      <window_info anchor="bottom" id="SonarLint" order="17" sideWeight="0.498779" weight="0.32941177" />
       <window_info anchor="bottom" id="Tail" order="18" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" sideWeight="0.46345258" visible="true" weight="0.25030527" />
+      <window_info anchor="right" id="SciView" order="3" sideWeight="0.452401" visible="true" weight="0.18832392" />
       <window_info anchor="right" id="R Graphics" order="4" />
       <window_info anchor="right" id="R Packages" order="5" />
       <window_info anchor="right" id="Database" order="6" weight="0.32980654" />
-      <window_info anchor="right" x="0" y="0" width="667" height="1765" id="Documentation" order="7" sideWeight="0.5365474" side_tool="true" visible="true" weight="0.25030527" />
+      <window_info anchor="right" x="0" y="0" width="667" height="1765" id="Documentation" order="7" sideWeight="0.547599" side_tool="true" visible="true" weight="0.18846932" />
       <window_info anchor="right" id="Google Cloud Storage" order="8" />
       <window_info anchor="right" id="Json Parser" order="9" />
     </layout>
@@ -1516,7 +1543,10 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Initial work done - including google colab notebook." />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/UFZ_workshop/old/Faster_RCNN_for_Open_Images_Dataset_Keras" />
+      <path value="$PROJECT_DIR$/UFZ_workshop_old_notuse/old/Faster_RCNN_for_Open_Images_Dataset_Keras" />
+    </ignored-roots>
     <MESSAGE value="Trainable layer setup was wrong. Fixed." />
     <MESSAGE value="Show class labels." />
     <MESSAGE value="A dense layer added." />
@@ -1541,7 +1571,8 @@
     <MESSAGE value="Saxony data added" />
     <MESSAGE value="Saxony retraining" />
     <MESSAGE value="Json structure updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="Json structure updated" />
+    <MESSAGE value="UFZ workshop" />
+    <option name="LAST_COMMIT_MESSAGE" value="UFZ workshop" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/keras/engine/training.py" />
@@ -1570,121 +1601,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SettleData_BatchTagging_using_instadata_v2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1881">
-          <caret line="119" column="38" selection-start-line="119" selection-start-column="38" selection-end-line="119" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-1247971763/cv2/cv2/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/old/Inception_tutorial_v0.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1746">
-          <caret line="108" selection-start-line="108" selection-end-line="110" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///run/user/1000/snap.pycharm-professional/jupyter/nbserver-23346-open.html" />
-    <entry file="file://$PROJECT_DIR$/SaxonyData_Retraining_inceptionresnetv2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1620">
-          <caret line="105" column="24" selection-start-line="105" selection-start-column="24" selection-end-line="105" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/UFZ_workshop/frcnn_test_vgg.ipynb" />
-    <entry file="file://$PROJECT_DIR$/UFZ_workshop/Mask_RCNN-master/setup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" column="18" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UFZ_workshop/Mask_RCNN-master/setup.cfg">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/UFZ_workshop/Mask_RCNN-master/setup.py" />
+    <entry file="file://$PROJECT_DIR$/UFZ_workshop/Mask_RCNN-master/setup.cfg" />
     <entry file="file://$PROJECT_DIR$/UFZ_workshop/frcnn_train_vgg.ipynb" />
-    <entry file="file://$PROJECT_DIR$/UFZ_workshop/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/UFZ_workshop/README.md" />
     <entry file="file://$PROJECT_DIR$/UFZ_workshop/Object_Detection_DataPreprocessing.ipynb" />
     <entry file="file://$PROJECT_DIR$/UFZ_workshop/Mask_RCNN-master/samples/demo.ipynb" />
     <entry file="file://$PROJECT_DIR$/UFZ_workshop/Seattle_retraining_instagram_inceptionresnetv2_ver5.ipynb" />
     <entry file="file://$PROJECT_DIR$/UFZ_workshop/UFZ_workshop_RCNN.ipynb" />
     <entry file="file://$USER_HOME$/Library/Jupyter/runtime/nbserver-23959-open.html" />
     <entry file="file://$PROJECT_DIR$/UFZ_workshop/Mask_RCNN-master/samples/M_RCNN_Demo_UFZ_20Mar2019.ipynb" />
-    <entry file="file://$PROJECT_DIR$/UFZ_workshop/Mask_RCNN-master/samples/demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-          <folding>
-            <element signature="e#153#162#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UFZ_workshop/Mask_RCNN-master/samples/coco/coco.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="739">
-          <caret line="68" selection-start-line="28" selection-end-line="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UFZ_workshop/Mask_RCNN-master/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/UFZ_workshop/Mask_RCNN-master/samples/demo.py" />
+    <entry file="file://$PROJECT_DIR$/UFZ_workshop/Mask_RCNN-master/samples/coco/coco.py" />
+    <entry file="file://$PROJECT_DIR$/UFZ_workshop/Mask_RCNN-master/requirements.txt" />
     <entry file="file://$PROJECT_DIR$/UFZ_workshop/Colab/Mask_RCNN-master/samples/demo.py" />
     <entry file="file://$USER_HOME$/Google Drive/Colab Notebooks/UFZ_demo_M_RCNN_ver1.ipynb" />
     <entry file="file://$PROJECT_DIR$/UFZ_workshop/Colab/Seattle_retraining_instagram_v5.ipynb" />
+    <entry file="file://$PROJECT_DIR$/UFZ_workshop/Colab/M_RCNN_Demo_UFZ_20Mar2019.ipynb" />
+    <entry file="file://$PROJECT_DIR$/UFZ_workshop/Colab/UFZ_demo_M_RCNN_ver1.ipynb" />
+    <entry file="file://$PROJECT_DIR$/UFZ_workshop/Colab/UFZ_demo_CNN_retraining_ver1.ipynb" />
+    <entry file="file://$PROJECT_DIR$/UFZ_workshop/Colab/UFZ_demo_CNN_prediction_ver1.ipynb" />
+    <entry file="file://$PROJECT_DIR$/FlickrWorkshopUFZ/UFZ_1_PretrainedCNN_prediction_changed?.ipynb" />
     <entry file="file://$PROJECT_DIR$/SettleData_Retraining_inceptionresnetv2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3975">
+        <state relative-caret-position="4770">
           <caret line="280" selection-start-line="280" selection-end-line="280" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UFZ_workshop/Colab/M_RCNN_Demo_UFZ_20Mar2019.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SaxonyData_BatchTagging_using_flickrdata_v1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="95" column="12" selection-start-line="95" selection-start-column="12" selection-end-line="96" selection-end-column="60" />
+        <state relative-caret-position="4842">
+          <caret line="283" column="32" selection-start-line="283" selection-start-column="16" selection-end-line="283" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UFZ_workshop/Colab/UFZ_demo_M_RCNN_ver1.ipynb">
+    <entry file="file://$PROJECT_DIR$/old/Inception_tutorial_v0.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="954">
+          <caret line="64" column="21" selection-start-line="64" selection-end-line="65" />
+          <folding>
+            <element signature="e#447#459#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlickrWorkshopUFZ/UFZ_0_IntroductionToColab.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
           <selected id="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UFZ_workshop/Colab/UFZ_demo_CNN_retraining_ver1.ipynb">
+    <entry file="file://$PROJECT_DIR$/FlickrWorkshopUFZ/UFZ_1_PretrainedCNN_prediction.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
-          <selected id="0" />
+          <selected id="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UFZ_workshop/Colab/UFZ_demo_CNN_prediction_ver1.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
+    <entry file="file://$PROJECT_DIR$/old/mbsmiddlefork_flickrimages_rand50totagactivities_randomlabels_ignore.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SettleData_BatchTagging_using_instadata_v2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5058">
+          <caret line="281" column="50" selection-start-line="281" selection-start-column="45" selection-end-line="281" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SaxonyData_Retraining_inceptionresnetv2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="286" column="10" lean-forward="true" selection-start-line="286" selection-start-column="10" selection-end-line="286" selection-end-column="10" />
         </state>
       </provider>
     </entry>

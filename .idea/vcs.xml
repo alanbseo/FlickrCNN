@@ -2,6 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/UFZ_workshop/old/Faster_RCNN_for_Open_Images_Dataset_Keras" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/FlickrWorkshopUFZ" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/old/Faster_RCNN_for_Open_Images_Dataset_Keras" vcs="Git" />
   </component>
 </project>
