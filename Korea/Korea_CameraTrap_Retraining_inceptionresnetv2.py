@@ -44,9 +44,8 @@ import pandas as pd
 import pathlib
 import fnmatch
 
+os.environ["KERAS_BACKEND"] = "plaidml.keras.backend"
 
-
-import ssl
 
 ### Avoid certificat error (source: https://stackoverflow.com/questions/27835619/urllib-and-ssl-certificate-verify-failed-error)
 import requests
@@ -78,8 +77,8 @@ import numpy as np
 
 
 
-default_path = '/home/alan/Dropbox/KIT/FlickrEU/FlickrCNN'
-# default_path = '/Users/seo-b/Dropbox/KIT/FlickrEU/FlickrCNN'
+# default_path = '/home/alan/Dropbox/KIT/FlickrEU/FlickrCNN'
+default_path = '/Users/seo-b/Dropbox/KIT/FlickrEU/FlickrCNN'
 
 os.chdir(default_path)
 # photo_path = default_path + '/Photos_168_retraining'
@@ -261,6 +260,7 @@ checkpoint = ModelCheckpoint("TrainedWeights/InceptionResnetV2_Korea_retrain.h5"
 early = EarlyStopping(monitor='val_acc', min_delta=0, patience=10, verbose=1, mode='auto')
 
 
+from PIL import Image
 
 # Re-train the model
 history = model_final.fit_generator(
