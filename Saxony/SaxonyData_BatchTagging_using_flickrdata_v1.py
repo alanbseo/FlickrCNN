@@ -65,8 +65,10 @@ default_path = '/home/alan/Dropbox/KIT/FlickrEU/FlickrCNN'
 os.chdir(default_path)
 # photo_path = default_path + '/Photos_50_Flickr'
 # photo_path = default_path + '/../FlickrSeattle_Photos_Flickr_All'
-photo_path_base = '/home/alan/Downloads/FlickrEU_Jan2019_V1_Photo_Sachsen'
-
+# photo_path_base = '/home/alan/Downloads/FlickrEU_Jan2019_V1_Photo_Sachsen'
+# photo_path_base = '/home/alan/Dropbox/KIT/FlickrEU/Sachsen/Photos_sample/CellID_2891_AOI_12611'
+# photo_path_base = '/Users/seo-b/Dropbox/KIT/FlickrEU/Sachsen/Photos_sample/'
+photo_path_base = '/home/alan/Dropbox/KIT/FlickrEU/Sachsen/Photos_sample/'
 
 
 img_width, img_height = 662, 662
@@ -93,8 +95,25 @@ batch_size = 16 # proportional to the training sample size..
 # Class #9 = Nature Appreciation
 # Class #10 = Swimming
 # Class #11 = Winter Sports
-classes = ["Aesthetic Landscape", "Boofen", "Canoe Boat", "Climbing", "Cycling", "Fishing", "Hiking", "Horseback Riding", "Hunting",
-           "Nature Appreciation", "Swimming", "Winter Sports"]
+# classes = ["Aesthetic Landscape", "Boofen", "Canoe Boat", "Climbing", "Cycling", "Fishing", "Hiking", "Horseback Riding", "Hunting",
+#            "Nature Appreciation", "Swimming", "Winter Sports"]
+
+# New Saxony classes
+# Found 90 images belonging to 9 classes.
+# Found 0 images belonging to 0 classes.
+# ****************
+# Class #0 = Aesthetic Landscape
+# Class #1 = Climbing
+# Class #2 = Cycling
+# Class #3 = Hiking
+# Class #4 = Horseback Riding
+# Class #5 = Nature Appreciation
+# Class #6 = Water-Related Activities
+# Class #7 = Winter Sports
+# Class #8 = non-CES
+# ****************
+classes = ["Aesthetic Landscape", "Climbing", "Cycling", "Hiking", "Horseback Riding", "Nature Apreciation",
+           "Water-Related Activites", "Winter Sports", "non-CES"]
 
 num_classes = len(classes)
 
@@ -104,12 +123,15 @@ num_classes = len(classes)
 from keras.models import model_from_json
 
 # Model reconstruction from JSON file
-with open('InceptionResnetV2_Saxony_retrain_flickr_final_architecture.json', 'r') as f:
-    model_trained = model_from_json(f.read())
-
+# with open('Model/InceptionResnetV2_Saxony_retrain_flickr_final_architecture.json', 'r') as f:
+#     model_trained = model_from_json(f.read())
+#
 # Load weights into the new model
-model_trained.load_weights('TrainedWeights/InceptionResnetV2_Saxony_retrain_flickr_final_epoch100_acc0.99.h5')
+# model_trained.load_weights('TrainedWeights/InceptionResnetV2_Saxony_retrain_flickr_9classes_epoch30_acc0.98.h5')
 
+from keras.models import load_model
+
+model_trained = load_model('TrainedWeights/InceptionResnetV2_Saxony_retrain_flickr_9classes_epoch90_acc0.98.h5')
 #Load the Inception_V3
 
 # Load the base pre-trained model
@@ -155,7 +177,7 @@ filename = 'photoid_23663993529.jpg' # bridge
 
 
 foldernames = os.listdir(photo_path_base)
-
+foldername = foldernames[1]
 
 for foldername in foldernames[0:1]:
 

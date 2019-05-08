@@ -78,8 +78,8 @@ import numpy as np
 
 
 
-# default_path = '/home/alan/Dropbox/KIT/FlickrEU/FlickrCNN'
-default_path = '/Users/seo-b/Dropbox/KIT/FlickrEU/FlickrCNN'
+default_path = '/home/alan/Dropbox/KIT/FlickrEU/FlickrCNN'
+# default_path = '/Users/seo-b/Dropbox/KIT/FlickrEU/FlickrCNN'
 
 os.chdir(default_path)
 # photo_path = default_path + '/Photos_168_retraining'
@@ -109,10 +109,10 @@ img_width, img_height = 662, 662
 # train_data_dir = "Photos_338_retraining_wovalidation/train"
 # validation_data_dir = "Photos_338_retraining_wovalidation/validation"
 
-train_data_dir = "Saxony_Flickr_Selection/training"
-validation_data_dir = "Saxony_Flickr_Selection/validation"
+train_data_dir = "Saxony_Flickr_Selection_190424/training"
+validation_data_dir = "Saxony_Flickr_Selection_190424/validation"
 
-nb_train_samples = 104
+nb_train_samples = 255
 nb_validation_samples = 0
 
 batch_size = 32 #  Means the number of images used in one batch. If you have 320 images and your batch size is 32, you need 10 internal iterations go through the data set once (which is called `one epoch')
@@ -120,7 +120,7 @@ batch_size = 32 #  Means the number of images used in one batch. If you have 320
 
 epochs = 100 # An epoch means the whole input dataset has been used for training the network. There are some heuristics to determine the maximum epoch. Also there is a way to stop the training based on the performance (callled  `Early stopping').
 
-num_classes = 12
+num_classes = 9
 
 
 
@@ -136,8 +136,9 @@ num_classes = 12
 model = inception_resnet_v2.InceptionResNetV2(include_top=False, weights='imagenet',input_tensor=None, input_shape=(img_width, img_height, 3))
 # Freeze the layers which you don't want to train. Here I am freezing the all layers.
 # i.e. freeze all InceptionV3 layers
-for layer in model.layers[:]:
-    layer.trainable = False
+
+
+
 
 # New dataset is small and similar to original dataset:
 # There is a problem of over-fitting, if we try to train the entire network. Since the data is similar to the original data, we expect higher-level features in the ConvNet to be relevant to this dataset as well. Hence, the best idea might be to train a linear classifier on the CNN codes.
@@ -174,6 +175,7 @@ predictions = Dense(num_classes, activation='softmax', name='softmax')(x)
 model_final = Model(inputs = model.input, outputs = predictions)
 
 
+
 #Now we will be training only the classifiers (FC layers)
 
 # compile the model (should be done *after* setting layers to non-trainable)
@@ -184,13 +186,18 @@ model_final = Model(inputs = model.input, outputs = predictions)
 
 
 ## load previously trained weights
-model_final.load_weights('TrainedWeights/InceptionResnetV2_Saxony_retrain_flickr_final_epoch100_acc0.99.h5')
+model_final.load_weights('TrainedWeights/InceptionResnetV2_Saxony_retrain_flickr_9classes_epoch60_acc0.98.h5')
 
+FREEZE_LAYERS = len(model_final.layers) - 3 # train only last few layers
+
+for layer in model_final.layers[:FREEZE_LAYERS]:
+    layer.trainable = False
 
 
 # Compile the final model using an Adam optimizer, with a low learning rate (since we are 'fine-tuning')
 # For classification, categorical_crossentropy is most often used. It measures the information between the predicted and the true class labels similarly with the mutual information. It is
 model_final.compile(optimizer=Adam(lr=1e-5), loss='categorical_crossentropy', metrics=['accuracy'])
+
 
 print(model_final.summary())
 
@@ -236,7 +243,7 @@ print('****************')
 
 
 # Save the model according to the conditions
-checkpoint = ModelCheckpoint("TrainedWeights/InceptionResnetV2_Saxony_retrain.h5", monitor='acc', verbose=1, save_best_only=True, save_weights_only=False, mode='auto', period=1)
+checkpoint = ModelCheckpoint("TrainedWeights/InceptionResnetV2_Saxony_retrain.h5", monitor='acc', verbose=1, save_best_only=True, save_weights_only=False, mode='auto', period=5)
 
 # Setup the early stopping criteria
 early = EarlyStopping(monitor='val_acc', min_delta=0, patience=10, verbose=1, mode='auto')
@@ -257,7 +264,8 @@ history = model_final.fit_generator(
 
 
 # Save the model
-model_final.save('TrainedWeights/InceptionResnetV2_Saxony_retrain_flickr_final.h5')
+model_final.save('TrainedWeights/InceptionResnetV2_Saxony_retrain_flickr_9classes_epoch30_acc0.98.h5')
+
 
 # Save the model architecture
 with open('InceptionResnetV2_Saxony_retrain_flickr_final_architecture.json', 'w') as f:
