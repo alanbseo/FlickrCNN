@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b3653e0-9452-4d77-a903-044e2f504c7d" name="Default Changelist" comment="Folder restructured">
-      <change afterPath="$PROJECT_DIR$/Korea/Korea_UofW.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/seo_b.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saxony/SaxonyData_Retraining_inceptionresnetv3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/FlickrCNN.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/FlickrCNN.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Korea/Korea_CameraTrap_Retraining_inceptionresnetv2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Korea/Korea_CameraTrap_Retraining_inceptionresnetv2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wild/CameraTrap_Retraining_inceptionresnetv2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wild/Korea_BatchTagging_using_CameraTrapData_v1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/InceptionResnetV2_Korea_retrain_final_architecture.json" beforeDir="false" afterPath="$PROJECT_DIR$/Model/InceptionResnetV2_Korea_retrain_final_architecture.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/InceptionResnetV2_Saxony_retrain_flickr_final_architecture.json" beforeDir="false" afterPath="$PROJECT_DIR$/Model/InceptionResnetV2_Saxony_retrain_flickr_final_architecture.json" afterDir="false" />
     </list>
     <ignored path="Photos_168_retraining/minor samples/mtnbiking/photoid_000071_1113950118_mtn biking_1504623299.jpg" />
     <ignored path="Photos_168_retraining/minor samples/mtnbiking/photoid_000150_1310760880_mtn biking_1530073363.jpg" />
@@ -703,15 +703,37 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FlickrWorkshopUFZ/GoogleColab_setup.ipynb">
-          <provider selected="true" editor-type-id="jupyter-editor" />
+        <entry file="file://$PROJECT_DIR$/Saxony/SaxonyData_Retraining_inceptionresnetv2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2115">
+              <caret line="156" selection-start-line="156" selection-end-line="156" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Saxony/SaxonyData_Retraining_inceptionresnetv3.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="937">
+              <caret line="188" column="101" selection-start-line="188" selection-start-column="101" selection-end-line="188" selection-end-column="101" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Saxony/SaxonyData_BatchTagging_using_flickrdata_v1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="915">
+              <caret line="75" selection-start-line="75" selection-end-line="75" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Korea/Korea_CameraTrap_Retraining_inceptionresnetv2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3960">
-              <caret line="264" selection-start-line="264" selection-end-line="274" />
+            <state relative-caret-position="2550">
+              <caret line="178" selection-start-line="178" selection-end-line="178" />
             </state>
           </provider>
         </entry>
@@ -725,7 +747,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FlickrWorkshopUFZ/Korea_1_PretrainedCNN_prediction.ipynb">
           <provider selected="true" editor-type-id="jupyter-editor" />
         </entry>
@@ -793,14 +815,17 @@
         <option value="$PROJECT_DIR$/deep_learning_for_camera_trap_images-master/phase2/eval.py" />
         <option value="$PROJECT_DIR$/deep_learning_for_camera_trap_images-master/phase2/arch.py" />
         <option value="$PROJECT_DIR$/Korea/Korea_UofW.py" />
+        <option value="$PROJECT_DIR$/Saxony/SaxonyData_Retraining_inceptionresnetv2.py" />
+        <option value="$PROJECT_DIR$/Saxony/SaxonyData_BatchTagging_using_flickrdata_v1.py" />
+        <option value="$PROJECT_DIR$/Saxony/SaxonyData_Retraining_inceptionresnetv3.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="171" />
-    <option name="y" value="61" />
-    <option name="width" value="2560" />
-    <option name="height" value="1417" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="298" />
+    <option name="y" value="114" />
+    <option name="width" value="1389" />
+    <option name="height" value="789" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -819,42 +844,7 @@
             <path>
               <item name="FlickrCNN" type="b2602c69:ProjectViewProjectNode" />
               <item name="FlickrCNN" type="462c0819:PsiDirectoryNode" />
-              <item name="FlickrWorkshopUFZ" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FlickrCNN" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FlickrCNN" type="462c0819:PsiDirectoryNode" />
-              <item name="Korea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FlickrCNN" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FlickrCNN" type="462c0819:PsiDirectoryNode" />
-              <item name="Model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FlickrCNN" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FlickrCNN" type="462c0819:PsiDirectoryNode" />
-              <item name="Photos_338_retraining" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FlickrCNN" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FlickrCNN" type="462c0819:PsiDirectoryNode" />
-              <item name="Rscripts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FlickrCNN" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FlickrCNN" type="462c0819:PsiDirectoryNode" />
               <item name="Saxony" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FlickrCNN" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FlickrCNN" type="462c0819:PsiDirectoryNode" />
-              <item name="Saxony_Flickr_Selection" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FlickrCNN" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FlickrCNN" type="462c0819:PsiDirectoryNode" />
-              <item name="TrainedWeights" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -867,7 +857,7 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Saxony" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -875,9 +865,9 @@
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
-      <console-settings module-name="FlickrCNN" is-module-sdk="true">
+      <console-settings module-name="FlickrCNN" sdk-home="/usr/local/bin/python3.7">
         <option name="useSoftWraps" value="true" />
-        <option name="myUseModuleSdk" value="true" />
+        <option name="mySdkHome" value="/usr/local/bin/python3.7" />
         <option name="myModuleName" value="FlickrCNN" />
       </console-settings>
     </option>
@@ -888,6 +878,7 @@
       <recent name="$PROJECT_DIR$/old" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Saxony" />
       <recent name="$PROJECT_DIR$/Wild" />
       <recent name="$PROJECT_DIR$/UFZ_workshop/Colab" />
       <recent name="$PROJECT_DIR$/UFZ_workshop" />
@@ -906,7 +897,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.eval">
+  <component name="RunManager" selected="Python.SaxonyData_Retraining_inceptionresnetv3">
     <configuration name="FlickrCNN" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="FlickrCNN" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -925,152 +916,17 @@
       <option name="ipnbPort" value="8888" />
       <method v="2" />
     </configuration>
-    <configuration name="CameraTrap_Retraining_inceptionresnetv2" type="PythonConfigurationType" factoryName="Python" singleton="false">
+    <configuration name="SaxonyData_Retraining_inceptionresnetv3" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="FlickrCNN" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="/usr/bin/python3.6" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Wild" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Wild/CameraTrap_Retraining_inceptionresnetv2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Korea_BatchTagging_using_CameraTrapData_v1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="FlickrCNN" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Korea" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Saxony" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Korea/Korea_BatchTagging_using_CameraTrapData_v1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="PlaidML_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="FlickrCNN" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Korea" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Korea/PlaidML_test" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="SaxonyData_Retraining_inceptionresnetv2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="FlickrCNN" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="$USER_HOME$/.virtualenvs/venv/FlickrCNN/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SaxonyData_Retraining_inceptionresnetv2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="SettleData_Retraining_inceptionresnetv2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="FlickrCNN" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SettleData_Retraining_inceptionresnetv2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
-      <module name="FlickrCNN" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="eval" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="FlickrCNN" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/deep_learning_for_camera_trap_images-master/phase2" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/deep_learning_for_camera_trap_images-master/phase2/eval.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Saxony/SaxonyData_Retraining_inceptionresnetv3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -1080,20 +936,11 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.CameraTrap_Retraining_inceptionresnetv2" />
-      <item itemvalue="Python.Korea_BatchTagging_using_CameraTrapData_v1" />
-      <item itemvalue="Python.SaxonyData_Retraining_inceptionresnetv2" />
-      <item itemvalue="Python.SettleData_Retraining_inceptionresnetv2" />
-      <item itemvalue="Python.PlaidML_test" />
-      <item itemvalue="Python.eval" />
+      <item itemvalue="Python.SaxonyData_Retraining_inceptionresnetv3" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.eval" />
-        <item itemvalue="Python.PlaidML_test" />
-        <item itemvalue="Python.Korea_BatchTagging_using_CameraTrapData_v1" />
-        <item itemvalue="Python.SaxonyData_Retraining_inceptionresnetv2" />
-        <item itemvalue="Python.SettleData_Retraining_inceptionresnetv2" />
+        <item itemvalue="Python.SaxonyData_Retraining_inceptionresnetv3" />
       </list>
     </recent_temporary>
   </component>
@@ -1232,21 +1079,20 @@
       <workItem from="1555327404622" duration="5106000" />
       <workItem from="1555404959992" duration="89000" />
       <workItem from="1555406454668" duration="2735000" />
-      <workItem from="1555929618757" duration="159000" />
-    </task>
-    <task id="LOCAL-00001" summary="Initial commit">
-      <created>1548876139497</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1548876139497</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Initial commit">
-      <created>1548876304404</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1548876304404</updated>
+      <workItem from="1555929618757" duration="829000" />
+      <workItem from="1556022835907" duration="1182000" />
+      <workItem from="1556024061776" duration="708000" />
+      <workItem from="1556540646890" duration="193000" />
+      <workItem from="1557091149222" duration="532000" />
+      <workItem from="1557139082229" duration="2309000" />
+      <workItem from="1557144021026" duration="4596000" />
+      <workItem from="1557160344144" duration="56000" />
+      <workItem from="1557354676555" duration="2242000" />
+      <workItem from="1557467604457" duration="2493000" />
+      <workItem from="1557502723627" duration="4000" />
+      <workItem from="1557535294165" duration="2559000" />
+      <workItem from="1557675188215" duration="1430000" />
+      <workItem from="1557690832193" duration="227000" />
     </task>
     <task id="LOCAL-00003" summary="Commenting on the tutorial file. Yet unfinished..!">
       <created>1548877155942</created>
@@ -1570,11 +1416,32 @@
       <option name="project" value="LOCAL" />
       <updated>1554070369161</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="Folder restructured">
+      <created>1555929876471</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1555929876471</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Folder restructured">
+      <created>1555929974977</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1555929974977</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Folder restructured">
+      <created>1557354252473</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1557354252474</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="232844000" />
+    <option name="totallyTimeSpent" value="299654000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1586,40 +1453,42 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="171" y="61" width="2560" height="1417" extended-state="0" />
+    <frame x="67" y="27" width="3773" height="2133" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24821287" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16152401" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="DB Browser" order="3" />
       <window_info id="aws.explorer" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4825493" weight="0.29584906" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4820953" weight="0.2955021" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.399137" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.2754717" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32906666" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.498779" weight="0.32834226" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.51588565" side_tool="true" visible="true" weight="0.45509434" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32968834" />
-      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.48411438" visible="true" weight="0.45509434" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.52573323" side_tool="true" weight="0.5550709" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4997242" weight="0.32903227" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="12" sideWeight="0.47426674" visible="true" weight="0.24650699" />
       <window_info anchor="bottom" id="Duplicates" order="13" weight="0.32981133" />
       <window_info anchor="bottom" id="Regex Tester" order="14" />
       <window_info anchor="bottom" id="Inspection Results" order="15" sideWeight="0.4996986" weight="0.32993016" />
       <window_info anchor="bottom" id="DB Execution Console" order="16" />
       <window_info anchor="bottom" id="SonarLint" order="17" sideWeight="0.498779" weight="0.32941177" />
       <window_info anchor="bottom" id="Tail" order="18" />
+      <window_info anchor="bottom" id="Jupyter" order="19" sideWeight="0.49862108" weight="0.15115207" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" sideWeight="0.42797783" visible="true" weight="0.16640191" />
+      <window_info anchor="right" id="SciView" order="3" sideWeight="0.42263278" visible="true" weight="0.089079686" />
       <window_info anchor="right" id="R Graphics" order="4" sideWeight="0.49901575" weight="0.32976654" />
       <window_info anchor="right" id="R Packages" order="5" />
       <window_info anchor="right" id="Database" order="6" weight="0.32980654" />
-      <window_info anchor="right" x="0" y="0" width="667" height="1765" id="Documentation" order="7" sideWeight="0.57202214" side_tool="true" visible="true" weight="0.16640191" />
+      <window_info anchor="right" x="0" y="0" width="667" height="1765" id="Documentation" order="7" sideWeight="0.5773672" side_tool="true" visible="true" weight="0.1203895" />
       <window_info anchor="right" id="Google Cloud Storage" order="8" />
       <window_info anchor="right" id="Json Parser" order="9" />
     </layout>
@@ -1659,25 +1528,13 @@
     <MESSAGE value="Folder restructured" />
     <option name="LAST_COMMIT_MESSAGE" value="Folder restructured" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
-          <url>file://$PROJECT_DIR$/FlickrWorkshopUFZ/UFZ_2_Mask_RCNN.ipynb</url>
-          <line>12</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/FlickrCNN$SaxonyData_Retraining_inceptionresnetv2.coverage" NAME="SaxonyData_Retraining_inceptionresnetv2 Coverage Results" MODIFIED="1557160303872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Saxony" />
     <SUITE FILE_PATH="coverage/FlickrCNN$PlaidML_test.coverage" NAME="PlaidML_test Coverage Results" MODIFIED="1555327436017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Korea" />
+    <SUITE FILE_PATH="coverage/FlickrCNN$SaxonyData_BatchTagging_using_flickrdata_v1.coverage" NAME="SaxonyData_BatchTagging_using_flickrdata_v1 Coverage Results" MODIFIED="1557184356466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Saxony" />
+    <SUITE FILE_PATH="coverage/FlickrCNN$SaxonyData_Retraining_inceptionresnetv3.coverage" NAME="SaxonyData_Retraining_inceptionresnetv3 Coverage Results" MODIFIED="1557354733878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Saxony" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/old/Seattle_retraining_instagram_inceptionv3_ver1.ipynb" />
-    <entry file="file://$PROJECT_DIR$/SettleData_Retraining_inceptionv3.py" />
-    <entry file="file://$PROJECT_DIR$/SettleData_BatchTagging_v1.py" />
-    <entry file="file://$PROJECT_DIR$/Seattle_retraining_instagram_inceptionresnetv2_ver5.ipynb" />
     <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-1247971763/cv2/cv2/__init__.py" />
     <entry file="file:///run/user/1000/snap.pycharm-professional/jupyter/nbserver-23346-open.html" />
     <entry file="file://$PROJECT_DIR$/UFZ_workshop/frcnn_test_vgg.ipynb" />
@@ -1702,13 +1559,11 @@
     <entry file="file://$PROJECT_DIR$/UFZ_workshop/Colab/UFZ_demo_CNN_retraining_ver1.ipynb" />
     <entry file="file://$PROJECT_DIR$/UFZ_workshop/Colab/UFZ_demo_CNN_prediction_ver1.ipynb" />
     <entry file="file://$PROJECT_DIR$/FlickrWorkshopUFZ/UFZ_1_PretrainedCNN_prediction_changed?.ipynb" />
-    <entry file="file://$PROJECT_DIR$/FlickrWorkshopUFZ/UFZ_0_IntroductionToColab.ipynb" />
     <entry file="file://$PROJECT_DIR$/InceptionResnetV2_Saxony_retrain_flickr_final_architecture.json" />
     <entry file="file://$PROJECT_DIR$/old/mbsmiddlefork_flickrimages_rand50totagactivities_randomlabels_ignore.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/SettleData_BatchTagging_using_instadata_v2.py" />
-    <entry file="file://$PROJECT_DIR$/FlickrWorkshopUFZ/UFZ_1_PretrainedCNN_prediction.ipynb" />
     <entry file="file://$PROJECT_DIR$/Wild/Korea_BatchTagging_using_CameraTrapData_v1.py" />
     <entry file="file://$PROJECT_DIR$/SettleData_Retraining_inceptionresnetv2.py" />
     <entry file="file://$PROJECT_DIR$/SaxonyData_BatchTagging_using_flickrdata_v1.py" />
@@ -1733,23 +1588,40 @@
     <entry file="file://$PROJECT_DIR$/deep_learning_for_camera_trap_images-master/phase2/architectures/alexnet.py" />
     <entry file="file://$PROJECT_DIR$/deep_learning_for_camera_trap_images-master/phase2/architectures/common.py" />
     <entry file="file://$PROJECT_DIR$/deep_learning_for_camera_trap_images-master/phase1/eval.py" />
-    <entry file="file://$PROJECT_DIR$/Korea/PlaidML_test">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="5" column="21" selection-start-line="5" selection-end-line="6" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Korea/PlaidML_test" />
+    <entry file="file://$PROJECT_DIR$/FlickrWorkshopUFZ/UFZ_1_PretrainedCNN_prediction.ipynb">
+      <provider selected="true" editor-type-id="jupyter-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/FlickrWorkshopUFZ/UFZ_2_Mask_RCNN.ipynb">
+    <entry file="file://$PROJECT_DIR$/FlickrWorkshopUFZ/UFZ_3_PretrainedCNN_retraining.ipynb">
+      <provider selected="true" editor-type-id="jupyter-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlickrWorkshopUFZ/UFZ_0_IntroductionToColab.ipynb">
       <provider selected="true" editor-type-id="jupyter-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/FlickrWorkshopUFZ/GoogleColab_setup.ipynb">
       <provider selected="true" editor-type-id="jupyter-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/FlickrWorkshopUFZ/UFZ_2_Mask_RCNN.ipynb">
+      <provider selected="true" editor-type-id="jupyter-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Saxony/SaxonyData_Retraining_inceptionresnetv2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2115">
+          <caret line="156" selection-start-line="156" selection-end-line="156" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Saxony/SaxonyData_BatchTagging_using_flickrdata_v1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="915">
+          <caret line="75" selection-start-line="75" selection-end-line="75" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Korea/Korea_CameraTrap_Retraining_inceptionresnetv2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3960">
-          <caret line="264" selection-start-line="264" selection-end-line="274" />
+        <state relative-caret-position="2550">
+          <caret line="178" selection-start-line="178" selection-end-line="178" />
         </state>
       </provider>
     </entry>
@@ -1762,6 +1634,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/FlickrWorkshopUFZ/Korea_1_PretrainedCNN_prediction.ipynb">
       <provider selected="true" editor-type-id="jupyter-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Saxony/SaxonyData_Retraining_inceptionresnetv3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="937">
+          <caret line="188" column="101" selection-start-line="188" selection-start-column="101" selection-end-line="188" selection-end-column="101" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
