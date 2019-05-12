@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b3653e0-9452-4d77-a903-044e2f504c7d" name="Default Changelist" comment="Folder restructured">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/seo_b.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saxony/SaxonyData_Retraining_inceptionresnetv3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/FlickrCNN.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/FlickrCNN.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/InceptionResnetV2_Korea_retrain_final_architecture.json" beforeDir="false" afterPath="$PROJECT_DIR$/Model/InceptionResnetV2_Korea_retrain_final_architecture.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/InceptionResnetV2_Saxony_retrain_flickr_final_architecture.json" beforeDir="false" afterPath="$PROJECT_DIR$/Model/InceptionResnetV2_Saxony_retrain_flickr_final_architecture.json" afterDir="false" />
+    <list default="true" id="1b3653e0-9452-4d77-a903-044e2f504c7d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Seattle/SettleData_Retraining_inceptionresnetv2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Seattle/SettleData_Retraining_inceptionresnetv2.py" afterDir="false" />
     </list>
     <ignored path="Photos_168_retraining/minor samples/mtnbiking/photoid_000071_1113950118_mtn biking_1504623299.jpg" />
     <ignored path="Photos_168_retraining/minor samples/mtnbiking/photoid_000150_1310760880_mtn biking_1530073363.jpg" />
@@ -703,19 +697,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Saxony/SaxonyData_Retraining_inceptionresnetv2.py">
+        <entry file="file://$PROJECT_DIR$/Saxony/SaxonyData_Retraining_inceptionresnetv3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2115">
-              <caret line="156" selection-start-line="156" selection-end-line="156" />
+            <state relative-caret-position="-938">
+              <caret line="198" column="27" selection-start-line="198" selection-end-line="199" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Saxony/SaxonyData_Retraining_inceptionresnetv3.py">
+        <entry file="file://$PROJECT_DIR$/Seattle/SettleData_Retraining_inceptionresnetv2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="937">
-              <caret line="188" column="101" selection-start-line="188" selection-start-column="101" selection-end-line="188" selection-end-column="101" />
+            <state relative-caret-position="135">
+              <caret line="99" lean-forward="true" selection-start-line="99" selection-end-line="99" />
             </state>
           </provider>
         </entry>
@@ -818,14 +812,15 @@
         <option value="$PROJECT_DIR$/Saxony/SaxonyData_Retraining_inceptionresnetv2.py" />
         <option value="$PROJECT_DIR$/Saxony/SaxonyData_BatchTagging_using_flickrdata_v1.py" />
         <option value="$PROJECT_DIR$/Saxony/SaxonyData_Retraining_inceptionresnetv3.py" />
+        <option value="$PROJECT_DIR$/Seattle/SettleData_Retraining_inceptionresnetv2.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="298" />
-    <option name="y" value="114" />
-    <option name="width" value="1389" />
-    <option name="height" value="789" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="170" />
+    <option name="y" value="165" />
+    <option name="width" value="2218" />
+    <option name="height" value="1434" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -845,6 +840,11 @@
               <item name="FlickrCNN" type="b2602c69:ProjectViewProjectNode" />
               <item name="FlickrCNN" type="462c0819:PsiDirectoryNode" />
               <item name="Saxony" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FlickrCNN" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FlickrCNN" type="462c0819:PsiDirectoryNode" />
+              <item name="Seattle" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -897,7 +897,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.SaxonyData_Retraining_inceptionresnetv3">
+  <component name="RunManager" selected="Python.SettleData_Retraining_inceptionresnetv2">
     <configuration name="FlickrCNN" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="FlickrCNN" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -935,11 +935,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="SettleData_Retraining_inceptionresnetv2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="FlickrCNN" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Seattle" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Seattle/SettleData_Retraining_inceptionresnetv2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.SaxonyData_Retraining_inceptionresnetv3" />
+      <item itemvalue="Python.SettleData_Retraining_inceptionresnetv2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.SettleData_Retraining_inceptionresnetv2" />
         <item itemvalue="Python.SaxonyData_Retraining_inceptionresnetv3" />
       </list>
     </recent_temporary>
@@ -1093,13 +1117,7 @@
       <workItem from="1557535294165" duration="2559000" />
       <workItem from="1557675188215" duration="1430000" />
       <workItem from="1557690832193" duration="227000" />
-    </task>
-    <task id="LOCAL-00003" summary="Commenting on the tutorial file. Yet unfinished..!">
-      <created>1548877155942</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1548877155942</updated>
+      <workItem from="1557691586691" duration="1355000" />
     </task>
     <task id="LOCAL-00004" summary="Revising the tutorial file">
       <created>1548878228356</created>
@@ -1437,11 +1455,18 @@
       <option name="project" value="LOCAL" />
       <updated>1557354252474</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="Folder restructured">
+      <created>1557691644399</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1557691644400</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="299654000" />
+    <option name="totallyTimeSpent" value="301009000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1453,27 +1478,27 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="27" width="3773" height="2133" extended-state="6" />
+    <frame x="170" y="165" width="2218" height="1434" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16152401" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2785451" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="DB Browser" order="3" />
       <window_info id="aws.explorer" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4820953" weight="0.2955021" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4820953" visible="true" weight="0.45363984" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.399137" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.2754717" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.498779" weight="0.32834226" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.498779" weight="0.32784432" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.52573323" side_tool="true" weight="0.5550709" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4997242" weight="0.32903227" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="12" sideWeight="0.47426674" visible="true" weight="0.24650699" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.47426674" weight="0.24600798" />
       <window_info anchor="bottom" id="Duplicates" order="13" weight="0.32981133" />
       <window_info anchor="bottom" id="Regex Tester" order="14" />
       <window_info anchor="bottom" id="Inspection Results" order="15" sideWeight="0.4996986" weight="0.32993016" />
@@ -1484,7 +1509,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" sideWeight="0.42263278" visible="true" weight="0.089079686" />
+      <window_info anchor="right" id="SciView" order="3" sideWeight="0.42263278" visible="true" weight="0.15285452" />
       <window_info anchor="right" id="R Graphics" order="4" sideWeight="0.49901575" weight="0.32976654" />
       <window_info anchor="right" id="R Packages" order="5" />
       <window_info anchor="right" id="Database" order="6" weight="0.32980654" />
@@ -1529,13 +1554,13 @@
     <option name="LAST_COMMIT_MESSAGE" value="Folder restructured" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/FlickrCNN$SettleData_Retraining_inceptionresnetv2.coverage" NAME="SettleData_Retraining_inceptionresnetv2 Coverage Results" MODIFIED="1557703352852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Seattle" />
     <SUITE FILE_PATH="coverage/FlickrCNN$SaxonyData_Retraining_inceptionresnetv2.coverage" NAME="SaxonyData_Retraining_inceptionresnetv2 Coverage Results" MODIFIED="1557160303872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Saxony" />
     <SUITE FILE_PATH="coverage/FlickrCNN$PlaidML_test.coverage" NAME="PlaidML_test Coverage Results" MODIFIED="1555327436017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Korea" />
     <SUITE FILE_PATH="coverage/FlickrCNN$SaxonyData_BatchTagging_using_flickrdata_v1.coverage" NAME="SaxonyData_BatchTagging_using_flickrdata_v1 Coverage Results" MODIFIED="1557184356466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Saxony" />
     <SUITE FILE_PATH="coverage/FlickrCNN$SaxonyData_Retraining_inceptionresnetv3.coverage" NAME="SaxonyData_Retraining_inceptionresnetv3 Coverage Results" MODIFIED="1557354733878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Saxony" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-1247971763/cv2/cv2/__init__.py" />
     <entry file="file:///run/user/1000/snap.pycharm-professional/jupyter/nbserver-23346-open.html" />
     <entry file="file://$PROJECT_DIR$/UFZ_workshop/frcnn_test_vgg.ipynb" />
     <entry file="file://$PROJECT_DIR$/UFZ_workshop/Mask_RCNN-master/setup.py" />
@@ -1601,16 +1626,6 @@
     <entry file="file://$PROJECT_DIR$/FlickrWorkshopUFZ/GoogleColab_setup.ipynb">
       <provider selected="true" editor-type-id="jupyter-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/FlickrWorkshopUFZ/UFZ_2_Mask_RCNN.ipynb">
-      <provider selected="true" editor-type-id="jupyter-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Saxony/SaxonyData_Retraining_inceptionresnetv2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2115">
-          <caret line="156" selection-start-line="156" selection-end-line="156" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Saxony/SaxonyData_BatchTagging_using_flickrdata_v1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="915">
@@ -1637,8 +1652,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Saxony/SaxonyData_Retraining_inceptionresnetv3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="937">
-          <caret line="188" column="101" selection-start-line="188" selection-start-column="101" selection-end-line="188" selection-end-column="101" />
+        <state relative-caret-position="-938">
+          <caret line="198" column="27" selection-start-line="198" selection-end-line="199" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Saxony/SaxonyData_Retraining_inceptionresnetv2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1215">
+          <caret line="156" selection-start-line="156" selection-end-line="156" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlickrWorkshopUFZ/UFZ_2_Mask_RCNN.ipynb">
+      <provider selected="true" editor-type-id="jupyter-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Seattle/SettleData_Retraining_inceptionresnetv2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="99" lean-forward="true" selection-start-line="99" selection-end-line="99" />
         </state>
       </provider>
     </entry>

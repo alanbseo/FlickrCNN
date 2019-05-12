@@ -155,12 +155,10 @@ x = Dense(1024, activation='relu')(x)
 
 
 # If the network is stuck at 50% accuracy, there’s no reason to do any dropout. Dropout is a regularization process to avoid overfitting. But your problem is underfitting.
-# x = Dropout(0.5)(x) # 50% dropout
+x = Dropout(0.5)(x) # 50% dropout
 
 # A Dense (fully connected) layer which generates softmax class score for each class
 predictions = Dense(num_classes, activation='softmax', name='softmax')(x)
-
-
 
 
 # creating the final model
@@ -174,8 +172,7 @@ model_final = Model(inputs = model.input, outputs = predictions)
 
 #model_final.compile(loss = "categorical_crossentropy", optimizer = optimizers.SGD(lr=0.0001, momentum=0.9), metrics=["accuracy"])
 
-# model_final.compile(optimizer='rmsprop', loss='categorical_crossentropy')
-
+model_final.compile(optimizer=Adam(lr=1e-5), loss='categorical_crossentropy', metrics=['accuracy'])
 
 ## load previously trained weights
 model_final.load_weights('TrainedWeights/InceptionResnetV2_retrain_instagram_epoch150_acc0.97.h5')
@@ -229,7 +226,7 @@ print('****************')
 
 
 # Save the model according to the conditions
-checkpoint = ModelCheckpoint("TrainedWeights/InceptionResnetV2_retrain.h5", monitor='acc', verbose=1, save_best_only=True, save_weights_only=False, mode='auto', period=1)
+checkpoint = ModelCheckpoint("TrainedWeights/InceptionResnetV2_Seattle_retrain.h5", monitor='acc', verbose=1, save_best_only=True, save_weights_only=False, mode='auto', period=5)
 early = EarlyStopping(monitor='val_acc', min_delta=0, patience=10, verbose=1, mode='auto')
 
 
