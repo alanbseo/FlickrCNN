@@ -131,7 +131,7 @@ from keras.models import model_from_json
 
 from keras.models import load_model
 
-model_trained = load_model('TrainedWeights/InceptionResnetV2_Saxony_retrain_flickr_9classes_epoch90_acc0.98.h5')
+model_trained = load_model('TrainedWeights/InceptionResnetV2_Saxony_retrain_flickr_9classes_epoch550_acc0.85.h5')
 #Load the Inception_V3
 
 # Load the base pre-trained model
