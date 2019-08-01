@@ -186,7 +186,7 @@ model_final = Model(inputs = model.input, outputs = predictions)
 
 
 ## load previously trained weights
-model_final.load_weights('TrainedWeights/InceptionResnetV2_Saxony_retrain_flickr_9classes_epoch500_acc0.85.h5')
+model_final.load_weights('TrainedWeights/InceptionResnetV2_Saxony_retrain_flickr_9classes_epoch550_acc0.85.h5')
 
 FREEZE_LAYERS = len(model_final.layers) - 1 # train only last few layers
 
@@ -315,6 +315,15 @@ checkpoint = ModelCheckpoint("TrainedWeights/InceptionResnetV2_Saxony_retrain.h5
 # Setup the early stopping criteria
 early = EarlyStopping(monitor='val_acc', min_delta=0, patience=10, verbose=1, mode='auto')
 
+# Train with tensorboard callbacks
+
+callback_tb = keras.callbacks.TensorBoard(
+        log_dir = "log_dir", # tensorflow log
+        histogram_freq=1,    #
+        embeddings_freq=1,
+        write_graph=True, write_images=True
+    )
+
 
 
 # Re-train the model
@@ -324,7 +333,7 @@ history = model_final.fit_generator(
     epochs = epochs,
  #   validation_data = validation_generator,
  #   validation_steps = nb_validation_samples,
-    callbacks = [checkpoint, early])
+    callbacks = [checkpoint, early, callback_tb])
 
 # at this point, the top layers are well trained.
 
