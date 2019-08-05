@@ -8,7 +8,6 @@
 # Since the parameters that need to be updated is less, the amount of time needed will also be less.
 #
 
-
 # Ref:
 # https://github.com/fchollet/deep-learning-with-python-notebooks
 # https://gist.github.com/liudanking
@@ -77,6 +76,8 @@ from keras.applications import vgg16
 import numpy as np
 
 
+#!export HIP_VISIBLE_DEVICES=0,1 #  For 2 GPU training
+os.environ['HIP_VISIBLE_DEVICES'] = '0,1'
 
 default_path = '/home/alan/Dropbox/KIT/FlickrEU/FlickrCNN'
 # default_path = '/Users/seo-b/Dropbox/KIT/FlickrEU/FlickrCNN'
@@ -99,8 +100,9 @@ from keras.layers import Dropout, Flatten, Dense, GlobalAveragePooling2D
 from keras import backend as k
 from keras.callbacks import ModelCheckpoint, LearningRateScheduler, TensorBoard, EarlyStopping
 
+from tensorflow.keras.utils import multi_gpu_model # Multi-GPU Training ref: https://gist.github.com/mattiavarile/223d9c13c9f1919abe9a77931a4ab6c1
 
-img_width, img_height = 662, 662
+img_width, img_height = 331, 331 # 331
 # train_data_dir = "Photos_338_retraining/train"
 # validation_data_dir = "Photos_338_retraining/validation"
 # nb_train_samples = 210
@@ -118,7 +120,7 @@ nb_validation_samples = 0
 batch_size = 32 #  Means the number of images used in one batch. If you have 320 images and your batch size is 32, you need 10 internal iterations go through the data set once (which is called `one epoch')
 # It is set  proportional to the training sample size. There are discussions but generally if you can afford, bigger is better. It
 
-epochs = 100 # An epoch means the whole input dataset has been used for training the network. There are some heuristics to determine the maximum epoch. Also there is a way to stop the training based on the performance (callled  `Early stopping').
+epochs = 50 # An epoch means the whole input dataset has been used for training the network. There are some heuristics to determine the maximum epoch. Also there is a way to stop the training based on the performance (callled  `Early stopping').
 
 num_classes = 9
 
@@ -133,7 +135,7 @@ num_classes = 9
 # do not include the top fully-connected layer
 # 1. we don't include the top (fully connected) layers of InceptionResNetV2
 
-model = inception_resnet_v2.InceptionResNetV2(include_top=False, weights='imagenet',input_tensor=None, input_shape=(img_width, img_height, 3))
+model = inception_resnet_v2.InceptionResNetV2(include_top=False, weights='imagenet', input_tensor=None, input_shape=(img_width, img_height, 3))
 # Freeze the layers which you don't want to train. Here I am freezing the all layers.
 # i.e. freeze all InceptionV3 layers
 
@@ -186,12 +188,16 @@ model_final = Model(inputs = model.input, outputs = predictions)
 
 
 ## load previously trained weights
-model_final.load_weights('TrainedWeights/InceptionResnetV2_Saxony_retrain_flickr_9classes_epoch550_acc0.85.h5')
+#model_final.load_weights('TrainedWeights/InceptionResnetV2_Saxony_retrain_flickr_9classes_epoch550_acc0.85.h5')
 
 FREEZE_LAYERS = len(model_final.layers) - 1 # train only last few layers
 
 for layer in model_final.layers[:FREEZE_LAYERS]:
     layer.trainable = False
+
+# @todo multi gpu throws an error possibly due to version conflicts..
+model_final = multi_gpu_model(model_final, gpus=2, cpu_merge=True, cpu_relocation=False)
+
 
 
 # Compile the final model using an Adam optimizer, with a low learning rate (since we are 'fine-tuning')
@@ -299,7 +305,8 @@ validation_generator = test_datagen.flow_from_directory(
     target_size = (img_height, img_width),
     class_mode = "categorical")
 
-
+# slow
+embedding_var = tf.Variable(train_generator, name="test")
 
 # show class indices
 print('****************')
@@ -313,14 +320,15 @@ print('****************')
 checkpoint = ModelCheckpoint("TrainedWeights/InceptionResnetV2_Saxony_retrain.h5", monitor='acc', verbose=1, save_best_only=True, save_weights_only=False, mode='auto', period=3)
 
 # Setup the early stopping criteria
-early = EarlyStopping(monitor='val_acc', min_delta=0, patience=10, verbose=1, mode='auto')
+early = EarlyStopping(monitor='acc', min_delta=0, patience=10, verbose=1, mode='auto')
 
 # Train with tensorboard callbacks
 
 callback_tb = keras.callbacks.TensorBoard(
         log_dir = "log_dir", # tensorflow log
-        histogram_freq=1,    #
-        embeddings_freq=1,
+        # histogram_freq=0,    #
+        #embeddings_freq=1,
+        # embeddings_data=train_generator.labels,
         write_graph=True, write_images=True
     )
 
@@ -338,9 +346,13 @@ history = model_final.fit_generator(
 # at this point, the top layers are well trained.
 
 
+# @todo obtain acc, val_acc, epoch
+final_acc = 0.8
+final_epoch = 100
+final_val_acc = 0
 
 # Save the model
-model_final.save('TrainedWeights/InceptionResnetV2_Saxony_retrain_flickr_9classes_epoch366_acc0.80.h5')
+# model_final.save('TrainedWeights/InceptionResnetV2_Saxony_retrain_flickr_' + num_classes + 'classes_epoch366_acc0.80.h5')
 
 
 # Save the model architecture

@@ -44,14 +44,14 @@ from keras.models import Sequential, Model
 from keras.layers import Dropout, Flatten, Dense, GlobalAveragePooling2D
 from keras import backend as k
 from keras.callbacks import ModelCheckpoint, LearningRateScheduler, TensorBoard, EarlyStopping
-img_width, img_height = 331, 331
-train_data_dir = "Photos_338_retraining/train"
-validation_data_dir = "Photos_338_retraining/validation"
-nb_train_samples = 81
-nb_validation_samples = 36
-
-batch_size = 16 # proportional to the training sample size..
-epochs = 30
+img_width, img_height = 662, 662
+# train_data_dir = "Photos_338_retraining/train"
+# validation_data_dir = "Photos_338_retraining/validation"
+# nb_train_samples = 81
+# nb_validation_samples = 36
+#
+# batch_size = 16 # proportional to the training sample size..
+# epochs = 30
 
 
 
@@ -74,7 +74,7 @@ photo_path_base = '/home/alan/Dropbox/KIT/FlickrEU/Sachsen/Photos_sample/'
 img_width, img_height = 662, 662
 
 
-batch_size = 16 # proportional to the training sample size..
+# batch_size = 16 # proportional to the training sample size..
 
 # Class #0 = backpacking
 # Class #1 = hiking
@@ -131,8 +131,8 @@ from keras.models import model_from_json
 
 from keras.models import load_model
 
-model_trained = load_model('TrainedWeights/InceptionResnetV2_Saxony_retrain_flickr_9classes_epoch550_acc0.85.h5')
-#Load the Inception_V3
+#Load the InceptionResnetV2 model with the retrained weights
+model_trained = load_model('TrainedWeights/InceptionResnetV2_Saxony_retrain_flickr_9classes_epoch580_acc0.85.h5')
 
 # Load the base pre-trained model
 # do not include the top fully-connected layer
@@ -319,8 +319,12 @@ for foldername in foldernames[0:1]:
                 if not (os.path.exists(out_filepath)):
                     os.makedirs("Result/Heatmap_" + modelname + "/" + foldername + "/" + year + "/" + predicted_class, exist_ok=False)
 
+
+                name_img = "Result/Heatmap_" + modelname + "/" + foldername + "/" + year + "/" + predicted_class + "/AttentionMap_" + predicted_class + "_" + filename
+                print(name_img)
+
                 # Save the image to disk
-                cv2.imwrite("Result/Heatmap_" + modelname + "/" + foldername + "/" + year + "/" + predicted_class + "/AttentionMap_" + predicted_class + "_" + filename, superimposed_img)
+                cv2.imwrite(name_img, superimposed_img)
 
 
 
@@ -370,7 +374,7 @@ for foldername in foldernames[0:1]:
 
             df = pd.DataFrame(predictions[0]).transpose()
             name_csv = default_path + "/Result/Tag_" + modelname + "/" + filename + "_" + predicted_class + ".csv"
-
+            print(name_csv)
 
             # df.to_csv(name_csv)
             header = classes
