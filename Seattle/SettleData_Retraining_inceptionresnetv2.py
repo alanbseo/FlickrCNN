@@ -52,6 +52,7 @@ import ssl
 import requests
 requests.packages.urllib3.disable_warnings()
 
+
 import ssl
 
 try:
@@ -76,10 +77,12 @@ from keras.preprocessing import image
 from keras.applications import vgg16
 import numpy as np
 
+from tensorflow.keras.utils import multi_gpu_model # Multi-GPU Training ref: https://gist.github.com/mattiavarile/223d9c13c9f1919abe9a77931a4ab6c1
 
 
 
 default_path = '/home/alan/Dropbox/KIT/FlickrEU/FlickrCNN'
+# default_path = '/Users/seo-b/Dropbox/KIT/FlickrEU/FlickrCNN'
 os.chdir(default_path)
 # photo_path = default_path + '/Photos_168_retraining'
 
@@ -99,21 +102,19 @@ from keras import backend as k
 from keras.callbacks import ModelCheckpoint, LearningRateScheduler, TensorBoard, EarlyStopping
 
 
-img_width, img_height = 662, 662
+img_width, img_height = 331, 331
 # train_data_dir = "Photos_338_retraining/train"
 # validation_data_dir = "Photos_338_retraining/validation"
 # nb_train_samples = 210
 # nb_validation_samples = 99
 
-train_data_dir = "Photos_338_retraining_wovalidation/train"
-validation_data_dir = "Photos_338_retraining_wovalidation/validation"
-nb_train_samples = 220
-nb_validation_samples = 0
+train_data_dir = "Photos_iterative_Aug2019/train"
+validation_data_dir = "Photos_iterative_Aug2019/validation"
 
-batch_size = 32 # proportional to the training sample size.. (64 did not work for Vega56 8GB)
+batch_size = 92 # proportional to the training sample size.. (64 did not work for Vega56 8GB, 128 did not work for Radeon7 16GB)
 epochs = 100
 
-num_classes = 5
+num_classes = 16
 
 
 
@@ -129,8 +130,8 @@ num_classes = 5
 model = inception_resnet_v2.InceptionResNetV2(include_top=False, weights='imagenet',input_tensor=None, input_shape=(img_width, img_height, 3))
 # Freeze the layers which you don't want to train. Here I am freezing the all layers.
 # i.e. freeze all InceptionV3 layers
-for layer in model.layers[:]:
-    layer.trainable = False
+model.aux_logits=False
+
 
 # New dataset is small and similar to original dataset:
 # There is a problem of over-fitting, if we try to train the entire network. Since the data is similar to the original data, we expect higher-level features in the ConvNet to be relevant to this dataset as well. Hence, the best idea might be to train a linear classifier on the CNN codes.
@@ -168,21 +169,47 @@ model_final = Model(inputs = model.input, outputs = predictions)
 
 #Now we will be training only the classifiers (FC layers)
 
-# compile the model (should be done *after* setting layers to non-trainable)
-
-#model_final.compile(loss = "categorical_crossentropy", optimizer = optimizers.SGD(lr=0.0001, momentum=0.9), metrics=["accuracy"])
-
-model_final.compile(optimizer=Adam(lr=1e-5), loss='categorical_crossentropy', metrics=['accuracy'])
 
 ## load previously trained weights
-model_final.load_weights('TrainedWeights/InceptionResnetV2_retrain_instagram_epoch150_acc0.97.h5')
+# model_final.load_weights('TrainedWeights/InceptionResnetV2_retrain_instagram_epoch150_acc0.97.h5')
+model_final.load_weights('TrainedWeights/InceptionResnetV2_Seattle_retrain_instabram_16classes_finetuning_bigdata_epoch5_acc0.93.h5')
 
 
+# First retraining
+#for layer in model.layers[:]:
+#    layer.trainable = False
+
+# Fine tuning (
+FREEZE_LAYERS = len(model.layers) - 3  # train only last few layers
+
+for layer in model_final.layers[:FREEZE_LAYERS]:
+    layer.trainable = False
+
+
+
+# @todo multi gpu throws an error possibly due to version conflicts..
+# from tensorflow.python.client import device_lib
+# model_final = multi_gpu_model(model_final, gpus=2, cpu_merge=True, cpu_relocation=False)
+
+# compile the model (should be done *after* setting layers to non-trainable)
 
 # Compile the final model using an Adam optimizer, with a low learning rate (since we are 'fine-tuning')
-model_final.compile(optimizer=Adam(lr=1e-5), loss='categorical_crossentropy', metrics=['accuracy'])
+model_final.compile(optimizer=Adam(lr=1e-5), loss='categorical_crossentropy', metrics=['accuracy', 'categorical_accuracy'])
+#model_final.compile(loss = "categorical_crossentropy", optimizer = optimizers.SGD(lr=0.0001, momentum=0.9), metrics=["accuracy"])
 
 print(model_final.summary())
+
+# Save the model architecture
+with open('InceptionResnetV2_retrain_instagram_final_architecture.json', 'w') as f:
+    f.write(model_final.to_json())
+
+
+validation_split = 0.33
+
+import split_utils
+# all data in train_dir and val_dir which are alias to original_data. (both dir is temporary directory)
+# don't clear base_dir, because this directory holds on temp directory.
+base_dir, train_dir, val_dir = split_utils.train_valid_split(train_data_dir, validation_split, seed=1)
 
 
 
@@ -196,7 +223,10 @@ train_datagen = ImageDataGenerator(
     width_shift_range = 0.3,
     height_shift_range=0.3,
     rotation_range=30)
-test_datagen = ImageDataGenerator(
+
+
+# generator for validation data
+val_datagen = ImageDataGenerator(
     rescale = 1./255,
     horizontal_flip = True,
     fill_mode = "nearest",
@@ -205,14 +235,18 @@ test_datagen = ImageDataGenerator(
     height_shift_range=0.3,
     rotation_range=30)
 
+
 train_generator = train_datagen.flow_from_directory(
-    train_data_dir,
+     train_data_dir,
+     target_size = (img_height, img_width),
+     batch_size = batch_size,
+     class_mode = "categorical")
+
+val_batch_size = batch_size
+validation_generator = val_datagen.flow_from_directory(
+    val_dir,
     target_size = (img_height, img_width),
-    batch_size = batch_size,
-    class_mode = "categorical")
-validation_generator = test_datagen.flow_from_directory(
-    validation_data_dir,
-    target_size = (img_height, img_width),
+    batch_size=val_batch_size,
     class_mode = "categorical")
 
 
@@ -225,19 +259,31 @@ print('****************')
 
 
 
+nb_train_samples = train_generator.n
+nb_validation_samples = validation_generator.n
+
+print('the ratio of validation_split is {}'.format(validation_split))
+print('the size of train_dir is {}'.format(nb_train_samples))
+print('the size of val_dir is {}'.format(nb_validation_samples))
+
+
 # Save the model according to the conditions
-checkpoint = ModelCheckpoint("TrainedWeights/InceptionResnetV2_Seattle_retrain.h5", monitor='acc', verbose=1, save_best_only=True, save_weights_only=False, mode='auto', period=5)
-early = EarlyStopping(monitor='val_acc', min_delta=0, patience=10, verbose=1, mode='auto')
+checkpoint = ModelCheckpoint("TrainedWeights/InceptionResnetV2_Seattle_retrain.h5", monitor='categorical_accuracy', verbose=1, save_best_only=True, save_weights_only=False, mode='auto', period=1)
 
 
+early = EarlyStopping(monitor='categorical_accuracy', min_delta=0, patience=10, verbose=1, mode='auto')
+
+
+
+steps_per_epoch = int(np.ceil(nb_train_samples / batch_size))
 
 # Re-train the model
 history = model_final.fit_generator(
     train_generator,
-    steps_per_epoch = nb_train_samples,
+    steps_per_epoch = steps_per_epoch,
     epochs = epochs,
- #   validation_data = validation_generator,
- #   validation_steps = nb_validation_samples,
+  # validation_data = validation_generator,
+   # validation_steps = nb_validation_samples,
     callbacks = [checkpoint, early])
 
 # at this point, the top layers are well trained.
@@ -534,7 +580,6 @@ for filename in filenames:
         superimposed_img = heatmap * 0.4 + img
 
 
-        ## @todo vgg to incresv2
         # Save the image to disk
         cv2.imwrite("Result/Heatmap_" + modelname + "/AttentionMap_" + df[1][0] + "_" + filename, superimposed_img)
 
