@@ -39,11 +39,17 @@ import numpy as np
 import os
 import cv2
 
+#!export HIP_VISIBLE_DEVICES=0,1 #  For 2 GPU training
+os.environ['HIP_VISIBLE_DEVICES'] = '0,1'
+
+
 import csv
 import pandas as pd
 import pathlib
 import fnmatch
 
+# split utils from the web
+import split_utils
 
 
 import ssl
@@ -70,6 +76,9 @@ from keras.preprocessing.image import load_img
 from keras.preprocessing.image import img_to_array
 from keras.applications.imagenet_utils import decode_predictions
 import matplotlib.pyplot as plt
+
+
+from tensorflow.python.client import device_lib
 
 
 
@@ -111,7 +120,7 @@ img_width, img_height = 331, 331
 train_data_dir = "Photos_iterative_Aug2019/train"
 validation_data_dir = "Photos_iterative_Aug2019/validation"
 
-batch_size = 92 # proportional to the training sample size.. (64 did not work for Vega56 8GB, 128 did not work for Radeon7 16GB)
+batch_size = 64 # proportional to the training sample size.. (64 did not work for Vega56 8GB, 128 did not work for Radeon7 16GB)
 epochs = 100
 
 num_classes = 16
@@ -130,7 +139,7 @@ num_classes = 16
 model = inception_resnet_v2.InceptionResNetV2(include_top=False, weights='imagenet',input_tensor=None, input_shape=(img_width, img_height, 3))
 # Freeze the layers which you don't want to train. Here I am freezing the all layers.
 # i.e. freeze all InceptionV3 layers
-model.aux_logits=False
+# model.aux_logits=False
 
 
 # New dataset is small and similar to original dataset:
@@ -172,7 +181,7 @@ model_final = Model(inputs = model.input, outputs = predictions)
 
 ## load previously trained weights
 # model_final.load_weights('TrainedWeights/InceptionResnetV2_retrain_instagram_epoch150_acc0.97.h5')
-model_final.load_weights('TrainedWeights/InceptionResnetV2_Seattle_retrain_instabram_16classes_finetuning_bigdata_epoch5_acc0.93.h5')
+model_final.load_weights('TrainedWeights/InceptionResnetV2_Seattle_retrain_instabram_16classes_finetuning_bigdata_epoch50_acc0.94.h5')
 
 
 # First retraining
@@ -180,7 +189,7 @@ model_final.load_weights('TrainedWeights/InceptionResnetV2_Seattle_retrain_insta
 #    layer.trainable = False
 
 # Fine tuning (
-FREEZE_LAYERS = len(model.layers) - 3  # train only last few layers
+FREEZE_LAYERS = len(model.layers) - 4  # train only last few layers
 
 for layer in model_final.layers[:FREEZE_LAYERS]:
     layer.trainable = False
@@ -188,14 +197,15 @@ for layer in model_final.layers[:FREEZE_LAYERS]:
 
 
 # @todo multi gpu throws an error possibly due to version conflicts..
-# from tensorflow.python.client import device_lib
 # model_final = multi_gpu_model(model_final, gpus=2, cpu_merge=True, cpu_relocation=False)
 
 # compile the model (should be done *after* setting layers to non-trainable)
 
 # Compile the final model using an Adam optimizer, with a low learning rate (since we are 'fine-tuning')
-model_final.compile(optimizer=Adam(lr=1e-5), loss='categorical_crossentropy', metrics=['accuracy', 'categorical_accuracy'])
-#model_final.compile(loss = "categorical_crossentropy", optimizer = optimizers.SGD(lr=0.0001, momentum=0.9), metrics=["accuracy"])
+#model_final.compile(optimizer=Adam(lr=1e-5), loss='categorical_crossentropy', metrics=['accuracy', 'categorical_accuracy', 'loss', 'val_acc'])
+model_final.compile(optimizer=Adam(lr=1e-5), loss='categorical_crossentropy', metrics=['accuracy', 'categorical_accuracy', 'loss', 'val_acc'])
+
+#model_final.compile(loss = "categorical_crossentropy", optimizer = optimizers.SGD(lr=1e-4, momentum=0.9), metrics=["accuracy"])
 
 print(model_final.summary())
 
@@ -204,12 +214,11 @@ with open('InceptionResnetV2_retrain_instagram_final_architecture.json', 'w') as
     f.write(model_final.to_json())
 
 
-validation_split = 0.33
+validation_split = 0.3
 
-import split_utils
 # all data in train_dir and val_dir which are alias to original_data. (both dir is temporary directory)
 # don't clear base_dir, because this directory holds on temp directory.
-base_dir, train_dir, val_dir = split_utils.train_valid_split(train_data_dir, validation_split, seed=1)
+base_dir, train_tmp_dir, val_tmp_dir = split_utils.train_valid_split(train_data_dir, validation_split, seed=1)
 
 
 
@@ -237,14 +246,15 @@ val_datagen = ImageDataGenerator(
 
 
 train_generator = train_datagen.flow_from_directory(
-     train_data_dir,
+     train_tmp_dir,
      target_size = (img_height, img_width),
      batch_size = batch_size,
      class_mode = "categorical")
 
 val_batch_size = batch_size
+
 validation_generator = val_datagen.flow_from_directory(
-    val_dir,
+    val_tmp_dir,
     target_size = (img_height, img_width),
     batch_size=val_batch_size,
     class_mode = "categorical")
@@ -268,27 +278,41 @@ print('the size of val_dir is {}'.format(nb_validation_samples))
 
 
 # Save the model according to the conditions
-checkpoint = ModelCheckpoint("TrainedWeights/InceptionResnetV2_Seattle_retrain.h5", monitor='categorical_accuracy', verbose=1, save_best_only=True, save_weights_only=False, mode='auto', period=1)
+checkpoint = ModelCheckpoint("TrainedWeights/InceptionResnetV2_Seattle_retrain.h5", monitor='val_acc', verbose=1, save_best_only=True, save_weights_only=False, mode='auto', period=3)
 
 
-early = EarlyStopping(monitor='categorical_accuracy', min_delta=0, patience=10, verbose=1, mode='auto')
+early = EarlyStopping(monitor='val_acc', min_delta=0, patience=10, verbose=1, mode='auto')
 
-
-
+# steps per epoch depends on the batch size
 steps_per_epoch = int(np.ceil(nb_train_samples / batch_size))
+validation_steps_per_epoch = int(np.ceil(nb_validation_samples / batch_size))
+
+# Tensorboard
+callback_tb = keras.callbacks.TensorBoard(
+        log_dir = "log_dir", # tensorflow log
+        histogram_freq=1,    # histogram
+        # embeddings_freq=1,
+        # embeddings_data=train_generator.labels,
+        write_graph=True, write_images=True
+    )
+
+
+
+
+
 
 # Re-train the model
 history = model_final.fit_generator(
     train_generator,
     steps_per_epoch = steps_per_epoch,
     epochs = epochs,
-  # validation_data = validation_generator,
-   # validation_steps = nb_validation_samples,
-    callbacks = [checkpoint, early])
-
-# at this point, the top layers are well trained.
+    validation_data = validation_generator,
+    validation_steps = validation_steps_per_epoch,
+    callbacks = [checkpoint, early, callback_tb])
 
 
+
+# at this point, the unfreezed layers are well trained.
 
 # Save the model
 model_final.save('TrainedWeights/InceptionResnetV2_retrain_instagram_final.h5')
