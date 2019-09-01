@@ -159,13 +159,23 @@ x = model.output
 
 # Adding custom Layer
 # x = Flatten()(x)
+
+# https://keras.io/applications/#fine-tune-inceptionv3-on-a-new-set-of-classes
 # add a global spatial average pooling layer
-x = GlobalAveragePooling2D()(x)
+# https://www.quora.com/What-is-global-average-pooling
+# https://arxiv.org/pdf/1312.4400.pdf
+# allows you to have the input image be any size, not just a fixed size like 227x227.
+# It does through taking an average of every incoming feature map.
+# For example, with a 15x15x8 incoming tensor of feature maps, we take the average of each 15x15 matrix slice, giving us an 8 dimensional vector.
+# We can now feed this into the fully connected layers.
+# Notice how that the size of the matrix slices can change, for example, the input might be 32x32x8,
+# and we’ll still get an 8 dimensional vector as an output from the global average pooling layer.
+x = GlobalAveragePooling2D()(x) # before dense layer
 x = Dense(1024, activation='relu')(x)
-
-
-# If the network is stuck at 50% accuracy, there’s no reason to do any dropout. Dropout is a regularization process to avoid overfitting. But your problem is underfitting.
-x = Dropout(0.5)(x) # 50% dropout
+# https://datascience.stackexchange.com/questions/28120/globalaveragepooling2d-in-inception-v3-example
+# If the network is stuck at 50% accuracy, there’s no reason to do any dropout.
+# Dropout is a regularization process to avoid overfitting. But your problem is underfitting.
+x = Dropout(0.3)(x) # 30% dropout
 
 # A Dense (fully connected) layer which generates softmax class score for each class
 predictions = Dense(num_classes, activation='softmax', name='softmax')(x)
@@ -181,15 +191,31 @@ model_final = Model(inputs = model.input, outputs = predictions)
 
 ## load previously trained weights
 # model_final.load_weights('TrainedWeights/InceptionResnetV2_retrain_instagram_epoch150_acc0.97.h5')
-model_final.load_weights('TrainedWeights/InceptionResnetV2_Seattle_retrain_instabram_16classes_finetuning_bigdata_epoch50_acc0.94.h5')
+model_final.load_weights('TrainedWeights/InceptionResnetV2_Seattle_retrain_instabram_16classes_finetuning_bigdata_epoch100_val_acc0.88.h5')
 
 
 # First retraining
 #for layer in model.layers[:]:
 #    layer.trainable = False
 
+
+# We can start fine-tuning convolutional layers from inception V3. We will freeze the bottom N layers
+# and train the remaining top layers.
+
+# we train our model again (this time fine-tuning the top 2 inception blocks
+# alongside the top Dense layers
+
+# we chose to train the top 2 inception blocks, i.e. we will freeze
+# the first 249 layers and unfreeze the rest:
+
+
+# let's visualize layer names and layer indices to see how many layers
+# we should freeze:
+for i, layer in enumerate(model_final.layers):
+    print(i, layer.name)
+
 # Fine tuning (
-FREEZE_LAYERS = len(model.layers) - 4  # train only last few layers
+FREEZE_LAYERS = len(model.layers) - 5 # train the newly added layers and the last few layers
 
 for layer in model_final.layers[:FREEZE_LAYERS]:
     layer.trainable = False
@@ -201,10 +227,13 @@ for layer in model_final.layers[:FREEZE_LAYERS]:
 
 # compile the model (should be done *after* setting layers to non-trainable)
 
+
+# we need to recompile the model for these modifications to take effect
 # Compile the final model using an Adam optimizer, with a low learning rate (since we are 'fine-tuning')
 #model_final.compile(optimizer=Adam(lr=1e-5), loss='categorical_crossentropy', metrics=['accuracy', 'categorical_accuracy', 'loss', 'val_acc'])
-model_final.compile(optimizer=Adam(lr=1e-5), loss='categorical_crossentropy', metrics=['accuracy', 'categorical_accuracy', 'loss', 'val_acc'])
+model_final.compile(optimizer=Adam(lr=1e-5), loss='categorical_crossentropy', metrics=['accuracy', 'categorical_accuracy'])
 
+# we can use SGD with a low learning rate
 #model_final.compile(loss = "categorical_crossentropy", optimizer = optimizers.SGD(lr=1e-4, momentum=0.9), metrics=["accuracy"])
 
 print(model_final.summary())
@@ -212,7 +241,6 @@ print(model_final.summary())
 # Save the model architecture
 with open('InceptionResnetV2_retrain_instagram_final_architecture.json', 'w') as f:
     f.write(model_final.to_json())
-
 
 validation_split = 0.3
 
@@ -288,6 +316,7 @@ steps_per_epoch = int(np.ceil(nb_train_samples / batch_size))
 validation_steps_per_epoch = int(np.ceil(nb_validation_samples / batch_size))
 
 # Tensorboard
+# If printing histograms, validation_data must be provided, and cannot be a generator.
 callback_tb = keras.callbacks.TensorBoard(
         log_dir = "log_dir", # tensorflow log
         histogram_freq=1,    # histogram
@@ -296,19 +325,24 @@ callback_tb = keras.callbacks.TensorBoard(
         write_graph=True, write_images=True
     )
 
+# callback_tb_simple = keras.callbacks.TensorBoard(
+#         log_dir = "log_dir", # tensorflow log
+#         # histogram_freq=1,    # histogram
+#         # embeddings_freq=1,
+#         # embeddings_data=train_generator.labels,
+#         write_graph=True, write_images=True
+#     )
 
 
+# Train the model
 
-
-
-# Re-train the model
 history = model_final.fit_generator(
     train_generator,
     steps_per_epoch = steps_per_epoch,
     epochs = epochs,
     validation_data = validation_generator,
     validation_steps = validation_steps_per_epoch,
-    callbacks = [checkpoint, early, callback_tb])
+    callbacks = [checkpoint, early]) # , callback_tb
 
 
 
@@ -317,42 +351,32 @@ history = model_final.fit_generator(
 # Save the model
 model_final.save('TrainedWeights/InceptionResnetV2_retrain_instagram_final.h5')
 
-# Save the model architecture
-with open('InceptionResnetV2_retrain_instagram_final_architecture.json', 'w') as f:
-    f.write(model_final.to_json())
-
-
+# save training history
+history_df = pd.DataFrame(history.history)
+history_df.to_csv('TrainedWeights/InceptionResnetV2_retrain_instagram_final.csv')
 
 acc = history.history['acc']
-#val_acc = history.history['val_acc']
+val_acc = history.history['val_acc']
 loss = history.history['loss']
-#val_loss = history.history['val_loss']
+val_loss = history.history['val_loss']
 
 epochs = range(len(acc))
 
 plt.plot( acc, 'b', label='Training acc')
-#plt.plot(epochs, val_acc, 'r', label='Validation acc')
+plt.plot(epochs, val_acc, 'r', label='Validation acc')
 plt.title('Training accuracy')
 plt.legend()
 
 plt.figure()
 
 plt.plot( loss, 'b', label='Training loss')
-#plt.plot(epochs, val_loss, 'r', label='Validation loss')
+plt.plot(epochs, val_loss, 'r', label='Validation loss')
 plt.title('Training loss')
 plt.legend()
 
 plt.show()
 
 
-
-# Create a generator for prediction
-validation_generator = validation_datagen.flow_from_directory(
-    validation_dir,
-    target_size=(image_size, image_size),
-    batch_size=val_batchsize,
-    class_mode='categorical',
-    shuffle=False)
 
 # Get the filenames from the generator
 fnames = validation_generator.filenames
@@ -393,37 +417,22 @@ for i in range(len(errors)):
     plt.show()
 
 
+
+### Feature extraction
+
+
+
 ####
 ### @todo feature extraction
 
 
 
 #
-# We can start fine-tuning convolutional layers from inception V3. We will freeze the bottom N layers
-# and train the remaining top layers.
 
-# let's visualize layer names and layer indices to see how many layers
-# we should freeze:
-for i, layer in enumerate(base_model.layers):
-    print(i, layer.name)
 
-# we chose to train the top 2 inception blocks, i.e. we will freeze
-# the first 249 layers and unfreeze the rest:
-for layer in model.layers[:249]:
-    layer.trainable = False
-for layer in model.layers[249:]:
-    layer.trainable = True
 
-# we need to recompile the model for these modifications to take effect
-# we use SGD with a low learning rate
-from keras.optimizers import SGD
-model.compile(optimizer=SGD(lr=0.0001, momentum=0.9), loss='categorical_crossentropy')
 
-# we train our model again (this time fine-tuning the top 2 inception blocks
-# alongside the top Dense layers
-# model.fit_generator(...)
 
-### Feature extraction
 
 
 
@@ -437,175 +446,6 @@ model.compile(optimizer=SGD(lr=0.0001, momentum=0.9), loss='categorical_crossent
 
 
 
-
-
-
-
-
-
-
-
-
-### Read filenames
-filenames = os.listdir(photo_path)
-
-filenames1 = fnmatch.filter(filenames, "*.jpg")
-filenames2 = fnmatch.filter(filenames, "*.JPG")
-
-filenames = filenames1 + filenames2
-
-
-##### Predict
-
-from keras import backend as K
-
-#Load the Inception_V4_resnetv2 model
-inceptionResnet_v2_model = inception_resnet_v2.InceptionResNetV2( weights='imagenet')
-#Load the VGG model
-vgg_model = vgg16.VGG16(weights='imagenet')
-
-modelname = "InceptionResnetV2"
-dataname = "Photos_50"
-
-
-
-
-
-
-
-
-for filename in filenames:
-
-
-    fname = photo_path + "/" + filename
-
-    if os.path.isfile(fname):
-
-        # load an image in PIL format
-        # original = load_img(filename, target_size=(299, 299))
-        original = load_img(fname, target_size=(331, 331))
-
-        # convert the PIL image to a numpy array
-        # IN PIL - image is in (width, height, channel)
-        # In Numpy - image is in (height, width, channel)
-        numpy_image = img_to_array(original)
-
-        # Convert the image / images into batch format
-        # expand_dims will add an extra dimension to the data at a particular axis
-        # We want the input matrix to the network to be of the form (batchsize, height, width, channels)
-        # Thus we add the extra dimension to the axis 0.
-        image_batch = np.expand_dims(numpy_image, axis=0)
-
-
-        # prepare the image (normalisation for channels)
-        processed_image = inception_resnet_v2.preprocess_input(image_batch.copy())
-
-
-
-        # get the predicted probabilities for each class
-        predictions = inceptionResnet_v2_model.predict(processed_image)
-        # print predictions
-
-        # convert the probabilities to class labels
-        # We will get top 5 predictions which is the default
-        predicted_tags = decode_predictions(predictions,  top=10)
-        print('Predicted:', predicted_tags )
-
-
-        df = pd.DataFrame(predicted_tags[0])
-        name_csv = default_path + "/Result/Tag_" + modelname + "/" + filename + ".csv"
-
-
-
-        # df.to_csv(name_csv)
-        header = ["Rank", "ConceptID", "Concept", "PhotoID"]
-
-        df.to_csv(name_csv, index_label=header)
-
-
-
-        # Heatmaap
-
-        # `img` is a PIL image of size 224x224
-        img = image.load_img(fname, target_size=(224, 224))
-
-        # `x` is a float32 Numpy array of shape (224, 224, 3)
-        x = image.img_to_array(img)
-
-        # We add a dimension to transform our array into a "batch"
-        # of size (1, 224, 224, 3)
-        x = np.expand_dims(x, axis=0)
-
-        # Finally we preprocess the batch
-        # (this does channel-wise color normalization)
-        x = vgg16.preprocess_input(x)
-
-        preds = vgg_model.predict(x)
-        print('Predicted:', decode_predictions(preds, top=10)[0])
-
-        dominant_feature_idx = np.argmax(preds[0])
-
-
-        # This is the dominant entry in the prediction vector
-        dominant_output = vgg_model.output[:, dominant_feature_idx]
-
-        # The is the output feature map of the `block5_conv3` layer,
-        # the last convolutional layer in VGG16
-        last_conv_layer = vgg_model.get_layer('block5_conv3')
-
-        # This is the gradient of the "african elephant" class with regard to
-        # the output feature map of `block5_conv3`
-        grads = K.gradients(dominant_output, last_conv_layer.output)[0]
-
-        # This is a vector of shape (512,), where each entry
-        # is the mean intensity of the gradient over a specific feature map channel
-        pooled_grads = K.mean(grads, axis=(0, 1, 2))
-
-        # This function allows us to access the values of the quantities we just defined:
-        # `pooled_grads` and the output feature map of `block5_conv3`,
-        # given a sample image
-        iterate = K.function([vgg_model.input], [pooled_grads, last_conv_layer.output[0]])
-
-        # These are the values of these two quantities, as Numpy arrays,
-        # given our sample image of two elephants
-        pooled_grads_value, conv_layer_output_value = iterate([x])
-
-        # We multiply each channel in the feature map array
-        # by "how important this channel is" with regard to the elephant class
-        for i in range(512):
-            conv_layer_output_value[:, :, i] *= pooled_grads_value[i]
-
-        # The channel-wise mean of the resulting feature map
-        # is our heatmap of class activation
-        heatmap = np.mean(conv_layer_output_value, axis=-1)
-
-
-        # For visualization purpose, we will also normalize the heatmap between 0 and 1:
-
-        heatmap = np.maximum(heatmap, 0)
-        heatmap /= np.max(heatmap)
-        # plt.matshow(heatmap)
-        # plt.show()
-
-
-        # We use cv2 to load the original image
-        img = cv2.imread(fname)
-
-        # We resize the heatmap to have the same size as the original image
-        heatmap = cv2.resize(heatmap, (img.shape[1], img.shape[0]))
-
-        # We convert the heatmap to RGB
-        heatmap = np.uint8(255 * heatmap)
-
-        # We apply the heatmap to the original image
-        heatmap = cv2.applyColorMap(heatmap, cv2.COLORMAP_JET)
-
-        # 0.4 here is a heatmap intensity factor
-        superimposed_img = heatmap * 0.4 + img
-
-
-        # Save the image to disk
-        cv2.imwrite("Result/Heatmap_" + modelname + "/AttentionMap_" + df[1][0] + "_" + filename, superimposed_img)
 
 
 
